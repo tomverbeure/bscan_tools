@@ -2,17 +2,24 @@
 
 import json
 import fileinput
+import sys
 
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
+
+if len(sys.argv) < 3:
+    sys.stderr.write(f"Usage: {sys.argv[0]} <BSDL file> <file boundary scan dump HEX value>")
+    sys.exit()
 
 all_ports = {}
 all_bregs_list = []
 
 # Merge all BSDL port and pin data into 1 struct
 
-with open("EP1AGX90EF1152.json") as json_file:
+bsdl_file = sys.argv.pop(1)
+
+with open(bsdl_file) as json_file:
     data = json.load(json_file)
     for log_port_segment in data["logical_port_description"]:
         for port_name in log_port_segment["identifier_list"]:
