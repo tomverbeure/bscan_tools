@@ -1,6 +1,8 @@
 
 This project contains some JTAG boundary scan related tools that help me with reverse engineering PCB.
 
+**Important: these are hacked up scripts for personal usage. They may very well only work for my specific case.**
+
 # BSCAN_PROC
 
 Requires the following input:
@@ -106,7 +108,7 @@ Open On-Chip Debugger
 ### Process Data
 
 ```
-../bscan_proc.py EP1AGX90EF1152.json bscan_values.txt > pin_report.tx
+../bscan_proc.py EP1AGX90EF1152.json bscan_values.txt > pin_report.txt
 ```
 
 The result will look like this:
