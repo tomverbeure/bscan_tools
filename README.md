@@ -173,6 +173,40 @@ AE7   (nIO_PULLUP): INPUT     :  1 1 1 1 1 1 1 1 1 1
 
     AJ19 is a clock input of this FPGA, so we've very likely found the main clock source.
 
+### Annotations
+
+As you discover new pin values, you can translate the original port name (e.g. `IOH22`) to the real name (`PGM[0]`) with
+an annotation file.
+
+`./example/annotations.txt`:
+
+```
+AJ19:CLK100
+K10:MSEL[0]
+J9:MSEL[1]
+J10:MSEL[2]
+H11:MSEL[3]
+G20:PGM[2]
+H20:PGM[1]
+H22:PGM[0]
+```
+
+Now rerun with the annotations as a parameter:
+```
+../bscan_proc.py -a annotations.txt EP1AGX90EF1152.json bscan_values.txt > pin_report.ann.txt
+```
+
+And you get somethingn like this:
+
+`./example/pin_report.ann.txt`:
+
+```
+...
+AJ19  (CLK100)    : INPUT     :  0 0 0 1 1 0 1 1 1 0 !
+AJ19  (CLK100)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1
+AJ19  (CLK100)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1
+...
+```
 
 ## Future Improvements
 

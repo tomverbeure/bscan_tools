@@ -3,21 +3,52 @@
 import json
 import fileinput
 import sys
+import getopt
 
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
-if len(sys.argv) < 3:
-    sys.stderr.write(f"Usage: {sys.argv[0]} <BSDL file> <file boundary scan dump HEX value>")
-    sys.exit()
+#============================================================
+
+def usage():
+    sys.stderr.write(f"Usage: {sys.argv[0]} [-a <annotation file>] <BSDL file> <file boundary scan dump HEX value>")
+
+
+try:
+    opts, argv = getopt.getopt(sys.argv[1:], "a:", ["annotate="])
+except getopt.GetoptError as err:
+    print(err)
+    usage()
+    sys.exit(2)
+
+annotate_filename = None
+
+for o, a in opts:
+    if o in ("-a", "--annotate"):
+        annotate_filename = a
+
+if len(argv) < 2:
+    usage()
+    sys.exit(2)
+
+#============================================================
+
+pin_annotations = {}
+if annotate_filename:
+    with open(annotate_filename) as annotate_file:
+        for line in annotate_file:
+            pin_name, value = line.strip().split(":")
+            pin_annotations[pin_name] = value
+
+#============================================================
 
 all_ports = {}
 all_bregs_list = []
 
 # Merge all BSDL port and pin data into 1 struct
 
-bsdl_file = sys.argv.pop(1)
+bsdl_file = argv.pop(0)
 
 with open(bsdl_file) as json_file:
     data = json.load(json_file)
@@ -48,33 +79,34 @@ with open(bsdl_file) as json_file:
             input_or_disable_spec = bscan_reg["cell_info"]["input_or_disable_spec"]
             if input_or_disable_spec:
                 all_ports[port_name]["bscan_regs"].append(all_bregs_list[int(input_or_disable_spec["control_cell"])])
-                
+
 
     #pp.pprint(all_ports)
     #print(json.dumps(data, indent=4))
 
 
-for line in fileinput.input():
-    line = line.strip()
-    if len(line) == 0:
-        continue
+for filename in argv:
 
-    if line.strip()[0] == "#":
-        print(line)
-        continue
-
-    hex_str = line
-    breg_val = int(hex_str, 16)
-
-    for port_name in sorted(all_ports.keys()):
-        port_info = all_ports[port_name]
-        if len(port_info["bscan_regs"]) == 0:
+    for line in open(filename).readlines():
+        line = line.strip()
+        if len(line) == 0:
             continue
 
-        for bscan_reg in port_info["bscan_regs"]:
-            cell_nr = int(bscan_reg["cell_number"])
-            val     = (breg_val >> cell_nr)&1
-            bscan_reg["values"].append(val)
+        if line.strip()[0] == "#":
+            continue
+
+        hex_str = line
+        breg_val = int(hex_str, 16)
+
+        for port_name in sorted(all_ports.keys()):
+            port_info = all_ports[port_name]
+            if len(port_info["bscan_regs"]) == 0:
+                continue
+
+            for bscan_reg in port_info["bscan_regs"]:
+                cell_nr = int(bscan_reg["cell_number"])
+                val     = (breg_val >> cell_nr)&1
+                bscan_reg["values"].append(val)
 
 #pp.pprint(all_ports)
 
@@ -84,14 +116,15 @@ for port_name in sorted(all_ports.keys()):
     if len(bscan_regs) == 0:
         continue
 
-    pin_name = port_info["pin_info"]["pin_list"][0]
+    pin_name   = port_info["pin_info"]["pin_list"][0]
+    annotation = pin_annotations.get(pin_name, port_name)
 
     for bscan_reg in bscan_regs:
 
         dir     = bscan_reg["cell_info"]["cell_spec"]["function"]
         values  = bscan_reg["values"]
 
-        print("{:<5} {:<12}: {:<10}: ".format(pin_name, "("+port_name+")", dir), end=" ")
+        print("{:<5} {:<12}: {:<10}: ".format(pin_name, "("+annotation+")", dir), end=" ")
 
         all_values = {}
         for val in values:

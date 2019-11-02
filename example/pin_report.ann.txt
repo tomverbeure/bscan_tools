@@ -1,0 +1,2182 @@
+U32   (CLK1n)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+U33   (CLK1p)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+V31   (CLK3n)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+V32   (CLK3p)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+C33   (FPLL7CLKn) : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+C34   (FPLL7CLKp) : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+AM33  (FPLL8CLKn) : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+AM34  (FPLL8CLKp) : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+A10   (IOA10)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A10   (IOA10)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A10   (IOA10)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A11   (IOA11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A11   (IOA11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A11   (IOA11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A12   (IOA12)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A12   (IOA12)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A12   (IOA12)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A13   (IOA13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A13   (IOA13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A13   (IOA13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A14   (IOA14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A14   (IOA14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A14   (IOA14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A15   (IOA15)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A15   (IOA15)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A15   (IOA15)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A16   (IOA16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A16   (IOA16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A16   (IOA16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A17   (IOA17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A17   (IOA17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A17   (IOA17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A18   (IOA18)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A18   (IOA18)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A18   (IOA18)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A19   (IOA19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A19   (IOA19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A19   (IOA19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A20   (IOA20)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A20   (IOA20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A20   (IOA20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A21   (IOA21)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+A21   (IOA21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A21   (IOA21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A22   (IOA22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A22   (IOA22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A22   (IOA22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A23   (IOA23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A23   (IOA23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A23   (IOA23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A24   (IOA24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A24   (IOA24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A24   (IOA24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A25   (IOA25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A25   (IOA25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A25   (IOA25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A26   (IOA26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A26   (IOA26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A26   (IOA26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A27   (IOA27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A27   (IOA27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A27   (IOA27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A28   (IOA28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A28   (IOA28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A28   (IOA28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A29   (IOA29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A29   (IOA29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A29   (IOA29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A30   (IOA30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A30   (IOA30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A30   (IOA30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A31   (IOA31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A31   (IOA31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A31   (IOA31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A32   (IOA32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A32   (IOA32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A32   (IOA32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A7    (IOA7)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A7    (IOA7)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A7    (IOA7)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A8    (IOA8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A8    (IOA8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A8    (IOA8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+A9    (IOA9)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+A9    (IOA9)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+A9    (IOA9)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA23  (IOAA23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AA23  (IOAA23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA23  (IOAA23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA25  (IOAA25)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AA25  (IOAA25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA25  (IOAA25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA26  (IOAA26)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AA26  (IOAA26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA26  (IOAA26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA28  (IOAA28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AA28  (IOAA28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA28  (IOAA28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA29  (IOAA29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AA29  (IOAA29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA29  (IOAA29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA31  (IOAA31)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AA31  (IOAA31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA31  (IOAA31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA32  (IOAA32)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AA32  (IOAA32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA32  (IOAA32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AA34  (IOAA34)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AA34  (IOAA34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AA34  (IOAA34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB16  (IOAB16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB16  (IOAB16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB16  (IOAB16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB17  (IOAB17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB17  (IOAB17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB17  (IOAB17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB20  (IOAB20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB20  (IOAB20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB20  (IOAB20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB21  (IOAB21)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AB21  (IOAB21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB21  (IOAB21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB22  (IOAB22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB22  (IOAB22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB22  (IOAB22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB23  (IOAB23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB23  (IOAB23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB23  (IOAB23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB24  (IOAB24)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB24  (IOAB24)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB24  (IOAB24)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB25  (IOAB25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB25  (IOAB25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB25  (IOAB25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB26  (IOAB26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB26  (IOAB26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB26  (IOAB26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB27  (IOAB27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB27  (IOAB27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB27  (IOAB27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB28  (IOAB28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB28  (IOAB28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB28  (IOAB28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB29  (IOAB29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB29  (IOAB29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB29  (IOAB29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB30  (IOAB30)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AB30  (IOAB30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB30  (IOAB30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB31  (IOAB31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB31  (IOAB31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB31  (IOAB31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB32  (IOAB32)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AB32  (IOAB32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB32  (IOAB32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB33  (IOAB33)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AB33  (IOAB33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB33  (IOAB33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AB34  (IOAB34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AB34  (IOAB34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AB34  (IOAB34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC13  (IOAC13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC13  (IOAC13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC13  (IOAC13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC14  (IOAC14)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC14  (IOAC14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC14  (IOAC14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC15  (IOAC15)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC15  (IOAC15)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC15  (IOAC15)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC16  (IOAC16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC16  (IOAC16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC16  (IOAC16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC17  (IOAC17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC17  (IOAC17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC17  (IOAC17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC18  (IOAC18)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC18  (IOAC18)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC18  (IOAC18)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC19  (IOAC19)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC19  (IOAC19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC19  (IOAC19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC20  (IOAC20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC20  (IOAC20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC20  (IOAC20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC21  (IOAC21)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC21  (IOAC21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC21  (IOAC21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC22  (IOAC22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC22  (IOAC22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC22  (IOAC22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC23  (IOAC23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC23  (IOAC23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC23  (IOAC23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC24  (IOAC24)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC24  (IOAC24)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC24  (IOAC24)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC27  (IOAC27)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC27  (IOAC27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC27  (IOAC27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC28  (IOAC28)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC28  (IOAC28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC28  (IOAC28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC29  (IOAC29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC29  (IOAC29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC29  (IOAC29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC31  (IOAC31)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC31  (IOAC31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC31  (IOAC31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC32  (IOAC32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AC32  (IOAC32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC32  (IOAC32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC33  (IOAC33)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC33  (IOAC33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC33  (IOAC33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AC34  (IOAC34)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AC34  (IOAC34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AC34  (IOAC34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD13  (IOAD13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AD13  (IOAD13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD13  (IOAD13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD14  (IOAD14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AD14  (IOAD14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD14  (IOAD14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD22  (IOAD22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AD22  (IOAD22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD22  (IOAD22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD23  (IOAD23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AD23  (IOAD23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD23  (IOAD23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD25  (IOAD25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AD25  (IOAD25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD25  (IOAD25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD26  (IOAD26)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AD26  (IOAD26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD26  (IOAD26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD28  (IOAD28)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AD28  (IOAD28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD28  (IOAD28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD29  (IOAD29)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AD29  (IOAD29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD29  (IOAD29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD31  (IOAD31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AD31  (IOAD31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD31  (IOAD31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD32  (IOAD32)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AD32  (IOAD32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD32  (IOAD32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AD34  (IOAD34)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AD34  (IOAD34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AD34  (IOAD34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE10  (IOAE10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE10  (IOAE10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE10  (IOAE10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE13  (IOAE13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE13  (IOAE13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE13  (IOAE13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE14  (IOAE14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE14  (IOAE14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE14  (IOAE14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE22  (IOAE22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE22  (IOAE22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE22  (IOAE22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE23  (IOAE23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE23  (IOAE23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE23  (IOAE23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE27  (IOAE27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE27  (IOAE27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE27  (IOAE27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE28  (IOAE28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE28  (IOAE28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE28  (IOAE28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE29  (IOAE29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE29  (IOAE29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE29  (IOAE29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE30  (IOAE30)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE30  (IOAE30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE30  (IOAE30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE32  (IOAE32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE32  (IOAE32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE32  (IOAE32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE33  (IOAE33)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE33  (IOAE33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE33  (IOAE33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE34  (IOAE34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE34  (IOAE34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE34  (IOAE34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AE9   (IOAE9)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AE9   (IOAE9)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AE9   (IOAE9)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF10  (IOAF10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF10  (IOAF10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF10  (IOAF10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF11  (IOAF11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF11  (IOAF11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF11  (IOAF11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF22  (IOAF22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF22  (IOAF22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF22  (IOAF22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF27  (IOAF27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF27  (IOAF27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF27  (IOAF27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF28  (IOAF28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF28  (IOAF28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF28  (IOAF28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF29  (IOAF29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF29  (IOAF29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF29  (IOAF29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF30  (IOAF30)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AF30  (IOAF30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF30  (IOAF30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF31  (IOAF31)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AF31  (IOAF31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF31  (IOAF31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF32  (IOAF32)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AF32  (IOAF32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF32  (IOAF32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF33  (IOAF33)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AF33  (IOAF33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF33  (IOAF33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AF34  (IOAF34)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AF34  (IOAF34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AF34  (IOAF34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG10  (IOAG10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG10  (IOAG10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG10  (IOAG10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG11  (IOAG11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG11  (IOAG11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG11  (IOAG11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG13  (IOAG13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG13  (IOAG13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG13  (IOAG13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG20  (IOAG20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG20  (IOAG20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG20  (IOAG20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG23  (IOAG23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG23  (IOAG23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG23  (IOAG23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG25  (IOAG25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG25  (IOAG25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG25  (IOAG25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG26  (IOAG26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG26  (IOAG26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG26  (IOAG26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG28  (IOAG28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG28  (IOAG28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG28  (IOAG28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG29  (IOAG29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG29  (IOAG29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG29  (IOAG29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG31  (IOAG31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG31  (IOAG31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG31  (IOAG31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG32  (IOAG32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG32  (IOAG32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG32  (IOAG32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG34  (IOAG34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG34  (IOAG34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG34  (IOAG34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AG8   (IOAG8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AG8   (IOAG8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AG8   (IOAG8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH10  (IOAH10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH10  (IOAH10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH10  (IOAH10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH11  (IOAH11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH11  (IOAH11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH11  (IOAH11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH12  (IOAH12)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH12  (IOAH12)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH12  (IOAH12)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH13  (IOAH13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH13  (IOAH13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH13  (IOAH13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH14  (IOAH14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH14  (IOAH14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH14  (IOAH14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH15  (IOAH15)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH15  (IOAH15)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH15  (IOAH15)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH16  (IOAH16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH16  (IOAH16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH16  (IOAH16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH18  (IOAH18)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AH18  (IOAH18)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH18  (IOAH18)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH19  (IOAH19)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH19  (IOAH19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH19  (IOAH19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH20  (IOAH20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH20  (IOAH20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH20  (IOAH20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH21  (IOAH21)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH21  (IOAH21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH21  (IOAH21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH22  (IOAH22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH22  (IOAH22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH22  (IOAH22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH23  (IOAH23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH23  (IOAH23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH23  (IOAH23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH25  (IOAH25)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AH25  (IOAH25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH25  (IOAH25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH26  (IOAH26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH26  (IOAH26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH26  (IOAH26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH27  (IOAH27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH27  (IOAH27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH27  (IOAH27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH28  (IOAH28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH28  (IOAH28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH28  (IOAH28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH29  (IOAH29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH29  (IOAH29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH29  (IOAH29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH30  (IOAH30)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH30  (IOAH30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH30  (IOAH30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH31  (IOAH31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH31  (IOAH31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH31  (IOAH31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH32  (IOAH32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH32  (IOAH32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH32  (IOAH32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH33  (IOAH33)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH33  (IOAH33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH33  (IOAH33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH34  (IOAH34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH34  (IOAH34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH34  (IOAH34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH7   (IOAH7)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH7   (IOAH7)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH7   (IOAH7)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH8   (IOAH8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH8   (IOAH8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH8   (IOAH8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AH9   (IOAH9)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AH9   (IOAH9)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AH9   (IOAH9)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ10  (IOAJ10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ10  (IOAJ10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ10  (IOAJ10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ11  (IOAJ11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ11  (IOAJ11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ11  (IOAJ11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ12  (IOAJ12)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ12  (IOAJ12)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ12  (IOAJ12)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ13  (IOAJ13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ13  (IOAJ13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ13  (IOAJ13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ14  (IOAJ14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ14  (IOAJ14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ14  (IOAJ14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ15  (IOAJ15)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ15  (IOAJ15)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ15  (IOAJ15)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ16  (IOAJ16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ16  (IOAJ16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ16  (IOAJ16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ17  (IOAJ17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ17  (IOAJ17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ17  (IOAJ17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ18  (IOAJ18)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ18  (IOAJ18)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ18  (IOAJ18)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ19  (CLK100)    : INPUT     :  0 0 0 1 1 0 1 1 1 0 ! 
+AJ19  (CLK100)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ19  (CLK100)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ20  (IOAJ20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ20  (IOAJ20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ20  (IOAJ20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ21  (IOAJ21)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AJ21  (IOAJ21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ21  (IOAJ21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ22  (IOAJ22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ22  (IOAJ22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ22  (IOAJ22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ23  (IOAJ23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ23  (IOAJ23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ23  (IOAJ23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ24  (IOAJ24)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ24  (IOAJ24)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ24  (IOAJ24)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ25  (IOAJ25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ25  (IOAJ25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ25  (IOAJ25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ26  (IOAJ26)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AJ26  (IOAJ26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ26  (IOAJ26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ27  (IOAJ27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ27  (IOAJ27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ27  (IOAJ27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ28  (IOAJ28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ28  (IOAJ28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ28  (IOAJ28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ29  (IOAJ29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ29  (IOAJ29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ29  (IOAJ29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ30  (IOAJ30)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ30  (IOAJ30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ30  (IOAJ30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ31  (IOAJ31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ31  (IOAJ31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ31  (IOAJ31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ32  (IOAJ32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ32  (IOAJ32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ32  (IOAJ32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ33  (IOAJ33)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ33  (IOAJ33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ33  (IOAJ33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ34  (IOAJ34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ34  (IOAJ34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ34  (IOAJ34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ7   (IOAJ7)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ7   (IOAJ7)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ7   (IOAJ7)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ8   (IOAJ8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ8   (IOAJ8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ8   (IOAJ8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AJ9   (IOAJ9)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AJ9   (IOAJ9)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AJ9   (IOAJ9)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK11  (IOAK11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK11  (IOAK11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK11  (IOAK11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK14  (IOAK14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK14  (IOAK14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK14  (IOAK14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK16  (IOAK16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK16  (IOAK16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK16  (IOAK16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK19  (IOAK19)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK19  (IOAK19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK19  (IOAK19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK20  (IOAK20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK20  (IOAK20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK20  (IOAK20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK23  (IOAK23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK23  (IOAK23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK23  (IOAK23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK26  (IOAK26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK26  (IOAK26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK26  (IOAK26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK31  (IOAK31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK31  (IOAK31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK31  (IOAK31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK32  (IOAK32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK32  (IOAK32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK32  (IOAK32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK34  (IOAK34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK34  (IOAK34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK34  (IOAK34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AK8   (IOAK8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AK8   (IOAK8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AK8   (IOAK8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL10  (IOAL10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL10  (IOAL10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL10  (IOAL10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL11  (IOAL11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL11  (IOAL11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL11  (IOAL11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL12  (IOAL12)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL12  (IOAL12)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL12  (IOAL12)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL13  (IOAL13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL13  (IOAL13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL13  (IOAL13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL14  (IOAL14)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AL14  (IOAL14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL14  (IOAL14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL15  (IOAL15)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL15  (IOAL15)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL15  (IOAL15)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL16  (IOAL16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL16  (IOAL16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL16  (IOAL16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL17  (IOAL17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL17  (IOAL17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL17  (IOAL17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL18  (IOAL18)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL18  (IOAL18)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL18  (IOAL18)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL19  (IOAL19)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL19  (IOAL19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL19  (IOAL19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL20  (IOAL20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL20  (IOAL20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL20  (IOAL20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL21  (IOAL21)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AL21  (IOAL21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL21  (IOAL21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL22  (IOAL22)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AL22  (IOAL22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL22  (IOAL22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL23  (IOAL23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL23  (IOAL23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL23  (IOAL23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL24  (IOAL24)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL24  (IOAL24)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL24  (IOAL24)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL25  (IOAL25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL25  (IOAL25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL25  (IOAL25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL26  (IOAL26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL26  (IOAL26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL26  (IOAL26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL27  (IOAL27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL27  (IOAL27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL27  (IOAL27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL28  (IOAL28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL28  (IOAL28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL28  (IOAL28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL29  (IOAL29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL29  (IOAL29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL29  (IOAL29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL32  (IOAL32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL32  (IOAL32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL32  (IOAL32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL33  (IOAL33)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL33  (IOAL33)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL33  (IOAL33)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL34  (IOAL34)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL34  (IOAL34)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL34  (IOAL34)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL7   (IOAL7)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL7   (IOAL7)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL7   (IOAL7)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL8   (IOAL8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL8   (IOAL8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL8   (IOAL8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AL9   (IOAL9)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AL9   (IOAL9)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AL9   (IOAL9)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM10  (IOAM10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM10  (IOAM10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM10  (IOAM10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM11  (IOAM11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM11  (IOAM11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM11  (IOAM11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM12  (IOAM12)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM12  (IOAM12)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM12  (IOAM12)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM13  (IOAM13)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AM13  (IOAM13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM13  (IOAM13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM14  (IOAM14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM14  (IOAM14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM14  (IOAM14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM15  (IOAM15)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM15  (IOAM15)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM15  (IOAM15)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM16  (IOAM16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM16  (IOAM16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM16  (IOAM16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM17  (IOAM17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM17  (IOAM17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM17  (IOAM17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM18  (IOAM18)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM18  (IOAM18)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM18  (IOAM18)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM19  (IOAM19)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM19  (IOAM19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM19  (IOAM19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM20  (IOAM20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM20  (IOAM20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM20  (IOAM20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM21  (IOAM21)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AM21  (IOAM21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM21  (IOAM21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM22  (IOAM22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM22  (IOAM22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM22  (IOAM22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM23  (IOAM23)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM23  (IOAM23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM23  (IOAM23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM24  (IOAM24)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM24  (IOAM24)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM24  (IOAM24)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM25  (IOAM25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM25  (IOAM25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM25  (IOAM25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM26  (IOAM26)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AM26  (IOAM26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM26  (IOAM26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM27  (IOAM27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM27  (IOAM27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM27  (IOAM27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM28  (IOAM28)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AM28  (IOAM28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM28  (IOAM28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM29  (IOAM29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM29  (IOAM29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM29  (IOAM29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM30  (IOAM30)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM30  (IOAM30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM30  (IOAM30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM7   (IOAM7)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM7   (IOAM7)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM7   (IOAM7)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM8   (IOAM8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM8   (IOAM8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM8   (IOAM8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AM9   (IOAM9)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AM9   (IOAM9)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AM9   (IOAM9)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN10  (IOAN10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN10  (IOAN10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN10  (IOAN10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN11  (IOAN11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN11  (IOAN11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN11  (IOAN11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN13  (IOAN13)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN13  (IOAN13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN13  (IOAN13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN14  (IOAN14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN14  (IOAN14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN14  (IOAN14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN16  (IOAN16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN16  (IOAN16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN16  (IOAN16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN17  (IOAN17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN17  (IOAN17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN17  (IOAN17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN19  (IOAN19)    : INPUT     :  0 1 1 1 1 0 0 1 0 1 ! 
+AN19  (IOAN19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN19  (IOAN19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN20  (IOAN20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN20  (IOAN20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN20  (IOAN20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN22  (IOAN22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN22  (IOAN22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN22  (IOAN22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN23  (IOAN23)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AN23  (IOAN23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN23  (IOAN23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN25  (IOAN25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN25  (IOAN25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN25  (IOAN25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN26  (IOAN26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN26  (IOAN26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN26  (IOAN26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN28  (IOAN28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN28  (IOAN28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN28  (IOAN28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN29  (IOAN29)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AN29  (IOAN29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN29  (IOAN29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN31  (IOAN31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN31  (IOAN31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN31  (IOAN31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN32  (IOAN32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN32  (IOAN32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN32  (IOAN32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AN8   (IOAN8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AN8   (IOAN8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AN8   (IOAN8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP10  (IOAP10)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP10  (IOAP10)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP10  (IOAP10)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP11  (IOAP11)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP11  (IOAP11)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP11  (IOAP11)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP12  (IOAP12)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP12  (IOAP12)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP12  (IOAP12)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP13  (IOAP13)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AP13  (IOAP13)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP13  (IOAP13)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP14  (IOAP14)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP14  (IOAP14)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP14  (IOAP14)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP15  (IOAP15)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP15  (IOAP15)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP15  (IOAP15)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP16  (IOAP16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP16  (IOAP16)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP16  (IOAP16)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP17  (IOAP17)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP17  (IOAP17)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP17  (IOAP17)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP18  (IOAP18)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP18  (IOAP18)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP18  (IOAP18)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP19  (IOAP19)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP19  (IOAP19)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP19  (IOAP19)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP20  (IOAP20)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP20  (IOAP20)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP20  (IOAP20)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP21  (IOAP21)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AP21  (IOAP21)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP21  (IOAP21)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP22  (IOAP22)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP22  (IOAP22)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP22  (IOAP22)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP23  (IOAP23)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+AP23  (IOAP23)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP23  (IOAP23)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP24  (IOAP24)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP24  (IOAP24)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP24  (IOAP24)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP25  (IOAP25)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP25  (IOAP25)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP25  (IOAP25)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP26  (IOAP26)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP26  (IOAP26)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP26  (IOAP26)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP27  (IOAP27)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP27  (IOAP27)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP27  (IOAP27)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP28  (IOAP28)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP28  (IOAP28)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP28  (IOAP28)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP29  (IOAP29)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP29  (IOAP29)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP29  (IOAP29)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP30  (IOAP30)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP30  (IOAP30)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP30  (IOAP30)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP31  (IOAP31)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP31  (IOAP31)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP31  (IOAP31)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP32  (IOAP32)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP32  (IOAP32)    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP32  (IOAP32)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP7   (IOAP7)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP7   (IOAP7)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP7   (IOAP7)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP8   (IOAP8)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP8   (IOAP8)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP8   (IOAP8)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+AP9   (IOAP9)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+AP9   (IOAP9)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+AP9   (IOAP9)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B10   (IOB10)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B10   (IOB10)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B10   (IOB10)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B11   (IOB11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B11   (IOB11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B11   (IOB11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B13   (IOB13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B13   (IOB13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B13   (IOB13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B14   (IOB14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B14   (IOB14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B14   (IOB14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B16   (IOB16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B16   (IOB16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B16   (IOB16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B17   (IOB17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B17   (IOB17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B17   (IOB17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B19   (IOB19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B19   (IOB19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B19   (IOB19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B20   (IOB20)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B20   (IOB20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B20   (IOB20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B22   (IOB22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B22   (IOB22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B22   (IOB22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B23   (IOB23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B23   (IOB23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B23   (IOB23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B25   (IOB25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B25   (IOB25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B25   (IOB25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B26   (IOB26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B26   (IOB26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B26   (IOB26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B28   (IOB28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B28   (IOB28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B28   (IOB28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B29   (IOB29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B29   (IOB29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B29   (IOB29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B31   (IOB31)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+B31   (IOB31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B31   (IOB31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B32   (IOB32)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+B32   (IOB32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B32   (IOB32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+B8    (IOB8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+B8    (IOB8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+B8    (IOB8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C10   (IOC10)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C10   (IOC10)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C10   (IOC10)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C11   (IOC11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C11   (IOC11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C11   (IOC11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C12   (IOC12)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C12   (IOC12)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C12   (IOC12)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C13   (IOC13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C13   (IOC13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C13   (IOC13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C14   (IOC14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C14   (IOC14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C14   (IOC14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C15   (IOC15)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C15   (IOC15)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C15   (IOC15)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C16   (IOC16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C16   (IOC16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C16   (IOC16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C17   (IOC17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C17   (IOC17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C17   (IOC17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C18   (IOC18)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C18   (IOC18)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C18   (IOC18)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C19   (IOC19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C19   (IOC19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C19   (IOC19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C20   (IOC20)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C20   (IOC20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C20   (IOC20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C21   (IOC21)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C21   (IOC21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C21   (IOC21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C22   (IOC22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C22   (IOC22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C22   (IOC22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C23   (IOC23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C23   (IOC23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C23   (IOC23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C24   (IOC24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C24   (IOC24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C24   (IOC24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C25   (IOC25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C25   (IOC25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C25   (IOC25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C26   (IOC26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C26   (IOC26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C26   (IOC26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C27   (IOC27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C27   (IOC27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C27   (IOC27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C28   (IOC28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C28   (IOC28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C28   (IOC28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C29   (IOC29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C29   (IOC29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C29   (IOC29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C30   (IOC30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C30   (IOC30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C30   (IOC30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C7    (IOC7)      : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+C7    (IOC7)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C7    (IOC7)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C8    (IOC8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C8    (IOC8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C8    (IOC8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+C9    (IOC9)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+C9    (IOC9)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+C9    (IOC9)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D10   (IOD10)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D10   (IOD10)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D10   (IOD10)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D11   (IOD11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D11   (IOD11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D11   (IOD11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D12   (IOD12)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D12   (IOD12)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D12   (IOD12)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D13   (IOD13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D13   (IOD13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D13   (IOD13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D14   (IOD14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D14   (IOD14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D14   (IOD14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D15   (IOD15)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D15   (IOD15)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D15   (IOD15)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D16   (IOD16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D16   (IOD16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D16   (IOD16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D17   (IOD17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D17   (IOD17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D17   (IOD17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D18   (IOD18)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D18   (IOD18)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D18   (IOD18)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D19   (IOD19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D19   (IOD19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D19   (IOD19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D20   (IOD20)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D20   (IOD20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D20   (IOD20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D21   (IOD21)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D21   (IOD21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D21   (IOD21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D22   (IOD22)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+D22   (IOD22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D22   (IOD22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D23   (IOD23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D23   (IOD23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D23   (IOD23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D24   (IOD24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D24   (IOD24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D24   (IOD24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D25   (IOD25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D25   (IOD25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D25   (IOD25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D26   (IOD26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D26   (IOD26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D26   (IOD26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D27   (IOD27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D27   (IOD27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D27   (IOD27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D28   (IOD28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D28   (IOD28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D28   (IOD28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D29   (IOD29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D29   (IOD29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D29   (IOD29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D32   (IOD32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D32   (IOD32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D32   (IOD32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D33   (IOD33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D33   (IOD33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D33   (IOD33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D34   (IOD34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D34   (IOD34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D34   (IOD34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D7    (IOD7)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D7    (IOD7)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D7    (IOD7)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D8    (IOD8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D8    (IOD8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D8    (IOD8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+D9    (IOD9)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+D9    (IOD9)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+D9    (IOD9)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E11   (IOE11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E11   (IOE11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E11   (IOE11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E14   (IOE14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E14   (IOE14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E14   (IOE14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E17   (IOE17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E17   (IOE17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E17   (IOE17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E19   (IOE19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E19   (IOE19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E19   (IOE19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E20   (IOE20)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E20   (IOE20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E20   (IOE20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E23   (IOE23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E23   (IOE23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E23   (IOE23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E26   (IOE26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E26   (IOE26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E26   (IOE26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E29   (IOE29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E29   (IOE29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E29   (IOE29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E31   (IOE31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E31   (IOE31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E31   (IOE31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E32   (IOE32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E32   (IOE32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E32   (IOE32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E34   (IOE34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E34   (IOE34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E34   (IOE34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+E8    (IOE8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+E8    (IOE8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+E8    (IOE8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F10   (IOF10)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F10   (IOF10)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F10   (IOF10)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F11   (IOF11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F11   (IOF11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F11   (IOF11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F12   (IOF12)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F12   (IOF12)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F12   (IOF12)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F13   (IOF13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F13   (IOF13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F13   (IOF13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F14   (IOF14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F14   (IOF14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F14   (IOF14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F15   (IOF15)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F15   (IOF15)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F15   (IOF15)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F16   (IOF16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F16   (IOF16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F16   (IOF16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F17   (IOF17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F17   (IOF17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F17   (IOF17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F18   (IOF18)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F18   (IOF18)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F18   (IOF18)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F19   (IOF19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F19   (IOF19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F19   (IOF19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F20   (IOF20)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F20   (IOF20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F20   (IOF20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F21   (IOF21)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+F21   (IOF21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F21   (IOF21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F22   (IOF22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F22   (IOF22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F22   (IOF22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F23   (IOF23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F23   (IOF23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F23   (IOF23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F24   (IOF24)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+F24   (IOF24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F24   (IOF24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F25   (IOF25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F25   (IOF25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F25   (IOF25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F26   (IOF26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F26   (IOF26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F26   (IOF26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F27   (IOF27)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+F27   (IOF27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F27   (IOF27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F28   (IOF28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F28   (IOF28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F28   (IOF28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F29   (IOF29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F29   (IOF29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F29   (IOF29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F30   (IOF30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F30   (IOF30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F30   (IOF30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F31   (IOF31)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+F31   (IOF31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F31   (IOF31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F32   (IOF32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F32   (IOF32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F32   (IOF32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F33   (IOF33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F33   (IOF33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F33   (IOF33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F34   (IOF34)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+F34   (IOF34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F34   (IOF34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F7    (IOF7)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F7    (IOF7)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F7    (IOF7)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F8    (IOF8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F8    (IOF8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F8    (IOF8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+F9    (IOF9)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+F9    (IOF9)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+F9    (IOF9)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G10   (IOG10)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G10   (IOG10)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G10   (IOG10)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G11   (IOG11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G11   (IOG11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G11   (IOG11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G12   (IOG12)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G12   (IOG12)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G12   (IOG12)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G13   (IOG13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G13   (IOG13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G13   (IOG13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G14   (IOG14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G14   (IOG14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G14   (IOG14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G15   (IOG15)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G15   (IOG15)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G15   (IOG15)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G16   (IOG16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G16   (IOG16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G16   (IOG16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G18   (IOG18)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G18   (IOG18)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G18   (IOG18)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G20   (PGM[2])    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+G20   (PGM[2])    : OUTPUT3   :  0 0 0 0 0 0 0 0 0 0 
+G20   (PGM[2])    : CONTROL   :  0 0 0 0 0 0 0 0 0 0 
+
+G21   (IOG21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G21   (IOG21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G22   (IOG22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G22   (IOG22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G22   (IOG22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G23   (IOG23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G23   (IOG23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G23   (IOG23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G24   (IOG24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G24   (IOG24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G24   (IOG24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G25   (IOG25)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+G25   (IOG25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G25   (IOG25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G26   (IOG26)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+G26   (IOG26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G26   (IOG26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G27   (IOG27)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+G27   (IOG27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G27   (IOG27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G28   (IOG28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G28   (IOG28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G28   (IOG28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G29   (IOG29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G29   (IOG29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G29   (IOG29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G30   (IOG30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G30   (IOG30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G30   (IOG30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G31   (IOG31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G31   (IOG31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G31   (IOG31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G32   (IOG32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G32   (IOG32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G32   (IOG32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G33   (IOG33)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+G33   (IOG33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G33   (IOG33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G34   (IOG34)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+G34   (IOG34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G34   (IOG34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G7    (IOG7)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G7    (IOG7)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G7    (IOG7)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G8    (IOG8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G8    (IOG8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G8    (IOG8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+G9    (IOG9)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+G9    (IOG9)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+G9    (IOG9)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H13   (IOH13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H13   (IOH13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H13   (IOH13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H14   (IOH14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H14   (IOH14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H14   (IOH14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H20   (PGM[1])    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+H20   (PGM[1])    : OUTPUT3   :  0 0 0 0 0 0 0 0 0 0 
+H20   (PGM[1])    : CONTROL   :  0 0 0 0 0 0 0 0 0 0 
+
+H22   (PGM[0])    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H22   (PGM[0])    : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H22   (PGM[0])    : CONTROL   :  0 0 0 0 0 0 0 0 0 0 
+
+H23   (IOH23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H23   (IOH23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H23   (IOH23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H25   (IOH25)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+H25   (IOH25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H25   (IOH25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H26   (IOH26)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+H26   (IOH26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H26   (IOH26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H28   (IOH28)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+H28   (IOH28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H28   (IOH28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H29   (IOH29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H29   (IOH29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H29   (IOH29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H31   (IOH31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H31   (IOH31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H31   (IOH31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H32   (IOH32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H32   (IOH32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H32   (IOH32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H34   (IOH34)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+H34   (IOH34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H34   (IOH34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+H8    (IOH8)      : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+H8    (IOH8)      : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+H8    (IOH8)      : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J11   (IOJ11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J11   (IOJ11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J11   (IOJ11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J13   (IOJ13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J13   (IOJ13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J13   (IOJ13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J14   (IOJ14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J14   (IOJ14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J14   (IOJ14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J20   (IOJ20)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+J20   (IOJ20)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J20   (IOJ20)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J22   (IOJ22)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+J22   (IOJ22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J22   (IOJ22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J27   (IOJ27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J27   (IOJ27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J27   (IOJ27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J28   (IOJ28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J28   (IOJ28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J28   (IOJ28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J29   (IOJ29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J29   (IOJ29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J29   (IOJ29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J30   (IOJ30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J30   (IOJ30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J30   (IOJ30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J31   (IOJ31)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+J31   (IOJ31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J31   (IOJ31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J32   (IOJ32)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+J32   (IOJ32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J32   (IOJ32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J33   (IOJ33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+J33   (IOJ33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J33   (IOJ33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+J34   (IOJ34)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+J34   (IOJ34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+J34   (IOJ34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K11   (IOK11)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K11   (IOK11)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K11   (IOK11)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K22   (IOK22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K22   (IOK22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K22   (IOK22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K23   (IOK23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K23   (IOK23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K23   (IOK23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K24   (IOK24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K24   (IOK24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K24   (IOK24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K27   (IOK27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K27   (IOK27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K27   (IOK27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K28   (IOK28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K28   (IOK28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K28   (IOK28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K29   (IOK29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K29   (IOK29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K29   (IOK29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K30   (IOK30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K30   (IOK30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K30   (IOK30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K32   (IOK32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+K32   (IOK32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K32   (IOK32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K33   (IOK33)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+K33   (IOK33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K33   (IOK33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K34   (IOK34)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+K34   (IOK34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+K34   (IOK34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L13   (IOL13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L13   (IOL13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L13   (IOL13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L14   (IOL14)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L14   (IOL14)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L14   (IOL14)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L22   (IOL22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L22   (IOL22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L22   (IOL22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L23   (IOL23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L23   (IOL23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L23   (IOL23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L25   (IOL25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L25   (IOL25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L25   (IOL25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L26   (IOL26)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+L26   (IOL26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L26   (IOL26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L28   (IOL28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L28   (IOL28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L28   (IOL28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L29   (IOL29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L29   (IOL29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L29   (IOL29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L31   (IOL31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L31   (IOL31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L31   (IOL31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L32   (IOL32)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+L32   (IOL32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L32   (IOL32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+L34   (IOL34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+L34   (IOL34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+L34   (IOL34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M13   (IOM13)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M13   (IOM13)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M13   (IOM13)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M15   (IOM15)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M15   (IOM15)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M15   (IOM15)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M16   (IOM16)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M16   (IOM16)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M16   (IOM16)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M17   (IOM17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M17   (IOM17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M17   (IOM17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M19   (IOM19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M19   (IOM19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M19   (IOM19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M21   (IOM21)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M21   (IOM21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M21   (IOM21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M22   (IOM22)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M22   (IOM22)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M22   (IOM22)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M23   (IOM23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M23   (IOM23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M23   (IOM23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M25   (IOM25)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+M25   (IOM25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M25   (IOM25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M26   (IOM26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M26   (IOM26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M26   (IOM26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M27   (IOM27)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+M27   (IOM27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M27   (IOM27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M28   (IOM28)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+M28   (IOM28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M28   (IOM28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M29   (IOM29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M29   (IOM29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M29   (IOM29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M31   (IOM31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M31   (IOM31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M31   (IOM31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M32   (IOM32)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+M32   (IOM32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M32   (IOM32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M33   (IOM33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+M33   (IOM33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M33   (IOM33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+M34   (IOM34)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+M34   (IOM34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+M34   (IOM34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N17   (ION17)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N17   (ION17)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N17   (ION17)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N18   (ION18)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N18   (ION18)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N18   (ION18)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N19   (ION19)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N19   (ION19)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N19   (ION19)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N21   (ION21)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N21   (ION21)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N23   (ION23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N23   (ION23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N23   (ION23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N24   (ION24)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+N24   (ION24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N24   (ION24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N25   (ION25)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N25   (ION25)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N25   (ION25)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N26   (ION26)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N26   (ION26)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N26   (ION26)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N27   (ION27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N27   (ION27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N27   (ION27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N28   (ION28)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+N28   (ION28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N28   (ION28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N29   (ION29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N29   (ION29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N29   (ION29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N30   (ION30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N30   (ION30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N30   (ION30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N31   (ION31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N31   (ION31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N31   (ION31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N32   (ION32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N32   (ION32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N32   (ION32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N33   (ION33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N33   (ION33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N33   (ION33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+N34   (ION34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+N34   (ION34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+N34   (ION34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+P23   (IOP23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+P23   (IOP23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+P23   (IOP23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+P28   (IOP28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+P28   (IOP28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+P28   (IOP28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+P29   (IOP29)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+P29   (IOP29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+P29   (IOP29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+P31   (IOP31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+P31   (IOP31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+P31   (IOP31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+P32   (IOP32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+P32   (IOP32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+P32   (IOP32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+P34   (IOP34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+P34   (IOP34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+P34   (IOP34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R23   (IOR23)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+R23   (IOR23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R23   (IOR23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R28   (IOR28)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+R28   (IOR28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R28   (IOR28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R29   (IOR29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+R29   (IOR29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R29   (IOR29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R31   (IOR31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+R31   (IOR31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R31   (IOR31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R32   (IOR32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+R32   (IOR32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R32   (IOR32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R33   (IOR33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+R33   (IOR33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R33   (IOR33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+R34   (IOR34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+R34   (IOR34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+R34   (IOR34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+T23   (IOT23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+T23   (IOT23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+T23   (IOT23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+T28   (IOT28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+T28   (IOT28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+T28   (IOT28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+T29   (IOT29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+T29   (IOT29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+T29   (IOT29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+T31   (IOT31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+T31   (IOT31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+T31   (IOT31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+T32   (IOT32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+T32   (IOT32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+T32   (IOT32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+T34   (IOT34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+T34   (IOT34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+T34   (IOT34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U23   (IOU23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U23   (IOU23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U23   (IOU23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U24   (IOU24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U24   (IOU24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U24   (IOU24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U27   (IOU27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U27   (IOU27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U27   (IOU27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U28   (IOU28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U28   (IOU28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U28   (IOU28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U29   (IOU29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U29   (IOU29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U29   (IOU29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U30   (IOU30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U30   (IOU30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U30   (IOU30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U31   (IOU31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U31   (IOU31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U31   (IOU31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+U34   (IOU34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+U34   (IOU34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+U34   (IOU34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+V23   (IOV23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+V23   (IOV23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+V23   (IOV23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+V28   (IOV28)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+V28   (IOV28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+V28   (IOV28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+V29   (IOV29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+V29   (IOV29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+V29   (IOV29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+V34   (IOV34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+V34   (IOV34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+V34   (IOV34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W23   (IOW23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W23   (IOW23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W23   (IOW23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W28   (IOW28)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+W28   (IOW28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W28   (IOW28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W29   (IOW29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W29   (IOW29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W29   (IOW29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W30   (IOW30)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W30   (IOW30)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W30   (IOW30)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W31   (IOW31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W31   (IOW31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W31   (IOW31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W32   (IOW32)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W32   (IOW32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W32   (IOW32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W33   (IOW33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W33   (IOW33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W33   (IOW33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+W34   (IOW34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+W34   (IOW34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+W34   (IOW34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y23   (IOY23)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y23   (IOY23)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y23   (IOY23)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y24   (IOY24)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y24   (IOY24)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y24   (IOY24)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y27   (IOY27)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y27   (IOY27)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y27   (IOY27)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y28   (IOY28)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+Y28   (IOY28)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y28   (IOY28)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y29   (IOY29)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y29   (IOY29)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y29   (IOY29)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y31   (IOY31)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y31   (IOY31)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y31   (IOY31)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y32   (IOY32)     : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+Y32   (IOY32)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y32   (IOY32)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y33   (IOY33)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y33   (IOY33)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y33   (IOY33)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+Y34   (IOY34)     : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+Y34   (IOY34)     : OUTPUT3   :  1 1 1 1 1 1 1 1 1 1 
+Y34   (IOY34)     : CONTROL   :  1 1 1 1 1 1 1 1 1 1 
+
+K10   (MSEL[0])   : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+J9    (MSEL[1])   : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+J10   (MSEL[2])   : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+H11   (MSEL[3])   : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+AF8   (PLL_ENA)   : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+AE8   (PORSEL)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
+AF24  (VCCSEL)    : INPUT     :  0 0 0 0 0 0 0 0 0 0 
+
+AE7   (nIO_PULLUP): INPUT     :  1 1 1 1 1 1 1 1 1 1 
+
