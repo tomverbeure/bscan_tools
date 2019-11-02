@@ -174,5 +174,11 @@ AE7   (nIO_PULLUP): INPUT     :  1 1 1 1 1 1 1 1 1 1
     AJ19 is a clock input of this FPGA, so we've very likely found the main clock source.
 
 
+## Future Improvements
+
+* Link the script directly with OpenOCD through its TCL interface for interactive debugging
+* Create OpenOCD scripts to change the value of the boundary scan register
+* ...
+
 
 
