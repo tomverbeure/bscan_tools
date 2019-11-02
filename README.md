@@ -7,20 +7,20 @@ This project contains some JTAG boundary scan related tools that help me with re
 
 Requires the following input:
 
-    * BSDL file
+* BSDL file
 
-        This is file provided by a chip company that describes the JTAG contents of the chip.
+    This is file provided by a chip company that describes the JTAG contents of the chip.
 
-        If it contains IO port boundary scan registers, this information can be used to dump the
-        state of the IO ports that have such a register.
+    If it contains IO port boundary scan registers, this information can be used to dump the
+    state of the IO ports that have such a register.
 
-    * File with hex values of the JTAG boundary scan register, as dumped by OpenOCD.
+* File with hex values of the JTAG boundary scan register, as dumped by OpenOCD.
 
-        One line per hex value.
+    One line per hex value.
 
 Output:
 
-    * A report that shows the values of all boundary scan register in chronological order
+* A report that shows the values of all boundary scan register in chronological order
 
 
 ## Usage:
@@ -173,7 +173,6 @@ AE7   (nIO_PULLUP): INPUT     :  1 1 1 1 1 1 1 1 1 1
 
     AJ19 is a clock input of this FPGA, so we've very likely found the main clock source.
 
-etc...
 
 
 
