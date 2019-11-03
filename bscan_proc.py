@@ -12,21 +12,22 @@ pp = pprint.PrettyPrinter(indent=4)
 #============================================================
 
 def usage():
-    sys.stderr.write(f"Usage: {sys.argv[0]} [-a <annotation file>] <BSDL file> <file boundary scan dump HEX value>")
+    sys.stderr.write(f"Usage: {sys.argv[0]} [options] <BSDL file> <file with boundary scan dump HEX values>")
+    sys.stderr.write(f"    -r , --rename <file>                  : file with port name renaming")
 
 
 try:
-    opts, argv = getopt.getopt(sys.argv[1:], "a:", ["annotate="])
+    opts, argv = getopt.getopt(sys.argv[1:], "r:", ["rename="])
 except getopt.GetoptError as err:
     print(err)
     usage()
     sys.exit(2)
 
-annotate_filename = None
+rename_filename = None
 
 for o, a in opts:
-    if o in ("-a", "--annotate"):
-        annotate_filename = a
+    if o in ("-a", "--rename"):
+        rename_filename = a
 
 if len(argv) < 2:
     usage()
@@ -34,12 +35,12 @@ if len(argv) < 2:
 
 #============================================================
 
-pin_annotations = {}
-if annotate_filename:
-    with open(annotate_filename) as annotate_file:
-        for line in annotate_file:
+pin_renamings = {}
+if rename_filename:
+    with open(rename_filename) as rename_file:
+        for line in rename_file:
             pin_name, value = line.strip().split(":")
-            pin_annotations[pin_name] = value
+            pin_renamings[pin_name] = value
 
 #============================================================
 
@@ -117,14 +118,14 @@ for port_name in sorted(all_ports.keys()):
         continue
 
     pin_name   = port_info["pin_info"]["pin_list"][0]
-    annotation = pin_annotations.get(pin_name, port_name)
+    renaming   = pin_renamings.get(pin_name, port_name)
 
     for bscan_reg in bscan_regs:
 
         dir     = bscan_reg["cell_info"]["cell_spec"]["function"]
         values  = bscan_reg["values"]
 
-        print("{:<5} {:<12}: {:<10}: ".format(pin_name, "("+annotation+")", dir), end=" ")
+        print("{:<5} {:<12}: {:<10}: ".format(pin_name, "("+renaming+")", dir), end=" ")
 
         all_values = {}
         for val in values:
