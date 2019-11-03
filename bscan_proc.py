@@ -109,10 +109,20 @@ for filename in argv:
                 val     = (breg_val >> cell_nr)&1
                 bscan_reg["values"].append(val)
 
-#pp.pprint(all_ports)
 
-for port_name in sorted(all_ports.keys()):
+# Sort by renamed ports to keep ports with same name together
+all_renamed_ports = {}
+for port_name in all_ports.keys():
+    port_info       = all_ports[port_name]
+    pin_name        = port_info["pin_info"]["pin_list"][0]
+    renamed_port    = pin_renamings.get(pin_name, port_name)
+
+    all_renamed_ports[renamed_port] = port_name
+
+for renamed_port in sorted(all_renamed_ports.keys()):
+    port_name = all_renamed_ports[renamed_port]
     port_info = all_ports[port_name]
+
     bscan_regs = port_info["bscan_regs"]
     if len(bscan_regs) == 0:
         continue
