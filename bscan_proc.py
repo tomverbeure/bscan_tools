@@ -12,8 +12,8 @@ pp = pprint.PrettyPrinter(indent=4)
 #============================================================
 
 def usage():
-    sys.stderr.write(f"Usage: {sys.argv[0]} [options] <BSDL file> <file with boundary scan dump HEX values>")
-    sys.stderr.write(f"    -r , --rename <file>                  : file with port name renaming")
+    sys.stderr.write(f"Usage: {sys.argv[0]} [options] <BSDL file> <file with boundary scan dump HEX values>\n")
+    sys.stderr.write(f"    -r , --rename <file>                  : file with port name renamings\n")
 
 
 try:
@@ -26,7 +26,7 @@ except getopt.GetoptError as err:
 rename_filename = None
 
 for o, a in opts:
-    if o in ("-a", "--rename"):
+    if o in ("-r", "--rename"):
         rename_filename = a
 
 if len(argv) < 2:
