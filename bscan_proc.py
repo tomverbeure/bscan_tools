@@ -39,8 +39,10 @@ pin_renamings = {}
 if rename_filename:
     with open(rename_filename) as rename_file:
         for line in rename_file:
-            pin_name, value = line.strip().split(":")
-            pin_renamings[pin_name] = value
+            if len(line.strip()) == 0 or line.strip()[0] == "#":
+                continue
+            pin_name, value = line.split(":")
+            pin_renamings[pin_name.strip()] = value.strip()
 
 #============================================================
 
@@ -135,7 +137,7 @@ for renamed_port in sorted(all_renamed_ports.keys()):
         dir     = bscan_reg["cell_info"]["cell_spec"]["function"]
         values  = bscan_reg["values"]
 
-        print("{:<5} {:<12}: {:<10}: ".format(pin_name, "("+renaming+")", dir), end=" ")
+        print("{:<5} {:<20}: {:<10}: ".format(pin_name, "("+renaming+")", dir), end=" ")
 
         all_values = {}
         for val in values:
