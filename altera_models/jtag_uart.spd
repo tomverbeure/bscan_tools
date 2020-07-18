@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="jtag_uart/simulation/submodules/altera_reset_controller.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="jtag_uart/simulation/submodules/altera_reset_synchronizer.v"
+   type="VERILOG"
+   library="rst_controller" />
+ <file
+   path="jtag_uart/simulation/submodules/altera_reset_controller.sdc"
+   type="SDC"
+   library="rst_controller" />
+ <file
+   path="jtag_uart/simulation/submodules/jtag_uart_jtag_uart_w32_r8.v"
+   type="VERILOG"
+   library="jtag_uart_w32_r8" />
+ <file
+   path="jtag_uart/simulation/submodules/jtag_uart_jtag_uart_w8_r64.v"
+   type="VERILOG"
+   library="jtag_uart_w8_r64" />
+ <file
+   path="jtag_uart/simulation/submodules/jtag_uart_jtag_uart_w16_r32.v"
+   type="VERILOG"
+   library="jtag_uart_w16_r32" />
+ <file path="jtag_uart/simulation/jtag_uart.v" type="VERILOG" />
+ <topLevel name="jtag_uart" />
+ <deviceFamily name="cycloneii" />
+</simPackage>

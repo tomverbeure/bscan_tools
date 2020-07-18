@@ -1,0 +1,28 @@
+	component jtag_uart is
+		port (
+			clk_clk                   : in  std_logic                     := 'X';             -- clk
+			reset_reset_n             : in  std_logic                     := 'X';             -- reset_n
+			avbus_w8_r64_chipselect   : in  std_logic                     := 'X';             -- chipselect
+			avbus_w8_r64_address      : in  std_logic                     := 'X';             -- address
+			avbus_w8_r64_read_n       : in  std_logic                     := 'X';             -- read_n
+			avbus_w8_r64_readdata     : out std_logic_vector(31 downto 0);                    -- readdata
+			avbus_w8_r64_write_n      : in  std_logic                     := 'X';             -- write_n
+			avbus_w8_r64_writedata    : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			avbus_w8_r64_waitrequest  : out std_logic;                                        -- waitrequest
+			avbus_w16_r32_chipselect  : in  std_logic                     := 'X';             -- chipselect
+			avbus_w16_r32_address     : in  std_logic                     := 'X';             -- address
+			avbus_w16_r32_read_n      : in  std_logic                     := 'X';             -- read_n
+			avbus_w16_r32_readdata    : out std_logic_vector(31 downto 0);                    -- readdata
+			avbus_w16_r32_write_n     : in  std_logic                     := 'X';             -- write_n
+			avbus_w16_r32_writedata   : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			avbus_w16_r32_waitrequest : out std_logic;                                        -- waitrequest
+			avbus_w32r16_chipselect   : in  std_logic                     := 'X';             -- chipselect
+			avbus_w32r16_address      : in  std_logic                     := 'X';             -- address
+			avbus_w32r16_read_n       : in  std_logic                     := 'X';             -- read_n
+			avbus_w32r16_readdata     : out std_logic_vector(31 downto 0);                    -- readdata
+			avbus_w32r16_write_n      : in  std_logic                     := 'X';             -- write_n
+			avbus_w32r16_writedata    : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			avbus_w32r16_waitrequest  : out std_logic                                         -- waitrequest
+		);
+	end component jtag_uart;
+

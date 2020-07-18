@@ -1,0 +1,26 @@
+# system info jtag_uart on 2020.07.17.11:24:48
+system_info:
+name,value
+DEVICE,EP2C5T144C8
+DEVICE_FAMILY,Cyclone II
+GENERATION_ID,1595010287
+#
+#
+# Files generated for jtag_uart on 2020.07.17.11:24:48
+files:
+filepath,kind,attributes,module,is_top
+jtag_uart/simulation/jtag_uart.v,VERILOG,,jtag_uart,true
+jtag_uart/simulation/submodules/jtag_uart_jtag_uart_w16_r32.v,VERILOG,,jtag_uart_jtag_uart_w16_r32,false
+jtag_uart/simulation/submodules/jtag_uart_jtag_uart_w8_r64.v,VERILOG,,jtag_uart_jtag_uart_w8_r64,false
+jtag_uart/simulation/submodules/jtag_uart_jtag_uart_w32_r8.v,VERILOG,,jtag_uart_jtag_uart_w32_r8,false
+jtag_uart/simulation/submodules/altera_reset_controller.v,VERILOG,,altera_reset_controller,false
+jtag_uart/simulation/submodules/altera_reset_synchronizer.v,VERILOG,,altera_reset_controller,false
+jtag_uart/simulation/submodules/altera_reset_controller.sdc,SDC,,altera_reset_controller,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+jtag_uart.jtag_uart_w16_r32,jtag_uart_jtag_uart_w16_r32
+jtag_uart.jtag_uart_w8_r64,jtag_uart_jtag_uart_w8_r64
+jtag_uart.jtag_uart_w32_r8,jtag_uart_jtag_uart_w32_r8
+jtag_uart.rst_controller,altera_reset_controller
