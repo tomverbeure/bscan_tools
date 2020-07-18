@@ -4,6 +4,8 @@ import fileinput
 import sys
 import getopt
 
+import intel_model
+
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
