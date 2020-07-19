@@ -4,12 +4,12 @@ import fileinput
 import sys
 import getopt
 
-import intel_model
+import scan_chain
+from intel_model import *
+from jtag import *
 
 import pprint
-
 pp = pprint.PrettyPrinter(indent=4)
-
 
 def usage():
     sys.stderr.write("TODO...")
@@ -31,24 +31,6 @@ for o, a in opts:
 if len(argv) != 1:
     usage()
     sys.exit(2)
-
-
-TEST_LOGIC_RESET    = 0
-RUN_TEST_IDLE       = 1
-SELECT_DR_SCAN      = 2
-CAPTURE_DR          = 3
-SHIFT_DR            = 4
-EXIT1_DR            = 5
-PAUSE_DR            = 6
-EXIT2_DR            = 7
-UPDATE_DR           = 8
-SELECT_IR_SCAN      = 9
-CAPTURE_IR          = 10
-SHIFT_IR            = 11
-EXIT1_IR            = 12
-PAUSE_IR            = 13
-EXIT2_IR            = 14
-UPDATE_IR           = 15
 
 def chunks(lst, n):
     """Yield successive n-sized chunks from lst."""
@@ -77,25 +59,6 @@ def convert_tdi_tdo_str(str):
 def read_transactions(jtag_filename):
     transactions = []
 
-    state_lookup = {
-            "Test-Logic-Reset"  :    TEST_LOGIC_RESET,
-            "Run-Test/Idle"     :    RUN_TEST_IDLE,
-            "Select-DR-Scan"    :    SELECT_DR_SCAN,
-            "Capture-DR"        :    CAPTURE_DR,
-            "Shift-DR"          :    SHIFT_DR,
-            "Exit1-DR"          :    EXIT1_DR,
-            "Pause-DR"          :    PAUSE_DR,
-            "Exit2-DR"          :    EXIT2_DR,
-            "Update-DR"         :    UPDATE_DR,
-            "Select-IR-Scan"    :    SELECT_IR_SCAN,
-            "Capture-IR"        :    CAPTURE_IR,
-            "Shift-IR"          :    SHIFT_IR,
-            "Exit1-IR"          :    EXIT1_IR,
-            "Pause-IR"          :    PAUSE_IR,
-            "Exit2-IR"          :    EXIT2_IR,
-            "Update-IR"         :    UPDATE_IR,
-    }
-
     with open(jtag_filename) as jtag_file:
         first_line = True
 
@@ -108,8 +71,8 @@ def read_transactions(jtag_filename):
 
             time = float(time)
 
-            if tap_state in state_lookup:
-                tap_state_nr    = state_lookup[tap_state]
+            if tap_state in JtagState.STATE_LOOKUP:
+                tap_state_nr    = JtagState.STATE_LOOKUP[tap_state]
 
             if tdi_bits != "":
                 tdi_bits = int(tdi_bits)
@@ -169,7 +132,7 @@ def reverse_int(value, width):
 
 special_list = []
 for num, transaction in enumerate(transactions):
-    if None and transaction["tap_state_nr"] in [SHIFT_DR, SHIFT_IR]:
+    if None and transaction["tap_state_nr"] in [JtagState.SHIFT_DR, JtagState.SHIFT_IR]:
         bit_nr = match_bit_pattern(ord('e'), 8, transaction["tdi"], transaction["tdi_bits"], 0)
         #bit_nr = match_bit_pattern(0xc0f, 12, transaction["tdi"], transaction["tdi_bits"], 0)
         if bit_nr >= 0:
@@ -179,7 +142,7 @@ for num, transaction in enumerate(transactions):
             sys.exit()
         
 
-    if True and transaction["tap_state_nr"] in [SHIFT_DR] and transaction["tdi_bits"] == 643:
+    if True and transaction["tap_state_nr"] in [JtagState.SHIFT_DR] and transaction["tdi_bits"] == 643:
         special_list.append(transaction)
 
 
@@ -199,6 +162,8 @@ for g_num, g in enumerate(chunks(special_list, 8)):
 
     print("   %x, %c" % (diff, chr( (g[0]["tdi"] >> 3) & 0xff)))
 
+ep2c5 = IntelEP2C5()
+print(ep2c5)
 
 
 
