@@ -51,8 +51,9 @@ def convert_tdi_tdo_str(str):
         val = 0
         start_bit = 0
         for segment in str_segments:
-            val += int(segment.strip()[3:-1], 16) << start_bit
-            start_bit += 32
+            segment_val = int(segment.strip()[3:-1], 16) << start_bit
+            val += segment_val
+            start_bit += 64
 
     return val
 
@@ -62,7 +63,7 @@ def read_transactions(jtag_filename):
     with open(jtag_filename) as jtag_file:
         first_line = True
 
-        for line in jtag_file:
+        for line_num, line in enumerate(jtag_file):
             if first_line:
                 first_line = False
                 continue 
@@ -97,6 +98,7 @@ def read_transactions(jtag_filename):
             #print(time, tap_state_nr, tap_state, tdi_bits, tdi, tdo_bits, tdo)
 
             transaction = {
+                    "nr"            :       line_num,
                     "time"          :       time,
                     "tap_state_nr"  :       tap_state_nr,
                     "tap_state"     :       tap_state,
@@ -163,7 +165,11 @@ for g_num, g in enumerate(chunks(special_list, 8)):
     print("   %x, %c" % (diff, chr( (g[0]["tdi"] >> 3) & 0xff)))
 
 ep2c5 = IntelEP2C5()
+
+for trans in transactions:
+    print("============================================================")
+    print(trans)
+    ep2c5.apply_transaction(trans)
+    print(ep2c5)
+
 print(ep2c5)
-
-
-

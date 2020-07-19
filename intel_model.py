@@ -2,6 +2,7 @@
 import collections
 
 from scan_chain import *
+from jtag import *
 
 class Chip:
 
@@ -19,6 +20,29 @@ class Chip:
         self.dr_chains[(1<<ir_length)-1] = bypass_chain
 
         pass
+
+    def apply_transaction(self, transaction):
+
+        if transaction["tap_state_nr"] == JtagState.TEST_LOGIC_RESET:
+            self.ir_chain.reset()
+            for dr in self.dr_chains.values():
+                dr.reset()
+
+        elif transaction["tap_state_nr"] == JtagState.SHIFT_IR:
+            self.ir_chain.shift(transaction)
+
+        elif transaction["tap_state_nr"] == JtagState.SHIFT_DR:
+            if self.ir_chain.value in self.dr_chains:
+                cur_dr = self.dr_chains[self.ir_chain.value]
+                cur_dr.shift(transaction)
+
+            else:
+                print("Unknown DR chain: %x" % self.ir_chain.value)
+
+            pass
+
+        pass
+
 
     def __str__(self):
 
