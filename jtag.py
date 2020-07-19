@@ -1,4 +1,7 @@
 
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
 class JtagState:
 
     TEST_LOGIC_RESET    = 0
@@ -37,7 +40,55 @@ class JtagState:
             "Update-IR"         :    UPDATE_IR,
     }
 
+    STATE_STR = {
+            TEST_LOGIC_RESET    : "Test-Logic-Reset",
+            RUN_TEST_IDLE       : "Run-Test/Idle",
+            SELECT_DR_SCAN      : "Select-DR-Scan",
+            CAPTURE_DR          : "Capture-DR",
+            SHIFT_DR            : "Shift-DR",
+            EXIT1_DR            : "Exit1-DR",
+            PAUSE_DR            : "Pause-DR",
+            EXIT2_DR            : "Exit2-DR",
+            UPDATE_DR           : "Update-DR",
+            SELECT_IR_SCAN      : "Select-IR-Scan",
+            CAPTURE_IR          : "Capture-IR",
+            SHIFT_IR            : "Shift-IR",
+            EXIT1_IR            : "Exit1-IR",
+            PAUSE_IR            : "Pause-IR",
+            EXIT2_IR            : "Exit2-IR",
+            UPDATE_IR           : "Update-IR",
+    }
+
     def __init__(self):
 
         pass
+
+class JtagTransaction:
+
+    def __init__(self):
+
+        self.nr             = None
+        self.time           = None
+        self.state          = None
+        self.tdi_value      = None
+        self.tdi_length     = None
+        self.tdo_value      = None
+        self.tdo_length     = None
+
+        pass
+
+
+    def __str__(self):
+
+        s = ""
+
+        s += "%d: %s" % (self.nr, JtagState.STATE_STR[self.state])
+
+        if self.state in (JtagState.SHIFT_DR, JtagState.SHIFT_IR):
+            s += " - TDI %x - TDO %x - %d" % (self.tdi_value, self.tdo_value, self.tdo_length)
+        s+= "\n"
+
+        return s
+
+
 

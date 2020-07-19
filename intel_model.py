@@ -6,9 +6,9 @@ from jtag import *
 
 class Chip:
 
-    def __init__(self, name, ir_length, ir_reset_value, idcode, idcode_ir):
+    def __init__(self, name, ir_length, ir_reset_value, ir_capture_value, idcode, idcode_ir):
 
-        self.ir_chain   = FixedLengthScanChain("IR", ir_length, ir_reset_value)
+        self.ir_chain   = IrScanChain(ir_length, ir_reset_value, ir_capture_value)
         self.dr_chains  = {}
 
         idcode_chain    = IdCodeScanChain(idcode)
@@ -23,15 +23,15 @@ class Chip:
 
     def apply_transaction(self, transaction):
 
-        if transaction["tap_state_nr"] == JtagState.TEST_LOGIC_RESET:
+        if transaction.state == JtagState.TEST_LOGIC_RESET:
             self.ir_chain.reset()
             for dr in self.dr_chains.values():
                 dr.reset()
 
-        elif transaction["tap_state_nr"] == JtagState.SHIFT_IR:
+        elif transaction.state == JtagState.SHIFT_IR:
             self.ir_chain.shift(transaction)
 
-        elif transaction["tap_state_nr"] == JtagState.SHIFT_DR:
+        elif transaction.state == JtagState.SHIFT_DR:
             if self.ir_chain.value in self.dr_chains:
                 cur_dr = self.dr_chains[self.ir_chain.value]
                 cur_dr.shift(transaction)
@@ -75,7 +75,7 @@ class IntelFpga(Chip):
 
     def __init__(self, name, idcode):
 
-        super().__init__(name, 10, IntelFpga.IR_CODES["IDCODE"], idcode, IntelFpga.IR_CODES["IDCODE"])
+        super().__init__(name, 10, IntelFpga.IR_CODES["IDCODE"], 0x155, idcode, IntelFpga.IR_CODES["IDCODE"])
         pass
 
 class IntelEP2C5(IntelFpga):

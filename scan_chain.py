@@ -28,24 +28,39 @@ class FixedLengthScanChain(ScanChain):
         pass
 
     def reset(self):
-        if self.reset_value:
+        if self.reset_value is not None:
             self.value  = self.reset_value
 
-    def shift(self, transaction):
+    def capture_value(self):
+        return self.value
+
+    def shift(self, trans):
+
+        capture_value = self.capture_value()
 
         if self.value:
-            tdo_masked = transaction["tdo"] & ((1<<self.length)-1)
+            tdo_masked = trans.tdo_value & ((1<<self.length)-1)
 
-            if self.value != tdo_masked:
-                print("Unexpected TDO value: %x != %x" % (self.value, tdo_masked))
+            if capture_value != tdo_masked:
+                print("Unexpected lower TDO value: %x (act) != %x (exp)" % (tdo_masked, capture_value))
             else:
-                print("TDO value match! %x" % (self.value))
+                print("Lower TDO value match! %x" % (capture_value))
+
+        if (trans.tdi_length > self.length):
+            # Check that excess bits on TDI appeared on TDO 
+            tdi_masked  = trans.tdi_value & ((1<<(trans.tdi_length-self.length))-1)
+            tdo_shifted = trans.tdo_value >> self.length
+
+            if tdi_masked != tdo_shifted:
+                print("Unexpected upper TDO value: %x (act) != %x (exp)" % (tdo_shifted, tdi_masked))
+            else:
+                print("Upper TDO value match! %x" % (tdi_masked))
 
 
         if not(self.read_only):
-            tdi_shifted = transaction["tdi"] >> (transaction["tdi_bits"] - self.length)
-            print("%x, %x" % (tdi_shifted, transaction["tdi"]))
-            self.value = transaction["tdi"] >> (transaction["tdi_bits"] - self.length)
+            tdi_shifted = trans.tdi_value >> (trans.tdi_length - self.length)
+            print("Update value: %x -> %x" % (self.value, tdi_shifted))
+            self.value = trans.tdi_value >> (trans.tdi_length - self.length)
 
     def __str__(self):
 
@@ -56,6 +71,19 @@ class FixedLengthScanChain(ScanChain):
         s += "    value:       %x\n" % self.value
 
         return s
+
+class IrScanChain(FixedLengthScanChain):
+
+    def __init__(self, length, reset_value, capture_value):
+
+        super().__init__("IR", length, reset_value, read_only = False)
+
+        self.cap_value = capture_value
+
+        pass
+
+    def capture_value(self):
+        return self.cap_value
 
 class IdCodeScanChain(FixedLengthScanChain):
 
@@ -75,4 +103,7 @@ class BypassScanChain(FixedLengthScanChain):
         super().__init__("BYPASS", 1, 0)
 
         pass
+
+    def capture_value(self):
+        return 0
 

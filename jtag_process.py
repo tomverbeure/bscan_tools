@@ -97,18 +97,16 @@ def read_transactions(jtag_filename):
 
             #print(time, tap_state_nr, tap_state, tdi_bits, tdi, tdo_bits, tdo)
 
-            transaction = {
-                    "nr"            :       line_num,
-                    "time"          :       time,
-                    "tap_state_nr"  :       tap_state_nr,
-                    "tap_state"     :       tap_state,
-                    "tdi_bits"      :       tdi_bits,
-                    "tdo_bits"      :       tdo_bits,
-                    "tdi"           :       tdi,
-                    "tdo"           :       tdo,
-                    }
+            trans = JtagTransaction()
+            trans.nr            = line_num
+            trans.time          = time
+            trans.state         = tap_state_nr
+            trans.tdi_value     = tdi
+            trans.tdi_length    = tdi_bits
+            trans.tdo_value     = tdo
+            trans.tdo_length    = tdo_bits
 
-            transactions.append(transaction)
+            transactions.append(trans)
 
     return transactions
 
@@ -133,19 +131,19 @@ def reverse_int(value, width):
     return int(b[::-1], 2)
 
 special_list = []
-for num, transaction in enumerate(transactions):
-    if None and transaction["tap_state_nr"] in [JtagState.SHIFT_DR, JtagState.SHIFT_IR]:
-        bit_nr = match_bit_pattern(ord('e'), 8, transaction["tdi"], transaction["tdi_bits"], 0)
-        #bit_nr = match_bit_pattern(0xc0f, 12, transaction["tdi"], transaction["tdi_bits"], 0)
+for num, trans in enumerate(transactions):
+    if None and trans.state in [JtagState.SHIFT_DR, JtagState.SHIFT_IR]:
+        bit_nr = match_bit_pattern(ord('e'), 8, trans.tdi_value, trans.tdi_length, 0)
+        #bit_nr = match_bit_pattern(0xc0f, 12, trans.tdi_value, trans.tdi_length, 0)
         if bit_nr >= 0:
             print("Transaction nr %d: bit_nr: %d:" % (num, bit_nr))
-            pp.pprint(transaction)
-            print("0x%x" % transaction["tdi"])
+            pp.pprint(trans)
+            print("0x%x" % trans.tdi_value)
             sys.exit()
         
 
-    if True and transaction["tap_state_nr"] in [JtagState.SHIFT_DR] and transaction["tdi_bits"] == 643:
-        special_list.append(transaction)
+    if True and trans.state in [JtagState.SHIFT_DR] and trans.tdi_length == 643:
+        special_list.append(trans)
 
 
 diff = 0
@@ -158,11 +156,11 @@ for g_num, g in enumerate(chunks(special_list, 8)):
         #print("%d: %x" % (n, g[n]["tdi"]))
     
         for nn in range(0, n):
-            local_diff = (g[n]["tdi"] ^ g[nn]["tdi"])
+            local_diff = (g[n].tdi_value ^ g[nn].tdi_value)
             diff = diff | local_diff
             #print("%d, %d: %x: %x, %x" % (n, nn, local_diff, g[n]["tdi"], g[nn]["tdi"]))
 
-    print("   %x, %c" % (diff, chr( (g[0]["tdi"] >> 3) & 0xff)))
+    print("   %x, %c" % (diff, chr( (g[0].tdi_value >> 3) & 0xff)))
 
 ep2c5 = IntelEP2C5()
 
