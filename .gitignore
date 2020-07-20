@@ -2,3 +2,5 @@ EP1AGX90EF1152.BSD
 EP1AGX90EF1152.json
 .*.swp
 __pycache__/
+*.bak
+.qsys_edit/
