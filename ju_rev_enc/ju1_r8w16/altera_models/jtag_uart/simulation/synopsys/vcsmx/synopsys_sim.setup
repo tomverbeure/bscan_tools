@@ -1,0 +1,12 @@
+
+WORK > DEFAULT
+DEFAULT:          ./libraries/work/            
+work:             ./libraries/work/            
+rst_controller:   ./libraries/rst_controller/  
+jtag_uart_w16_r8: ./libraries/jtag_uart_w16_r8/
+altera_ver:       ./libraries/altera_ver/      
+lpm_ver:          ./libraries/lpm_ver/         
+sgate_ver:        ./libraries/sgate_ver/       
+altera_mf_ver:    ./libraries/altera_mf_ver/   
+altera_lnsim_ver: ./libraries/altera_lnsim_ver/
+cycloneii_ver:    ./libraries/cycloneii_ver/   

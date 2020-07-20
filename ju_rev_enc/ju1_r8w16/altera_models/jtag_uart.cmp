@@ -1,0 +1,14 @@
+	component jtag_uart is
+		port (
+			clk_clk           : in  std_logic                     := 'X';             -- clk
+			reset_reset_n     : in  std_logic                     := 'X';             -- reset_n
+			avbus_chipselect  : in  std_logic                     := 'X';             -- chipselect
+			avbus_address     : in  std_logic                     := 'X';             -- address
+			avbus_read_n      : in  std_logic                     := 'X';             -- read_n
+			avbus_readdata    : out std_logic_vector(31 downto 0);                    -- readdata
+			avbus_write_n     : in  std_logic                     := 'X';             -- write_n
+			avbus_writedata   : in  std_logic_vector(31 downto 0) := (others => 'X'); -- writedata
+			avbus_waitrequest : out std_logic                                         -- waitrequest
+		);
+	end component jtag_uart;
+
