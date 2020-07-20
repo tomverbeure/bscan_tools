@@ -8,10 +8,19 @@ class ScanChain:
         self.name    = name
         pass
 
+    def reset(self):
+        pass
+
+    def shift(self, trans):
+        pass
+
     def __str__(self):
 
         s   = "%s:\n" % self.name
         return s
+
+
+
 
 
 class FixedLengthScanChain(ScanChain):

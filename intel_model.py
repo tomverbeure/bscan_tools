@@ -71,11 +71,20 @@ class IntelFpga(Chip):
         "CLAMP"              : int("0000001010", 2),
         "PULSE_NCONFIG"      : int("0000000001", 2),
         "CONFIG_IO"          : int("0000001101", 2),
+        "USER0"              : int("0000001100", 2),
+        "USER1"              : int("0000001110", 2),
     }
 
     def __init__(self, name, idcode):
 
         super().__init__(name, 10, IntelFpga.IR_CODES["IDCODE"], 0x155, idcode, IntelFpga.IR_CODES["IDCODE"])
+
+        user0 = ScanChain("USER0")
+        user1 = ScanChain("USER1")
+
+        self.dr_chains[ IntelFpga.IR_CODES["USER0"] ] = user0
+        self.dr_chains[ IntelFpga.IR_CODES["USER1"] ] = user1
+
         pass
 
 class IntelEP2C5(IntelFpga):
