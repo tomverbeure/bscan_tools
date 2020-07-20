@@ -1,0 +1,7105 @@
+============================================================
+1: Run-Test/Idle
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       -1
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       -1
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       -1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+2: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       -1
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       -1
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       -1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+3: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       -1
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       -1
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       -1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+4: Test-Logic-Reset
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+5: Run-Test/Idle
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+6: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+7: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+8: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+
+Shift-DR: IDCODE
+
+Lower TDO value match! 20b10dd
+Upper TDO value match! 1ffffffffffffffff0fecc0ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+9: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+10: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+11: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+12: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+13: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+14: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 6 -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+15: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+16: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+17: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+18: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+19: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+20: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+21: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+22: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+23: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+24: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+25: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+
+Shift-DR: BYPASS
+
+Upper TDO value match! ffffffffffffffffffffffff0fecc0ff
+Update value: 0 -> 1
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+26: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+27: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+28: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+29: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+30: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+31: Shift-IR - TDI 3ff - TDO 155 - 10
+
+Lower TDO value match! 155
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+32: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+33: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+34: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+35: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+36: Shift-DR - TDI 0 - TDO 0 - 7
+
+Shift-DR: BYPASS
+
+Lower TDO value match! 0
+Upper TDO value match! 0
+Update value: 1 -> 0
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+37: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+38: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+39: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+40: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+41: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+42: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+
+Lower TDO value match! 155
+Upper TDO value match! fe
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+43: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+44: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+45: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+46: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+47: Test-Logic-Reset
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+48: Run-Test/Idle
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+49: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+50: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+51: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+
+Shift-DR: IDCODE
+
+Lower TDO value match! 20b10dd
+Upper TDO value match! 1ffffffffffffffff0fecc0ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+52: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+53: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+54: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+55: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+56: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+57: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 6 -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+58: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+59: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+60: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+61: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+62: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+63: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+64: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+65: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+66: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+67: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+68: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+
+Shift-DR: BYPASS
+
+Upper TDO value match! ffffffffffffffffffffffff0fecc0ff
+Update value: 0 -> 1
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+69: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+70: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+71: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+72: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+73: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+74: Shift-IR - TDI 3ff - TDO 155 - 10
+
+Lower TDO value match! 155
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+75: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+76: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+77: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+78: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+79: Shift-DR - TDI 0 - TDO 0 - 7
+
+Shift-DR: BYPASS
+
+Lower TDO value match! 0
+Upper TDO value match! 0
+Update value: 1 -> 0
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+80: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+81: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+82: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+83: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+84: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+85: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+
+Lower TDO value match! 155
+Upper TDO value match! fe
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+86: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+87: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+88: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+89: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+90: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+91: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+
+Lower TDO value match! 155
+Upper TDO value match! fe
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+92: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+93: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+94: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+95: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+96: Test-Logic-Reset
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+97: Run-Test/Idle
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+98: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+99: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+100: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+
+Shift-DR: IDCODE
+
+Lower TDO value match! 20b10dd
+Upper TDO value match! 1ffffffffffffffff0fecc0ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+101: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+102: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+103: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+104: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+105: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+106: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 6 -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+107: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+108: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+109: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+110: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+111: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+112: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+113: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+114: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+115: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+116: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+117: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+
+Shift-DR: BYPASS
+
+Upper TDO value match! ffffffffffffffffffffffff0fecc0ff
+Update value: 0 -> 1
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+118: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+119: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+120: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+121: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+122: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+123: Shift-IR - TDI 3ff - TDO 155 - 10
+
+Lower TDO value match! 155
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+124: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+125: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+126: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+127: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+128: Shift-DR - TDI 0 - TDO 0 - 7
+
+Shift-DR: BYPASS
+
+Lower TDO value match! 0
+Upper TDO value match! 0
+Update value: 1 -> 0
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+129: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+130: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+131: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+132: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+133: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+134: Shift-IR - TDI e - TDO 155 - 10
+
+Lower TDO value match! 155
+Update value: 3ff -> e
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+135: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+136: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+137: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+138: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+139: Shift-DR - TDI 0 - TDO 7fffffffffffffffff - 71
+
+Shift-DR: USER1
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+140: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+141: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+142: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+143: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+144: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       e
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+145: Shift-IR - TDI c - TDO 155 - 10
+
+Lower TDO value match! 155
+Update value: e -> c
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+146: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+147: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+148: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+149: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+150: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+151: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+152: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+153: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+154: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+155: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+156: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+157: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+158: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+159: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+160: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+161: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+162: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+163: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+164: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+165: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+166: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+167: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+168: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+169: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+170: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+171: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+172: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+173: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+174: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+175: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+176: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+177: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+178: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+179: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+180: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+181: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+182: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+183: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+184: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+185: Shift-DR - TDI 0 - TDO 7f - 7
+
+Shift-DR: USER0
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+186: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+187: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+188: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+189: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       c
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+190: Test-Logic-Reset
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+191: Run-Test/Idle
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+192: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+193: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+194: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+
+Shift-DR: IDCODE
+
+Lower TDO value match! 20b10dd
+Upper TDO value match! 1ffffffffffffffff0fecc0ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+195: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+196: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+197: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+198: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+199: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       6
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+200: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 6 -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+201: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+202: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+203: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+204: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+205: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+206: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+
+Lower TDO value match! 155
+Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+207: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+208: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+209: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+210: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+211: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+
+Shift-DR: BYPASS
+
+Upper TDO value match! ffffffffffffffffffffffff0fecc0ff
+Update value: 0 -> 1
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+212: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+213: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+214: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+215: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+216: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+217: Shift-IR - TDI 3ff - TDO 155 - 10
+
+Lower TDO value match! 155
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+218: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+219: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+220: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+221: Capture-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       1
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+222: Shift-DR - TDI 0 - TDO 0 - 7
+
+Shift-DR: BYPASS
+
+Lower TDO value match! 0
+Upper TDO value match! 0
+Update value: 1 -> 0
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+223: Exit1-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+224: Update-DR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+225: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+226: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+227: Capture-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+228: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+
+Lower TDO value match! 155
+Upper TDO value match! fe
+Update value: 3ff -> 3ff
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+229: Exit1-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+230: Update-IR
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+231: Select-DR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+============================================================
+232: Select-IR-Scan
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
+IR:
+    length:      10
+    read_only:   False
+    reset:       6
+    value:       3ff
+
+IR code: 6
+IDCODE:
+    length:      32
+    read_only:   True
+    reset:       20b10dd
+    value:       20b10dd
+
+IR code: 3ff
+BYPASS:
+    length:      1
+    read_only:   False
+    reset:       0
+    value:       0
+
+IR code: c
+USER0:
+
+IR code: e
+USER1:
+
+
