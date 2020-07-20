@@ -1,0 +1,21 @@
+set_global_assignment -entity "jtag_uart" -library "jtag_uart" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "jtag_uart" -library "jtag_uart" -name IP_TOOL_VERSION "13.0sp1"
+set_global_assignment -entity "jtag_uart" -library "jtag_uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "jtag_uart" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../jtag_uart.sopcinfo"]
+set_instance_assignment -entity "jtag_uart" -library "jtag_uart" -name SLD_INFO "QSYS_NAME jtag_uart HAS_SOPCINFO 1 GENERATION_ID 1595212132"
+set_global_assignment -library "jtag_uart" -name MISC_FILE [file join $::quartus(qip_path) "../../jtag_uart.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "jtag_uart" -name MISC_FILE [file join $::quartus(qip_path) "../../jtag_uart.qsys"]
+
+set_global_assignment -library "jtag_uart" -name VERILOG_FILE [file join $::quartus(qip_path) "jtag_uart.v"]
+set_global_assignment -library "jtag_uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "jtag_uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "jtag_uart" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "jtag_uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/jtag_uart_jtag_uart_w8_r8.v"]
+
+set_global_assignment -entity "altera_reset_controller" -library "jtag_uart" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "jtag_uart" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_reset_controller" -library "jtag_uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "jtag_uart_jtag_uart_w8_r8" -library "jtag_uart" -name IP_TOOL_NAME "altera_avalon_jtag_uart"
+set_global_assignment -entity "jtag_uart_jtag_uart_w8_r8" -library "jtag_uart" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "jtag_uart_jtag_uart_w8_r8" -library "jtag_uart" -name IP_TOOL_ENV "Qsys"
