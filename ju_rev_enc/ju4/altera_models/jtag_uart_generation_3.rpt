@@ -1,0 +1,141 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/ --output-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/ --file-set=SIM_VERILOG --report-file=sopcinfo:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.sopcinfo --report-file=html:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.html --report-file=sip:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/jtag_uart.sip --report-file=csv:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.csv --report-file=spd:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.spd --report-file=cmp:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.cmp --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C5T144C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.qsys
+Progress: Loading altera_models/jtag_uart.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_w16_r32 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w16_r32
+Progress: Adding jtag_uart_w8_r64 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r64
+Progress: Adding jtag_uart_w32_r8 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w32_r8
+Progress: Adding jtag_uart_w8_r2048 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r2048
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: jtag_uart.jtag_uart_w16_r32: Interrupt sender jtag_uart_w16_r32.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w8_r64: Interrupt sender jtag_uart_w8_r64.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w32_r8: Interrupt sender jtag_uart_w32_r8.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w8_r2048: Interrupt sender jtag_uart_w8_r2048.irq is not connected to an interrupt receiver
+Info: jtag_uart: Generating jtag_uart "jtag_uart" for SIM_VERILOG
+Info: pipeline_bridge_swap_transform: After transform: 5 modules, 8 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 5 modules, 8 connections
+Info: reset_adaptation_transform: After transform: 6 modules, 10 connections
+Info: merlin_mm_transform: After transform: 6 modules, 10 connections
+Info: jtag_uart_w16_r32: Starting RTL generation for module 'jtag_uart_jtag_uart_w16_r32'
+Info: jtag_uart_w16_r32:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w16_r32 --dir=/tmp/alt8463_2454042046267317746.dir/0001_jtag_uart_w16_r32_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0001_jtag_uart_w16_r32_gen//jtag_uart_jtag_uart_w16_r32_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8463_2454042046267317746.dir/0001_jtag_uart_w16_r32_gen/  ]
+Info: jtag_uart_w16_r32: Done RTL generation for module 'jtag_uart_jtag_uart_w16_r32'
+Info: jtag_uart_w16_r32: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w16_r32"
+Info: jtag_uart_w8_r64: Starting RTL generation for module 'jtag_uart_jtag_uart_w8_r64'
+Info: jtag_uart_w8_r64:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w8_r64 --dir=/tmp/alt8463_2454042046267317746.dir/0002_jtag_uart_w8_r64_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0002_jtag_uart_w8_r64_gen//jtag_uart_jtag_uart_w8_r64_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8463_2454042046267317746.dir/0002_jtag_uart_w8_r64_gen/  ]
+Info: jtag_uart_w8_r64: Done RTL generation for module 'jtag_uart_jtag_uart_w8_r64'
+Info: jtag_uart_w8_r64: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w8_r64"
+Info: jtag_uart_w32_r8: Starting RTL generation for module 'jtag_uart_jtag_uart_w32_r8'
+Info: jtag_uart_w32_r8:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w32_r8 --dir=/tmp/alt8463_2454042046267317746.dir/0003_jtag_uart_w32_r8_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0003_jtag_uart_w32_r8_gen//jtag_uart_jtag_uart_w32_r8_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8463_2454042046267317746.dir/0003_jtag_uart_w32_r8_gen/  ]
+Info: jtag_uart_w32_r8: Done RTL generation for module 'jtag_uart_jtag_uart_w32_r8'
+Info: jtag_uart_w32_r8: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w32_r8"
+Info: jtag_uart_w8_r2048: Starting RTL generation for module 'jtag_uart_jtag_uart_w8_r2048'
+Info: jtag_uart_w8_r2048:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w8_r2048 --dir=/tmp/alt8463_2454042046267317746.dir/0004_jtag_uart_w8_r2048_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0004_jtag_uart_w8_r2048_gen//jtag_uart_jtag_uart_w8_r2048_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt8463_2454042046267317746.dir/0004_jtag_uart_w8_r2048_gen/  ]
+Info: jtag_uart_w8_r2048: Done RTL generation for module 'jtag_uart_jtag_uart_w8_r2048'
+Info: jtag_uart_w8_r2048: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w8_r2048"
+Info: rst_controller: "jtag_uart" instantiated altera_reset_controller "rst_controller"
+Info: jtag_uart: Done jtag_uart" with 6 modules, 8 files, 88754 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.spd --output-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/
+Info: Doing: ip-make-simscript --spd=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.spd --output-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in /home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in /home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in /home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	5 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERAPRO simulator in /home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/ --output-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/ --report-file=bsf:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.bsf --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C5T144C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.qsys
+Progress: Loading altera_models/jtag_uart.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_w16_r32 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w16_r32
+Progress: Adding jtag_uart_w8_r64 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r64
+Progress: Adding jtag_uart_w32_r8 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w32_r8
+Progress: Adding jtag_uart_w8_r2048 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r2048
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: jtag_uart.jtag_uart_w16_r32: Interrupt sender jtag_uart_w16_r32.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w8_r64: Interrupt sender jtag_uart_w8_r64.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w32_r8: Interrupt sender jtag_uart_w32_r8.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w8_r2048: Interrupt sender jtag_uart_w8_r2048.irq is not connected to an interrupt receiver
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/ --output-directory=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.sopcinfo --report-file=html:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.html --report-file=qip:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart/synthesis/jtag_uart.qip --report-file=cmp:/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone II" --system-info=DEVICE=EP2C5T144C8 --system-info=DEVICE_SPEEDGRADE=8 --component-file=/home/tom/projects/bscan_tools/ju_rev_enc/ju5/altera_models/jtag_uart.qsys --language=VERILOG
+Progress: Loading altera_models/jtag_uart.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 13.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_w16_r32 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w16_r32
+Progress: Adding jtag_uart_w8_r64 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r64
+Progress: Adding jtag_uart_w32_r8 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w32_r8
+Progress: Adding jtag_uart_w8_r2048 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r2048
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: jtag_uart.jtag_uart_w16_r32: Interrupt sender jtag_uart_w16_r32.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w8_r64: Interrupt sender jtag_uart_w8_r64.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w32_r8: Interrupt sender jtag_uart_w32_r8.irq is not connected to an interrupt receiver
+Warning: jtag_uart.jtag_uart_w8_r2048: Interrupt sender jtag_uart_w8_r2048.irq is not connected to an interrupt receiver
+Info: jtag_uart: Generating jtag_uart "jtag_uart" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 5 modules, 8 connections
+Info: No custom instruction connections, skipping transform 
+Info: No Avalon connections, skipping transform 
+Info: merlin_translator_transform: After transform: 5 modules, 8 connections
+Info: reset_adaptation_transform: After transform: 6 modules, 10 connections
+Info: merlin_mm_transform: After transform: 6 modules, 10 connections
+Info: jtag_uart_w16_r32: Starting RTL generation for module 'jtag_uart_jtag_uart_w16_r32'
+Info: jtag_uart_w16_r32:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w16_r32 --dir=/tmp/alt8463_2454042046267317746.dir/0007_jtag_uart_w16_r32_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0007_jtag_uart_w16_r32_gen//jtag_uart_jtag_uart_w16_r32_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_w16_r32: Done RTL generation for module 'jtag_uart_jtag_uart_w16_r32'
+Info: jtag_uart_w16_r32: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w16_r32"
+Info: jtag_uart_w8_r64: Starting RTL generation for module 'jtag_uart_jtag_uart_w8_r64'
+Info: jtag_uart_w8_r64:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w8_r64 --dir=/tmp/alt8463_2454042046267317746.dir/0008_jtag_uart_w8_r64_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0008_jtag_uart_w8_r64_gen//jtag_uart_jtag_uart_w8_r64_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_w8_r64: Done RTL generation for module 'jtag_uart_jtag_uart_w8_r64'
+Info: jtag_uart_w8_r64: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w8_r64"
+Info: jtag_uart_w32_r8: Starting RTL generation for module 'jtag_uart_jtag_uart_w32_r8'
+Info: jtag_uart_w32_r8:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w32_r8 --dir=/tmp/alt8463_2454042046267317746.dir/0009_jtag_uart_w32_r8_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0009_jtag_uart_w32_r8_gen//jtag_uart_jtag_uart_w32_r8_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_w32_r8: Done RTL generation for module 'jtag_uart_jtag_uart_w32_r8'
+Info: jtag_uart_w32_r8: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w32_r8"
+Info: jtag_uart_w8_r2048: Starting RTL generation for module 'jtag_uart_jtag_uart_w8_r2048'
+Info: jtag_uart_w8_r2048:   Generation command is [exec /home/tom/altera/13.0sp1/quartus/linux/perl/bin/perl -I /home/tom/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /home/tom/altera/13.0sp1/quartus/sopc_builder/bin -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/tom/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=jtag_uart_jtag_uart_w8_r2048 --dir=/tmp/alt8463_2454042046267317746.dir/0010_jtag_uart_w8_r2048_gen/ --quartus_dir=/home/tom/altera/13.0sp1/quartus --verilog --config=/tmp/alt8463_2454042046267317746.dir/0010_jtag_uart_w8_r2048_gen//jtag_uart_jtag_uart_w8_r2048_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_w8_r2048: Done RTL generation for module 'jtag_uart_jtag_uart_w8_r2048'
+Info: jtag_uart_w8_r2048: "jtag_uart" instantiated altera_avalon_jtag_uart "jtag_uart_w8_r2048"
+Info: rst_controller: "jtag_uart" instantiated altera_reset_controller "rst_controller"
+Info: jtag_uart: Done jtag_uart" with 6 modules, 8 files, 88754 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
