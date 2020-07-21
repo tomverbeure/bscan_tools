@@ -1,0 +1,1637 @@
+8: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+14: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+20: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+25: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+31: Shift-IR - TDI 3ff - TDO 155 - 10
+36: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+42: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+48: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+57: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+63: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+69: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+74: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+80: Shift-IR - TDI 3ff - TDO 155 - 10
+85: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+91: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+97: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+106: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+112: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+118: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+123: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+129: Shift-IR - TDI 3ff - TDO 155 - 10
+134: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+140: Shift-IR - TDI e - TDO 155 - 10
+145: Shift-DR - TDI 0 - TDO 20 - 71
+Shift-DR: USER1
+151: Shift-IR - TDI c - TDO 155 - 10
+
+156: Shift-DR - TDI 0 - TDO 5 - 7
+161: Shift-DR - TDI 0 - TDO 0 - 7
+166: Shift-DR - TDI 0 - TDO e - 7
+171: Shift-DR - TDI 0 - TDO 6 - 7
+176: Shift-DR - TDI 0 - TDO 0 - 7
+181: Shift-DR - TDI 0 - TDO 1 - 7
+186: Shift-DR - TDI 0 - TDO 8 - 7
+191: Shift-DR - TDI 0 - TDO 0 - 7
+
+HUB
+
+196: Shift-DR - TDI 0 - TDO 0 - 7
+201: Shift-DR - TDI 0 - TDO 0 - 7
+206: Shift-DR - TDI 0 - TDO e - 7
+211: Shift-DR - TDI 0 - TDO 6 - 7
+216: Shift-DR - TDI 0 - TDO 0 - 7
+221: Shift-DR - TDI 0 - TDO 0 - 7
+226: Shift-DR - TDI 0 - TDO c - 7
+231: Shift-DR - TDI 0 - TDO 0 - 7
+
+JTAG_UART -> 110:128 v1
+
+110 0x6e
+128 0b10000000
+
+c0 -> 1100_0000
+
+236: Shift-DR - TDI 0 - TDO 0 - 7
+241: Shift-DR - TDI 0 - TDO 0 - 7
+246: Shift-DR - TDI 0 - TDO e - 7
+251: Shift-DR - TDI 0 - TDO 6 - 7
+256: Shift-DR - TDI 0 - TDO 8 - 7
+261: Shift-DR - TDI 0 - TDO 4 - 7
+266: Shift-DR - TDI 0 - TDO 0 - 7
+271: Shift-DR - TDI 0 - TDO 0 - 7
+
+Signal & Probe -> 110:9 v0
+
+110 0x6e
+9   0b00001001
+
+48 -> 0100_1000
+
+277: Shift-IR - TDI e - TDO 155 - 10
+282: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+288: Shift-IR - TDI c - TDO 155 - 10
+293: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+298: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+303: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+308: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+313: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+318: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+323: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+328: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+333: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+338: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+343: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+348: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+353: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+359: Shift-IR - TDI e - TDO 155 - 10
+364: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+370: Shift-IR - TDI c - TDO 155 - 10
+375: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+380: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+385: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+390: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+395: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+400: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+405: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+410: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+415: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+420: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+425: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+430: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+435: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+441: Shift-IR - TDI e - TDO 155 - 10
+446: Shift-DR - TDI 44 - TDO 0 - 7
+Shift-DR: USER1
+452: Shift-IR - TDI c - TDO 155 - 10
+457: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+466: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+472: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+478: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+483: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+489: Shift-IR - TDI 3ff - TDO 155 - 10
+494: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+500: Shift-IR - TDI e - TDO 155 - 10
+505: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+511: Shift-IR - TDI c - TDO 155 - 10
+516: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+521: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+526: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+531: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+536: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+541: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+546: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+551: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+556: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+561: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+566: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+571: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+576: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+581: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+586: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+591: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+596: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+601: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+606: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+611: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+616: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+621: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+626: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+631: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+637: Shift-IR - TDI e - TDO 155 - 10
+642: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+648: Shift-IR - TDI c - TDO 155 - 10
+653: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+658: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+663: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+668: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+673: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+678: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+683: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+688: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+693: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+698: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+703: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+708: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+713: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+719: Shift-IR - TDI e - TDO 155 - 10
+724: Shift-DR - TDI 44 - TDO 0 - 7
+Shift-DR: USER1
+730: Shift-IR - TDI c - TDO 155 - 10
+735: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+744: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+750: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+756: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+761: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+767: Shift-IR - TDI 3ff - TDO 155 - 10
+772: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+778: Shift-IR - TDI e - TDO 155 - 10
+783: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+789: Shift-IR - TDI c - TDO 155 - 10
+794: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+799: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+804: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+809: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+814: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+819: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+824: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+829: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+834: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+839: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+844: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+849: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+854: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+859: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+864: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+869: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+874: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+879: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+884: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+889: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+894: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+899: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+904: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+909: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+915: Shift-IR - TDI e - TDO 155 - 10
+920: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+926: Shift-IR - TDI c - TDO 155 - 10
+931: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+936: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+941: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+946: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+951: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+956: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+961: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+966: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+971: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+976: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+981: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+986: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+991: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+997: Shift-IR - TDI e - TDO 155 - 10
+1002: Shift-DR - TDI 44 - TDO 0 - 7
+Shift-DR: USER1
+1008: Shift-IR - TDI c - TDO 155 - 10
+1013: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1022: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+1028: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+1034: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+1039: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+1045: Shift-IR - TDI 3ff - TDO 155 - 10
+1050: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+1056: Shift-IR - TDI e - TDO 155 - 10
+1061: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+1067: Shift-IR - TDI c - TDO 155 - 10
+1072: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+1077: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1082: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1087: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1092: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1097: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+1102: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+1107: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1112: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1117: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1122: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1127: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1132: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1137: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1142: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+1147: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1152: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1157: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1162: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1167: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1172: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+1177: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+1182: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1187: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1193: Shift-IR - TDI e - TDO 155 - 10
+1198: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+1204: Shift-IR - TDI c - TDO 155 - 10
+1209: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+1214: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1219: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1224: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1229: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1234: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1239: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1244: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+1249: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1254: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1259: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1264: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1269: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1275: Shift-IR - TDI e - TDO 155 - 10
+1280: Shift-DR - TDI 44 - TDO 0 - 7
+Shift-DR: USER1
+1286: Shift-IR - TDI c - TDO 155 - 10
+1291: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1300: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+1306: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+1312: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+1317: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+1323: Shift-IR - TDI 3ff - TDO 155 - 10
+1328: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+1334: Shift-IR - TDI e - TDO 155 - 10
+1339: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+1345: Shift-IR - TDI c - TDO 155 - 10
+1350: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+1355: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1360: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1365: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1370: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1375: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+1380: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+1385: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1390: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1395: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1400: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1405: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1410: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1415: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1420: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+1425: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1430: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1435: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1440: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1445: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1450: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+1455: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+1460: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1465: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1471: Shift-IR - TDI e - TDO 155 - 10
+1476: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+1482: Shift-IR - TDI c - TDO 155 - 10
+1487: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+1492: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1497: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1502: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1507: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1512: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1517: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1522: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+1527: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1532: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1537: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1542: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1547: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1553: Shift-IR - TDI e - TDO 155 - 10
+1558: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1564: Shift-IR - TDI c - TDO 155 - 10
+1569: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1578: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+1584: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+1590: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+1595: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+1601: Shift-IR - TDI 3ff - TDO 155 - 10
+1606: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+1612: Shift-IR - TDI e - TDO 155 - 10
+1617: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+1623: Shift-IR - TDI c - TDO 155 - 10
+1628: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+1633: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1638: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1643: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1648: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1653: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+1658: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+1663: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1668: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1673: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1678: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1683: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1688: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1693: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1698: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+1703: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1708: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1713: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1718: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+1723: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+1728: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+1733: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+1738: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1743: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1749: Shift-IR - TDI e - TDO 155 - 10
+1754: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+1760: Shift-IR - TDI c - TDO 155 - 10
+1765: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+1770: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1775: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1780: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1785: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+1790: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1795: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1800: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+1805: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1810: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1815: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1820: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+1825: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+1831: Shift-IR - TDI e - TDO 155 - 10
+1836: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1842: Shift-IR - TDI c - TDO 155 - 10
+1847: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1853: Shift-IR - TDI e - TDO 155 - 10
+1858: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1864: Shift-IR - TDI c - TDO 155 - 10
+1869: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1875: Shift-IR - TDI e - TDO 155 - 10
+1880: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1886: Shift-IR - TDI c - TDO 155 - 10
+1891: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1897: Shift-IR - TDI e - TDO 155 - 10
+1902: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1908: Shift-IR - TDI c - TDO 155 - 10
+1913: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1919: Shift-IR - TDI e - TDO 155 - 10
+1924: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1930: Shift-IR - TDI c - TDO 155 - 10
+1935: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1941: Shift-IR - TDI e - TDO 155 - 10
+1946: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1952: Shift-IR - TDI c - TDO 155 - 10
+1957: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1963: Shift-IR - TDI e - TDO 155 - 10
+1968: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1974: Shift-IR - TDI c - TDO 155 - 10
+1979: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+1985: Shift-IR - TDI e - TDO 155 - 10
+1990: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+1996: Shift-IR - TDI c - TDO 155 - 10
+2001: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2007: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+2013: Shift-IR - TDI e - TDO 155 - 10
+2018: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2024: Shift-IR - TDI c - TDO 155 - 10
+2029: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2035: Shift-IR - TDI e - TDO 155 - 10
+2040: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2046: Shift-IR - TDI c - TDO 155 - 10
+2051: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2057: Shift-IR - TDI e - TDO 155 - 10
+2062: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2068: Shift-IR - TDI c - TDO 155 - 10
+2073: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2079: Shift-IR - TDI e - TDO 155 - 10
+2084: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2090: Shift-IR - TDI c - TDO 155 - 10
+2095: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2101: Shift-IR - TDI e - TDO 155 - 10
+2106: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2112: Shift-IR - TDI c - TDO 155 - 10
+2117: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2123: Shift-IR - TDI e - TDO 155 - 10
+2128: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2134: Shift-IR - TDI c - TDO 155 - 10
+2139: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2145: Shift-IR - TDI e - TDO 155 - 10
+2150: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2156: Shift-IR - TDI c - TDO 155 - 10
+2161: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2167: Shift-IR - TDI e - TDO 155 - 10
+2172: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2178: Shift-IR - TDI c - TDO 155 - 10
+2183: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2189: Shift-IR - TDI e - TDO 155 - 10
+2194: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2200: Shift-IR - TDI c - TDO 155 - 10
+2205: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2211: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+2217: Shift-IR - TDI e - TDO 155 - 10
+2222: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2228: Shift-IR - TDI c - TDO 155 - 10
+2233: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2239: Shift-IR - TDI e - TDO 155 - 10
+2244: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2250: Shift-IR - TDI c - TDO 155 - 10
+2255: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2261: Shift-IR - TDI e - TDO 155 - 10
+2266: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2272: Shift-IR - TDI c - TDO 155 - 10
+2277: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2283: Shift-IR - TDI e - TDO 155 - 10
+2288: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2294: Shift-IR - TDI c - TDO 155 - 10
+2299: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2305: Shift-IR - TDI e - TDO 155 - 10
+2310: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2316: Shift-IR - TDI c - TDO 155 - 10
+2321: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2327: Shift-IR - TDI e - TDO 155 - 10
+2332: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2338: Shift-IR - TDI c - TDO 155 - 10
+2343: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2349: Shift-IR - TDI e - TDO 155 - 10
+2354: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2360: Shift-IR - TDI c - TDO 155 - 10
+2365: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2371: Shift-IR - TDI e - TDO 155 - 10
+2376: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2382: Shift-IR - TDI c - TDO 155 - 10
+2387: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2393: Shift-IR - TDI e - TDO 155 - 10
+2398: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2404: Shift-IR - TDI c - TDO 155 - 10
+2409: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2415: Shift-IR - TDI e - TDO 155 - 10
+2420: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2426: Shift-IR - TDI c - TDO 155 - 10
+2431: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2437: Shift-IR - TDI e - TDO 155 - 10
+2442: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2448: Shift-IR - TDI c - TDO 155 - 10
+2453: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2459: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+2465: Shift-IR - TDI e - TDO 155 - 10
+2470: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2476: Shift-IR - TDI c - TDO 155 - 10
+2481: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2487: Shift-IR - TDI e - TDO 155 - 10
+2492: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2498: Shift-IR - TDI c - TDO 155 - 10
+2503: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2509: Shift-IR - TDI e - TDO 155 - 10
+2514: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2520: Shift-IR - TDI c - TDO 155 - 10
+2525: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2531: Shift-IR - TDI e - TDO 155 - 10
+2536: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2542: Shift-IR - TDI c - TDO 155 - 10
+2547: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2553: Shift-IR - TDI e - TDO 155 - 10
+2558: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2564: Shift-IR - TDI c - TDO 155 - 10
+2569: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2575: Shift-IR - TDI e - TDO 155 - 10
+2580: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2586: Shift-IR - TDI c - TDO 155 - 10
+2591: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2597: Shift-IR - TDI e - TDO 155 - 10
+2602: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2608: Shift-IR - TDI c - TDO 155 - 10
+2613: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2619: Shift-IR - TDI e - TDO 155 - 10
+2624: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2630: Shift-IR - TDI c - TDO 155 - 10
+2635: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2641: Shift-IR - TDI e - TDO 155 - 10
+2646: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2652: Shift-IR - TDI c - TDO 155 - 10
+2657: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2663: Shift-IR - TDI e - TDO 155 - 10
+2668: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2674: Shift-IR - TDI c - TDO 155 - 10
+2679: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2685: Shift-IR - TDI e - TDO 155 - 10
+2690: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2696: Shift-IR - TDI c - TDO 155 - 10
+2701: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2707: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+2713: Shift-IR - TDI e - TDO 155 - 10
+2718: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2724: Shift-IR - TDI c - TDO 155 - 10
+2729: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2735: Shift-IR - TDI e - TDO 155 - 10
+2740: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2746: Shift-IR - TDI c - TDO 155 - 10
+2751: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2757: Shift-IR - TDI e - TDO 155 - 10
+2762: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2768: Shift-IR - TDI c - TDO 155 - 10
+2773: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2779: Shift-IR - TDI e - TDO 155 - 10
+2784: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2790: Shift-IR - TDI c - TDO 155 - 10
+2795: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2801: Shift-IR - TDI e - TDO 155 - 10
+2806: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2812: Shift-IR - TDI c - TDO 155 - 10
+2817: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2823: Shift-IR - TDI e - TDO 155 - 10
+2828: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2834: Shift-IR - TDI c - TDO 155 - 10
+2839: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2845: Shift-IR - TDI e - TDO 155 - 10
+2850: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2856: Shift-IR - TDI c - TDO 155 - 10
+2861: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2867: Shift-IR - TDI e - TDO 155 - 10
+2872: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+2878: Shift-IR - TDI c - TDO 155 - 10
+2883: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2889: Shift-IR - TDI e - TDO 155 - 10
+2894: Shift-DR - TDI 48 - TDO 0 - 7
+Shift-DR: USER1
+2900: Shift-IR - TDI c - TDO 155 - 10
+2905: Shift-DR - TDI 40 - TDO 0 - 7
+Shift-DR: USER0
+2914: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+2920: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+2926: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+2931: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+2937: Shift-IR - TDI 3ff - TDO 155 - 10
+2942: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+2948: Shift-IR - TDI e - TDO 155 - 10
+2953: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+2959: Shift-IR - TDI c - TDO 155 - 10
+2964: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+2969: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2974: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+2979: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+2984: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+2989: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+2994: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+2999: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3004: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3009: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3014: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3019: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3024: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3029: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3034: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+3039: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3044: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3049: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3054: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3059: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3064: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+3069: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+3074: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3079: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3085: Shift-IR - TDI e - TDO 155 - 10
+3090: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+3096: Shift-IR - TDI c - TDO 155 - 10
+3101: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+3106: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3111: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3116: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3121: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3126: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3131: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3136: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+3141: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3146: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3151: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3156: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3161: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3167: Shift-IR - TDI e - TDO 155 - 10
+3172: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3178: Shift-IR - TDI c - TDO 155 - 10
+3183: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3189: Shift-IR - TDI e - TDO 155 - 10
+3194: Shift-DR - TDI 48 - TDO 0 - 7
+Shift-DR: USER1
+3200: Shift-IR - TDI c - TDO 155 - 10
+3205: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3214: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+3220: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+3226: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+3231: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+3237: Shift-IR - TDI 3ff - TDO 155 - 10
+3242: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+3248: Shift-IR - TDI e - TDO 155 - 10
+3253: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+3259: Shift-IR - TDI c - TDO 155 - 10
+3264: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+3269: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3274: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3279: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3284: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3289: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3294: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+3299: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3304: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3309: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3314: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3319: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3324: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3329: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3334: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+3339: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3344: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3349: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3354: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3359: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3364: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+3369: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+3374: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3379: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3385: Shift-IR - TDI e - TDO 155 - 10
+3390: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+3396: Shift-IR - TDI c - TDO 155 - 10
+3401: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+3406: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3411: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3416: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3421: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3426: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3431: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3436: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+3441: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3446: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3451: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3456: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3461: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3467: Shift-IR - TDI e - TDO 155 - 10
+3472: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3478: Shift-IR - TDI c - TDO 155 - 10
+3483: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3489: Shift-IR - TDI e - TDO 155 - 10
+3494: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3500: Shift-IR - TDI c - TDO 155 - 10
+3505: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3511: Shift-IR - TDI e - TDO 155 - 10
+3516: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3522: Shift-IR - TDI c - TDO 155 - 10
+3527: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3533: Shift-IR - TDI e - TDO 155 - 10
+3538: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3544: Shift-IR - TDI c - TDO 155 - 10
+3549: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3555: Shift-IR - TDI e - TDO 155 - 10
+3560: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3566: Shift-IR - TDI c - TDO 155 - 10
+3571: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3577: Shift-IR - TDI e - TDO 155 - 10
+3582: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3588: Shift-IR - TDI c - TDO 155 - 10
+3593: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3599: Shift-IR - TDI e - TDO 155 - 10
+3604: Shift-DR - TDI 48 - TDO 0 - 7
+Shift-DR: USER1
+3610: Shift-IR - TDI c - TDO 155 - 10
+3615: Shift-DR - TDI 40 - TDO 0 - 7
+Shift-DR: USER0
+3624: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+3630: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+3636: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+3641: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+3647: Shift-IR - TDI 3ff - TDO 155 - 10
+3652: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+3658: Shift-IR - TDI e - TDO 155 - 10
+3663: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+3669: Shift-IR - TDI c - TDO 155 - 10
+3674: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+3679: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3684: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3689: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3694: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3699: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3704: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+3709: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3714: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3719: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3724: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3729: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3734: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3739: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3744: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+3749: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3754: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3759: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3764: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+3769: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+3774: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+3779: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+3784: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3789: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+3795: Shift-IR - TDI e - TDO 155 - 10
+3800: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+3806: Shift-IR - TDI c - TDO 155 - 10
+3811: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+3816: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3821: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3826: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3831: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+3836: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3841: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3846: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+3851: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3856: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3861: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3866: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+3871: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+3877: Shift-IR - TDI e - TDO 155 - 10
+3882: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3888: Shift-IR - TDI c - TDO 155 - 10
+3893: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3899: Shift-IR - TDI e - TDO 155 - 10
+3904: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3910: Shift-IR - TDI c - TDO 155 - 10
+3915: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3921: Shift-IR - TDI e - TDO 155 - 10
+3926: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3932: Shift-IR - TDI c - TDO 155 - 10
+3937: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3943: Shift-IR - TDI e - TDO 155 - 10
+3948: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3954: Shift-IR - TDI c - TDO 155 - 10
+3959: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3965: Shift-IR - TDI e - TDO 155 - 10
+3970: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3976: Shift-IR - TDI c - TDO 155 - 10
+3981: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+3987: Shift-IR - TDI e - TDO 155 - 10
+3992: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+3998: Shift-IR - TDI c - TDO 155 - 10
+4003: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4009: Shift-IR - TDI e - TDO 155 - 10
+4014: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4020: Shift-IR - TDI c - TDO 155 - 10
+4025: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4031: Shift-IR - TDI e - TDO 155 - 10
+4036: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4042: Shift-IR - TDI c - TDO 155 - 10
+4047: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4053: Shift-IR - TDI e - TDO 155 - 10
+4058: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4064: Shift-IR - TDI c - TDO 155 - 10
+4069: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4075: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+4081: Shift-IR - TDI e - TDO 155 - 10
+4086: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4092: Shift-IR - TDI c - TDO 155 - 10
+4097: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4103: Shift-IR - TDI e - TDO 155 - 10
+4108: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4114: Shift-IR - TDI c - TDO 155 - 10
+4119: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4125: Shift-IR - TDI e - TDO 155 - 10
+4130: Shift-DR - TDI 48 - TDO 0 - 7
+Shift-DR: USER1
+4136: Shift-IR - TDI c - TDO 155 - 10
+4141: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4150: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+4156: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+4162: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+4167: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+4173: Shift-IR - TDI 3ff - TDO 155 - 10
+4178: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+4184: Shift-IR - TDI e - TDO 155 - 10
+4189: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+4195: Shift-IR - TDI c - TDO 155 - 10
+4200: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+4205: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4210: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+4215: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+4220: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4225: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4230: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+4235: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4240: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4245: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4250: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+4255: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+4260: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4265: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4270: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+4275: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4280: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4285: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4290: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+4295: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+4300: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+4305: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+4310: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4315: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4321: Shift-IR - TDI e - TDO 155 - 10
+4326: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+4332: Shift-IR - TDI c - TDO 155 - 10
+4337: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+4342: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4347: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4352: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4357: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4362: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+4367: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4372: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+4377: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4382: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4387: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+4392: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+4397: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4403: Shift-IR - TDI e - TDO 155 - 10
+4408: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4414: Shift-IR - TDI c - TDO 155 - 10
+4419: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4425: Shift-IR - TDI e - TDO 155 - 10
+4430: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4436: Shift-IR - TDI c - TDO 155 - 10
+4441: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4447: Shift-IR - TDI e - TDO 155 - 10
+4452: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4458: Shift-IR - TDI c - TDO 155 - 10
+4463: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4469: Shift-IR - TDI e - TDO 155 - 10
+4474: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4480: Shift-IR - TDI c - TDO 155 - 10
+4485: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4491: Shift-IR - TDI e - TDO 155 - 10
+4496: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4502: Shift-IR - TDI c - TDO 155 - 10
+4507: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4513: Shift-IR - TDI e - TDO 155 - 10
+4518: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4524: Shift-IR - TDI c - TDO 155 - 10
+4529: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4535: Shift-IR - TDI e - TDO 155 - 10
+4540: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4546: Shift-IR - TDI c - TDO 155 - 10
+4551: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4557: Shift-IR - TDI e - TDO 155 - 10
+4562: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4568: Shift-IR - TDI c - TDO 155 - 10
+4573: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4579: Shift-IR - TDI e - TDO 155 - 10
+4584: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4590: Shift-IR - TDI c - TDO 155 - 10
+4595: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4601: Shift-IR - TDI e - TDO 155 - 10
+4606: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4612: Shift-IR - TDI c - TDO 155 - 10
+4617: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4623: Shift-IR - TDI e - TDO 155 - 10
+4628: Shift-DR - TDI 48 - TDO 0 - 7
+Shift-DR: USER1
+4634: Shift-IR - TDI c - TDO 155 - 10
+4639: Shift-DR - TDI 40 - TDO 0 - 7
+Shift-DR: USER0
+4648: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+Shift-DR: IDCODE
+4654: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+4660: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+4665: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+Shift-DR: BYPASS
+4671: Shift-IR - TDI 3ff - TDO 155 - 10
+4676: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: BYPASS
+4682: Shift-IR - TDI e - TDO 155 - 10
+4687: Shift-DR - TDI 0 - TDO 0 - 71
+Shift-DR: USER1
+4693: Shift-IR - TDI c - TDO 155 - 10
+4698: Shift-DR - TDI 0 - TDO 5 - 7
+Shift-DR: USER0
+4703: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4708: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+4713: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+4718: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4723: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4728: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+4733: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4738: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4743: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4748: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+4753: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+4758: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4763: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4768: Shift-DR - TDI 0 - TDO c - 7
+Shift-DR: USER0
+4773: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4778: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4783: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4788: Shift-DR - TDI 0 - TDO e - 7
+Shift-DR: USER0
+4793: Shift-DR - TDI 0 - TDO 6 - 7
+Shift-DR: USER0
+4798: Shift-DR - TDI 0 - TDO 8 - 7
+Shift-DR: USER0
+4803: Shift-DR - TDI 0 - TDO 4 - 7
+Shift-DR: USER0
+4808: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4813: Shift-DR - TDI 0 - TDO 0 - 7
+Shift-DR: USER0
+4819: Shift-IR - TDI e - TDO 155 - 10
+4824: Shift-DR - TDI 41 - TDO 0 - 7
+Shift-DR: USER1
+4830: Shift-IR - TDI c - TDO 155 - 10
+4835: Shift-DR - TDI 78 - TDO 1 - 7
+Shift-DR: USER0
+4840: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4845: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4850: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4855: Shift-DR - TDI 78 - TDO 0 - 7
+Shift-DR: USER0
+4860: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+4865: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4870: Shift-DR - TDI 78 - TDO 3 - 7
+Shift-DR: USER0
+4875: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4880: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4885: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+4890: Shift-DR - TDI 78 - TDO 4 - 7
+Shift-DR: USER0
+4895: Shift-DR - TDI 78 - TDO 5 - 7
+Shift-DR: USER0
+4901: Shift-IR - TDI e - TDO 155 - 10
+4906: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4912: Shift-IR - TDI c - TDO 155 - 10
+4917: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4923: Shift-IR - TDI e - TDO 155 - 10
+4928: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4934: Shift-IR - TDI c - TDO 155 - 10
+4939: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4945: Shift-IR - TDI e - TDO 155 - 10
+4950: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4956: Shift-IR - TDI c - TDO 155 - 10
+4961: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4967: Shift-IR - TDI e - TDO 155 - 10
+4972: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+4978: Shift-IR - TDI c - TDO 155 - 10
+4983: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+4989: Shift-IR - TDI e - TDO 155 - 10
+4994: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5000: Shift-IR - TDI c - TDO 155 - 10
+5005: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5011: Shift-IR - TDI e - TDO 155 - 10
+5016: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5022: Shift-IR - TDI c - TDO 155 - 10
+5027: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5033: Shift-IR - TDI e - TDO 155 - 10
+5038: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5044: Shift-IR - TDI c - TDO 155 - 10
+5049: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5055: Shift-IR - TDI e - TDO 155 - 10
+5060: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5066: Shift-IR - TDI c - TDO 155 - 10
+5071: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5077: Shift-IR - TDI e - TDO 155 - 10
+5082: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5088: Shift-IR - TDI c - TDO 155 - 10
+5093: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5099: Shift-IR - TDI e - TDO 155 - 10
+5104: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5110: Shift-IR - TDI c - TDO 155 - 10
+5115: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5121: Shift-IR - TDI 3fffe - TDO 3f955 - 18
+5127: Shift-IR - TDI e - TDO 155 - 10
+5132: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5138: Shift-IR - TDI c - TDO 155 - 10
+5143: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
+5149: Shift-IR - TDI e - TDO 155 - 10
+5154: Shift-DR - TDI 42 - TDO 0 - 7
+Shift-DR: USER1
+5160: Shift-IR - TDI c - TDO 155 - 10
+5165: Shift-DR - TDI 0 - TDO 1 - 7
+Shift-DR: USER0
