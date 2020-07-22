@@ -57,6 +57,118 @@ class Chip:
 
         return s
 
+
+class SLDModel:
+
+    def __init__(self, vdr_chain, vir_chain):
+
+        self.vdr_chain = vdr_chain
+        self.vir_chain = vir_chain
+
+        self.enumeration_idx = 0
+        self.enumeration_array = []
+
+        pass
+
+    def update_vir(self):
+
+        if self.vir_chain.value == 0:
+            self.enumeration_idx = 0
+
+        pass
+
+    def shift_dr(self, trans):
+
+        if self.vir_chain.value == 0:
+
+            if trans.tdo_length != 7:
+                print("Error: unexpected SLD enumeration chain length: %d (act) != %d (exp)" % (trans.tdo_length, 7))
+
+            if trans.tdi_value != 0:
+                print("Error: unexpected TDI value during SLD enumeration: %x" % trans.tdi_value)
+
+            if trans.tdo_value > 15:
+                print("Error: TDO value larger than 15 during SLD enumeration: %x" % trans.tdo_value)
+
+            if len(self.enumeration_array) <= self.enumeration_idx:
+                # Fill in the value that was sent out
+                self.enumeration_array.append(trans.tdo_value)
+                self.enumeration_idx += 1
+
+                print("Note: adding %x to enumeration array." % trans.tdo_value)
+
+                if (self.enumeration_idx % 8) == 0:
+                    enum_id = 0
+                    for i in range(0,8):
+                        enum_id += self.enumeration_array[self.enumeration_idx-8+i] << (i * 4)
+
+                    enum_group = (enum_id >> 8) & 0xff
+                    enum_class = (enum_id >> 19) & 0xff
+                    enum_rev   = (enum_id >> 27) & 0x1f
+                    enum_count =  enum_id & 0xff
+
+                    if self.enumeration_idx == 8:
+                        print("Note: new SLD hub : %08x: group: %d, nr items: %d, rev: %d, count: %d" % (enum_id, enum_group, enum_class, enum_rev, enum_count))
+                    else:
+                        print("Note: new SLD item: %08x: group: %d, class: %d, rev: %d, count: %d" % (enum_id, enum_group, enum_class, enum_rev, enum_count))
+                
+
+        pass
+
+
+class User0ScanChain(ScanChain):
+
+    def __init__(self):
+
+        super().__init__("USER0 - VDR")
+
+        self.sld_model = None
+
+        # There will be many different lengths, depending on which VDR is selected.
+
+        pass
+
+    def shift(self, trans):
+
+        self.sld_model.shift_dr(trans)
+
+        pass
+
+
+class User1ScanChain(FixedLengthScanChain):
+
+    def __init__(self):
+
+        super().__init__(name = "USER1 - VIR", length = None, reset_value = 0, read_only = False)
+        self.sld_model = None
+
+        pass
+
+    def shift(self, trans):
+
+        if self.length is None:
+            for i in range(0,trans.tdi_length):
+                tdo_shift = trans.tdo_value >> i
+                tdi_masked = trans.tdi_value & ((1<<(trans.tdi_length-i))-1)
+                if tdo_shift == tdi_masked:
+                    self.length = i
+                    print("Note: USER1 chain length: %d" % self.length)
+                    break
+
+            if self.length is None:
+                print("Error: couldn't figure out USER1 chain length!\n")
+
+        super().shift(trans)
+
+        self.sld_model.update_vir()
+        pass
+
+    def __str__(self):
+
+        s = super().__str__()
+        return s
+
+
 class IntelFpga(Chip):
 
     MANUFACTURER_ID = "00001101110"
@@ -79,8 +191,12 @@ class IntelFpga(Chip):
 
         super().__init__(name, 10, IntelFpga.IR_CODES["IDCODE"], 0x155, idcode, IntelFpga.IR_CODES["IDCODE"])
 
-        user0 = ScanChain("USER0")
-        user1 = ScanChain("USER1")
+        user0 = User0ScanChain()
+        user1 = User1ScanChain()
+
+        self.sld_model = SLDModel(user0, user1)
+        user0.sld_model = self.sld_model
+        user1.sld_model = self.sld_model
 
         self.dr_chains[ IntelFpga.IR_CODES["USER0"] ] = user0
         self.dr_chains[ IntelFpga.IR_CODES["USER1"] ] = user1

@@ -85,7 +85,9 @@ class JtagTransaction:
         s += "%d: %s" % (self.nr, JtagState.STATE_STR[self.state])
 
         if self.state in (JtagState.SHIFT_DR, JtagState.SHIFT_IR):
-            s += " - TDI %x - TDO %x - %d" % (self.tdi_value, self.tdo_value, self.tdo_length)
+            tdi_str = ("%x" % self.tdi_value).zfill((self.tdi_length+3) // 4)
+            tdo_str = ("%x" % self.tdo_value).zfill((self.tdo_length+3) // 4)
+            s += " - TDI %s - TDO %s - %d" % (tdi_str, tdo_str, self.tdo_length)
         s+= "\n"
 
         return s

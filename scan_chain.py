@@ -74,7 +74,10 @@ class FixedLengthScanChain(ScanChain):
     def __str__(self):
 
         s = super().__str__()
-        s += "    length:      %d\n" % self.length
+        if self.length is None:
+            s += "    length:      Unknown\n"
+        else:
+            s += "    length:      %d\n" % self.length
         s += "    read_only:   %s\n" % self.read_only
         s += "    reset:       %x\n" % self.reset_value
         s += "    value:       %x\n" % self.value
