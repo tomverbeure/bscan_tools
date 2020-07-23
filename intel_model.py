@@ -57,6 +57,13 @@ class Chip:
 
         return s
 
+class SLDNode:
+
+    def __init__(self):
+
+        pass
+
+    pass
 
 class SLDModel:
 
@@ -67,6 +74,8 @@ class SLDModel:
 
         self.enumeration_idx = 0
         self.enumeration_array = []
+
+        self.sld_nodes = []
 
         pass
 
@@ -100,20 +109,41 @@ class SLDModel:
                 if (self.enumeration_idx % 8) == 0:
                     enum_id = 0
                     for i in range(0,8):
-                        enum_id += self.enumeration_array[self.enumeration_idx-8+i] << (i * 4)
-
-                    enum_group = (enum_id >> 8) & 0xff
-                    enum_class = (enum_id >> 19) & 0xff
-                    enum_rev   = (enum_id >> 27) & 0x1f
-                    enum_count =  enum_id & 0xff
+                        enum_id += (self.enumeration_array[self.enumeration_idx-8+i] & 0xf) << (i * 4)
 
                     if self.enumeration_idx == 8:
-                        print("Note: new SLD hub : %08x: group: %d, nr items: %d, rev: %d, count: %d" % (enum_id, enum_group, enum_class, enum_rev, enum_count))
+                        self.m_bits         =  enum_id        & 0xff
+                        self.hub_mfg_id     = (enum_id >> 8)  & 0xff
+                        self.hub_num_nodes  = (enum_id >> 19) & 0xff
+                        self.hub_rev        = (enum_id >> 27) & 0x1f
+
+                        print("Note: new SLD hub : %08x: mfg id: %d, nr nodes: %d, hub rev: %d, m: %d" % (enum_id, self.hub_mfg_id, self.hub_num_nodes, self.hub_rev, self.m_bits))
+
                     else:
-                        print("Note: new SLD item: %08x: group: %d, class: %d, rev: %d, count: %d" % (enum_id, enum_group, enum_class, enum_rev, enum_count))
-                
+                        sld_node = SLDNode()
+
+                        sld_node.inst_id    =  enum_id        & 0xff
+                        sld_node.mfg_id     = (enum_id >> 8)  & 0xff
+                        sld_node.node_id    = (enum_id >> 19) & 0xff
+                        sld_node.rev        = (enum_id >> 27) & 0x1f
+
+                        self.sld_nodes.append(sld_node)
+
+                        print("Note: new SLD item: %08x: mfg id: %d, node id: %d, node rev: %d, inst id: %d" % (enum_id, sld_node.mfg_id, sld_node.node_id, sld_node.rev, sld_node.inst_id))
+
 
         pass
+
+    def n_bits(self):
+
+        return self.hub_num_ndes
+
+    def __str__():
+        
+        s = ""
+
+        return s
+
 
 
 class User0ScanChain(ScanChain):
@@ -156,7 +186,12 @@ class User1ScanChain(FixedLengthScanChain):
                     break
 
             if self.length is None:
-                print("Error: couldn't figure out USER1 chain length!\n")
+
+                if trans.tdo_value == ((1<<trans.tdo_length)-1):
+                    print("Note: no USER1 chain present.\n")
+                else:
+                    print("Error: couldn't figure out USER1 chain length!\n")
+
 
         super().shift(trans)
 

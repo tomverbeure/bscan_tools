@@ -45,6 +45,10 @@ class FixedLengthScanChain(ScanChain):
 
     def shift(self, trans):
 
+        if self.length is None:
+            print("Warning: shift into undefined scan chain.")
+            return
+
         capture_value = self.capture_value()
 
         if self.value:

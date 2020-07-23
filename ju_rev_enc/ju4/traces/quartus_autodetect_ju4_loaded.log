@@ -22,10 +22,14 @@ BYPASS:
     value:       -1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       -1
 
 
 ============================================================
@@ -52,10 +56,14 @@ BYPASS:
     value:       -1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       -1
 
 
 ============================================================
@@ -82,10 +90,14 @@ BYPASS:
     value:       -1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       -1
 
 
 ============================================================
@@ -112,10 +124,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -142,10 +158,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -172,10 +192,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -202,10 +226,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -236,10 +264,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -266,10 +298,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -296,10 +332,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -326,10 +366,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -356,10 +400,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -386,10 +434,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -419,10 +471,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -449,10 +505,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -479,10 +539,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -509,10 +573,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -539,10 +607,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -569,10 +641,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -602,10 +678,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -632,10 +712,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -662,10 +746,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -692,10 +780,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -722,10 +814,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -756,10 +852,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -786,10 +886,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -816,10 +920,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -846,10 +954,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -876,10 +988,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -906,10 +1022,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -938,10 +1058,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -968,10 +1092,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -998,10 +1126,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1028,10 +1160,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1058,14 +1194,18 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-36: Shift-DR - TDI 0 - TDO 0 - 7
+36: Shift-DR - TDI 00 - TDO 00 - 7
 
 Shift-DR: BYPASS
 
@@ -1093,10 +1233,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1123,10 +1267,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1153,10 +1301,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1183,10 +1335,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1213,10 +1369,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1243,10 +1403,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1276,10 +1440,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1306,10 +1474,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1336,10 +1508,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1366,10 +1542,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1396,10 +1576,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1426,10 +1610,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1456,10 +1644,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1486,10 +1678,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1516,10 +1712,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1550,10 +1750,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1580,10 +1784,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1610,10 +1818,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1640,10 +1852,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1670,10 +1886,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1700,10 +1920,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1733,10 +1957,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1763,10 +1991,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1793,10 +2025,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1823,10 +2059,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1853,10 +2093,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1883,10 +2127,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1916,10 +2164,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1946,10 +2198,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -1976,10 +2232,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2006,10 +2266,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2036,10 +2300,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2070,10 +2338,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2100,10 +2372,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2130,10 +2406,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2160,10 +2440,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2190,10 +2474,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2220,10 +2508,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2252,10 +2544,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2282,10 +2578,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2312,10 +2612,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2342,10 +2646,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2372,14 +2680,18 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-79: Shift-DR - TDI 0 - TDO 0 - 7
+79: Shift-DR - TDI 00 - TDO 00 - 7
 
 Shift-DR: BYPASS
 
@@ -2407,10 +2719,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2437,10 +2753,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2467,10 +2787,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2497,10 +2821,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2527,10 +2855,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2557,10 +2889,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2590,10 +2926,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2620,10 +2960,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2650,10 +2994,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2680,10 +3028,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2710,10 +3062,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2740,10 +3096,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2770,10 +3130,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2800,10 +3164,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2830,10 +3198,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2864,10 +3236,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2894,10 +3270,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2924,10 +3304,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2954,10 +3338,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -2984,10 +3372,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3014,10 +3406,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3047,10 +3443,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3077,10 +3477,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3107,10 +3511,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3137,10 +3545,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3167,10 +3579,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3197,10 +3613,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3230,10 +3650,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3260,10 +3684,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3290,10 +3718,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3320,10 +3752,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3350,10 +3786,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3384,10 +3824,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3414,10 +3858,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3444,10 +3892,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3474,10 +3926,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3504,10 +3960,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3534,10 +3994,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3566,10 +4030,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3596,10 +4064,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3626,10 +4098,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3656,10 +4132,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3686,14 +4166,18 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-122: Shift-DR - TDI 0 - TDO 0 - 7
+122: Shift-DR - TDI 00 - TDO 00 - 7
 
 Shift-DR: BYPASS
 
@@ -3721,10 +4205,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3751,10 +4239,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3781,10 +4273,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3811,10 +4307,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3841,10 +4341,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3871,10 +4375,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3904,10 +4412,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3934,10 +4446,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3964,10 +4480,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -3994,10 +4514,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4024,10 +4548,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4054,10 +4582,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4087,10 +4619,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4117,10 +4653,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4147,10 +4687,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4177,10 +4721,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4207,10 +4755,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4237,10 +4789,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4267,10 +4823,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4297,10 +4857,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4327,10 +4891,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4361,10 +4929,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4391,10 +4963,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4421,10 +4997,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4451,10 +5031,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4481,10 +5065,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4511,10 +5099,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4544,10 +5136,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4574,10 +5170,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4604,10 +5204,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4634,10 +5238,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4664,10 +5272,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4694,10 +5306,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4727,10 +5343,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4757,10 +5377,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4787,10 +5411,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4817,10 +5445,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4847,10 +5479,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4881,10 +5517,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4911,10 +5551,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4941,10 +5585,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -4971,10 +5619,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5001,10 +5653,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5031,10 +5687,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5063,10 +5723,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5093,10 +5757,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5123,10 +5791,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5153,10 +5825,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5183,14 +5859,18 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-171: Shift-DR - TDI 0 - TDO 0 - 7
+171: Shift-DR - TDI 00 - TDO 00 - 7
 
 Shift-DR: BYPASS
 
@@ -5218,10 +5898,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5248,10 +5932,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5278,10 +5966,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5308,10 +6000,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5338,10 +6034,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5368,14 +6068,18 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-177: Shift-IR - TDI e - TDO 155 - 10
+177: Shift-IR - TDI 00e - TDO 155 - 10
 
 Lower TDO value match! 155
 Update value: 3ff -> e
@@ -5400,10 +6104,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5430,10 +6138,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5460,10 +6172,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5490,10 +6206,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5520,17 +6240,24 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      Unknown
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-182: Shift-DR - TDI 0 - TDO 0 - 71
+182: Shift-DR - TDI 000000000000000000 - TDO 000000000000000000 - 71
 
-Shift-DR: USER1
+Shift-DR: USER1 - VIR
 
+Note: USER1 chain length: 0
+Upper TDO value match! 0
+Update value: 0 -> 0
 IR:
     length:      10
     read_only:   False
@@ -5552,10 +6279,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5582,10 +6313,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5612,10 +6347,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5642,10 +6381,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5672,10 +6415,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5702,14 +6449,18 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-188: Shift-IR - TDI c - TDO 155 - 10
+188: Shift-IR - TDI 00c - TDO 155 - 10
 
 Lower TDO value match! 155
 Update value: e -> c
@@ -5734,10 +6485,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5764,10 +6519,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5794,10 +6553,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5824,10 +6587,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5854,17 +6621,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-193: Shift-DR - TDI 0 - TDO 6 - 7
+193: Shift-DR - TDI 00 - TDO 06 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 6 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -5886,10 +6658,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5916,10 +6692,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5946,10 +6726,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -5976,10 +6760,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6006,17 +6794,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-198: Shift-DR - TDI 0 - TDO 0 - 7
+198: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -6038,10 +6831,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6068,10 +6865,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6098,10 +6899,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6128,10 +6933,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6158,17 +6967,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-203: Shift-DR - TDI 0 - TDO e - 7
+203: Shift-DR - TDI 00 - TDO 0e - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding e to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -6190,10 +7004,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6220,10 +7038,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6250,10 +7072,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6280,10 +7106,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6310,17 +7140,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-208: Shift-DR - TDI 0 - TDO 6 - 7
+208: Shift-DR - TDI 00 - TDO 06 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 6 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -6342,10 +7177,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6372,10 +7211,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6402,10 +7245,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6432,10 +7279,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6462,17 +7313,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-213: Shift-DR - TDI 0 - TDO 0 - 7
+213: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -6494,10 +7350,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6524,10 +7384,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6554,10 +7418,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6584,10 +7452,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6614,17 +7486,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-218: Shift-DR - TDI 0 - TDO 2 - 7
+218: Shift-DR - TDI 00 - TDO 02 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 2 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -6646,10 +7523,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6676,10 +7557,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6706,10 +7591,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6736,10 +7625,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6766,17 +7659,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-223: Shift-DR - TDI 0 - TDO 8 - 7
+223: Shift-DR - TDI 00 - TDO 08 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 8 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -6798,10 +7696,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6828,10 +7730,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6858,10 +7764,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6888,10 +7798,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6918,17 +7832,23 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-228: Shift-DR - TDI 0 - TDO 0 - 7
+228: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
+Note: new SLD hub : 08206e06: mfg id: 110, nr nodes: 4, hub rev: 1, m: 6
 IR:
     length:      10
     read_only:   False
@@ -6950,10 +7870,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -6980,10 +7904,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7010,10 +7938,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7040,10 +7972,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7070,17 +8006,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-233: Shift-DR - TDI 0 - TDO 0 - 7
+233: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -7102,10 +8043,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7132,10 +8077,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7162,10 +8111,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7192,10 +8145,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7222,17 +8179,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-238: Shift-DR - TDI 0 - TDO 0 - 7
+238: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -7254,10 +8216,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7284,10 +8250,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7314,10 +8284,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7344,10 +8318,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7374,17 +8352,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-243: Shift-DR - TDI 0 - TDO e - 7
+243: Shift-DR - TDI 00 - TDO 0e - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding e to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -7406,10 +8389,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7436,10 +8423,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7466,10 +8457,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7496,10 +8491,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7526,17 +8525,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-248: Shift-DR - TDI 0 - TDO 6 - 7
+248: Shift-DR - TDI 00 - TDO 06 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 6 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -7558,10 +8562,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7588,10 +8596,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7618,10 +8630,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7648,10 +8664,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7678,17 +8698,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-253: Shift-DR - TDI 0 - TDO 0 - 7
+253: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -7710,10 +8735,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7740,10 +8769,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7770,10 +8803,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7800,10 +8837,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7830,17 +8871,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-258: Shift-DR - TDI 0 - TDO 0 - 7
+258: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -7862,10 +8908,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7892,10 +8942,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7922,10 +8976,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7952,10 +9010,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -7982,17 +9044,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-263: Shift-DR - TDI 0 - TDO c - 7
+263: Shift-DR - TDI 00 - TDO 0c - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding c to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -8014,10 +9081,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8044,10 +9115,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8074,10 +9149,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8104,10 +9183,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8134,17 +9217,23 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-268: Shift-DR - TDI 0 - TDO 0 - 7
+268: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
+Note: new SLD item: 0c006e00: mfg id: 110, node id: 128, node rev: 1, inst id: 0
 IR:
     length:      10
     read_only:   False
@@ -8166,10 +9255,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8196,10 +9289,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8226,10 +9323,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8256,10 +9357,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8286,17 +9391,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-273: Shift-DR - TDI 0 - TDO 1 - 7
+273: Shift-DR - TDI 00 - TDO 01 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 1 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -8318,10 +9428,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8348,10 +9462,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8378,10 +9496,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8408,10 +9530,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8438,17 +9564,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-278: Shift-DR - TDI 0 - TDO 0 - 7
+278: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -8470,10 +9601,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8500,10 +9635,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8530,10 +9669,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8560,10 +9703,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8590,17 +9737,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-283: Shift-DR - TDI 0 - TDO e - 7
+283: Shift-DR - TDI 00 - TDO 0e - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding e to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -8622,10 +9774,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8652,10 +9808,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8682,10 +9842,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8712,10 +9876,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8742,17 +9910,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-288: Shift-DR - TDI 0 - TDO 6 - 7
+288: Shift-DR - TDI 00 - TDO 06 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 6 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -8774,10 +9947,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8804,10 +9981,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8834,10 +10015,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8864,10 +10049,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8894,17 +10083,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-293: Shift-DR - TDI 0 - TDO 0 - 7
+293: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -8926,10 +10120,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8956,10 +10154,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -8986,10 +10188,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9016,10 +10222,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9046,17 +10256,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-298: Shift-DR - TDI 0 - TDO 0 - 7
+298: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -9078,10 +10293,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9108,10 +10327,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9138,10 +10361,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9168,10 +10395,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9198,17 +10429,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-303: Shift-DR - TDI 0 - TDO c - 7
+303: Shift-DR - TDI 00 - TDO 0c - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding c to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -9230,10 +10466,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9260,10 +10500,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9290,10 +10534,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9320,10 +10568,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9350,17 +10602,23 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-308: Shift-DR - TDI 0 - TDO 0 - 7
+308: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
+Note: new SLD item: 0c006e01: mfg id: 110, node id: 128, node rev: 1, inst id: 1
 IR:
     length:      10
     read_only:   False
@@ -9382,10 +10640,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9412,10 +10674,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9442,10 +10708,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9472,10 +10742,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9502,17 +10776,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-313: Shift-DR - TDI 0 - TDO 2 - 7
+313: Shift-DR - TDI 00 - TDO 02 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 2 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -9534,10 +10813,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9564,10 +10847,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9594,10 +10881,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9624,10 +10915,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9654,17 +10949,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-318: Shift-DR - TDI 0 - TDO 0 - 7
+318: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -9686,10 +10986,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9716,10 +11020,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9746,10 +11054,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9776,10 +11088,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9806,17 +11122,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-323: Shift-DR - TDI 0 - TDO e - 7
+323: Shift-DR - TDI 00 - TDO 0e - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding e to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -9838,10 +11159,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9868,10 +11193,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9898,10 +11227,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9928,10 +11261,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -9958,17 +11295,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-328: Shift-DR - TDI 0 - TDO 6 - 7
+328: Shift-DR - TDI 00 - TDO 06 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 6 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -9990,10 +11332,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10020,10 +11366,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10050,10 +11400,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10080,10 +11434,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10110,17 +11468,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-333: Shift-DR - TDI 0 - TDO 0 - 7
+333: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -10142,10 +11505,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10172,10 +11539,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10202,10 +11573,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10232,10 +11607,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10262,17 +11641,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-338: Shift-DR - TDI 0 - TDO 0 - 7
+338: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -10294,10 +11678,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10324,10 +11712,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10354,10 +11746,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10384,10 +11780,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10414,17 +11814,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-343: Shift-DR - TDI 0 - TDO c - 7
+343: Shift-DR - TDI 00 - TDO 0c - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding c to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -10446,10 +11851,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10476,10 +11885,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10506,10 +11919,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10536,10 +11953,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10566,17 +11987,23 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-348: Shift-DR - TDI 0 - TDO 0 - 7
+348: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
+Note: new SLD item: 0c006e02: mfg id: 110, node id: 128, node rev: 1, inst id: 2
 IR:
     length:      10
     read_only:   False
@@ -10598,10 +12025,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10628,10 +12059,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10658,10 +12093,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10688,10 +12127,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10718,17 +12161,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-353: Shift-DR - TDI 0 - TDO 3 - 7
+353: Shift-DR - TDI 00 - TDO 03 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 3 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -10750,10 +12198,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10780,10 +12232,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10810,10 +12266,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10840,10 +12300,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10870,17 +12334,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-358: Shift-DR - TDI 0 - TDO 0 - 7
+358: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -10902,10 +12371,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10932,10 +12405,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10962,10 +12439,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -10992,10 +12473,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11022,17 +12507,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-363: Shift-DR - TDI 0 - TDO e - 7
+363: Shift-DR - TDI 00 - TDO 0e - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding e to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -11054,10 +12544,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11084,10 +12578,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11114,10 +12612,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11144,10 +12646,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11174,17 +12680,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-368: Shift-DR - TDI 0 - TDO 6 - 7
+368: Shift-DR - TDI 00 - TDO 06 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 6 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -11206,10 +12717,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11236,10 +12751,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11266,10 +12785,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11296,10 +12819,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11326,17 +12853,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-373: Shift-DR - TDI 0 - TDO 0 - 7
+373: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -11358,10 +12890,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11388,10 +12924,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11418,10 +12958,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11448,10 +12992,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11478,17 +13026,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-378: Shift-DR - TDI 0 - TDO 0 - 7
+378: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -11510,10 +13063,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11540,10 +13097,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11570,10 +13131,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11600,10 +13165,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11630,17 +13199,22 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-383: Shift-DR - TDI 0 - TDO c - 7
+383: Shift-DR - TDI 00 - TDO 0c - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding c to enumeration array.
 IR:
     length:      10
     read_only:   False
@@ -11662,10 +13236,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11692,10 +13270,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11722,10 +13304,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11752,10 +13338,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11782,17 +13372,23 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-388: Shift-DR - TDI 0 - TDO 0 - 7
+388: Shift-DR - TDI 00 - TDO 00 - 7
 
-Shift-DR: USER0
+Shift-DR: USER0 - VDR
 
+Note: adding 0 to enumeration array.
+Note: new SLD item: 0c006e03: mfg id: 110, node id: 128, node rev: 1, inst id: 3
 IR:
     length:      10
     read_only:   False
@@ -11814,10 +13410,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11844,10 +13444,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11874,10 +13478,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11904,10 +13512,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11934,10 +13546,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11964,10 +13580,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -11994,10 +13614,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12024,10 +13648,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12054,10 +13682,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12088,10 +13720,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12118,10 +13754,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12148,10 +13788,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12178,10 +13822,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12208,10 +13856,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12238,10 +13890,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12271,10 +13927,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12301,10 +13961,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12331,10 +13995,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12361,10 +14029,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12391,10 +14063,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12421,10 +14097,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12454,10 +14134,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12484,10 +14168,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12514,10 +14202,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12544,10 +14236,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12574,10 +14270,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12608,10 +14308,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12638,10 +14342,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12668,10 +14376,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12698,10 +14410,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12728,10 +14444,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12758,10 +14478,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12790,10 +14514,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12820,10 +14548,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12850,10 +14582,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12880,10 +14616,14 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12910,14 +14650,18 @@ BYPASS:
     value:       1
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
-425: Shift-DR - TDI 0 - TDO 0 - 7
+425: Shift-DR - TDI 00 - TDO 00 - 7
 
 Shift-DR: BYPASS
 
@@ -12945,10 +14689,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -12975,10 +14723,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13005,10 +14757,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13035,10 +14791,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13065,10 +14825,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13095,10 +14859,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13128,10 +14896,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13158,10 +14930,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13188,10 +14964,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13218,10 +14998,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 ============================================================
@@ -13248,10 +15032,14 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
 IR:
@@ -13275,9 +15063,13 @@ BYPASS:
     value:       0
 
 IR code: c
-USER0:
+USER0 - VDR:
 
 IR code: e
-USER1:
+USER1 - VIR:
+    length:      0
+    read_only:   False
+    reset:       0
+    value:       0
 
 
