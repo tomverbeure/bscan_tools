@@ -20,9 +20,6 @@ class ScanChain:
         return s
 
 
-
-
-
 class FixedLengthScanChain(ScanChain):
 
     def __init__(self, name, length, reset_value = None, read_only = False):

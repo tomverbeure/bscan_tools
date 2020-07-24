@@ -3437,6 +3437,8 @@ Shift-DR: USER0 - VDR
 
 Note: adding 0 to enumeration array.
 Note: new SLD hub : 08206e06: mfg id: 110, nr nodes: 4, hub rev: 1, m: 6
+Note: VIR length = n(3) + m(6) = 9
+Note: previous VIR chain length (9) matches new length.
 IR:
     length:      10
     read_only:   False
@@ -9357,6 +9359,8 @@ Shift-DR: USER1 - VIR
 
 Upper TDO value match! 0
 Update value: 0 -> c1
+Note: VIR addr = 3, VIR value = 1
+      mfg id: 110, node id: 128, rev id: 1, inst id: 2
 IR:
     length:      10
     read_only:   False
@@ -10116,6 +10120,8 @@ Shift-DR: USER1 - VIR
 Lower TDO value match! c1
 Upper TDO value match! 0
 Update value: c1 -> c0
+Note: VIR addr = 3, VIR value = 0
+      mfg id: 110, node id: 128, rev id: 1, inst id: 2
 IR:
     length:      10
     read_only:   False

@@ -1,5 +1,6 @@
 
 import collections
+import math
 
 from scan_chain import *
 from jtag import *
@@ -61,7 +62,19 @@ class SLDNode:
 
     def __init__(self):
 
+        self.mfg_id         = 100
+        self.node_id        = None
+        self.rev            = None
+        self.inst_id        = None
+
         pass
+
+    def __str__(self):
+
+        s = ""
+        s += "mfg id: %d, node id: %d, rev id: %d, inst id: %d" % (self.mfg_id, self.node_id, self.rev, self.inst_id)
+
+        return s
 
     pass
 
@@ -79,10 +92,19 @@ class SLDModel:
 
         pass
 
+    def vir_addr(self):
+        return self.vir_chain.value >> self.m_bits
+
+    def vir_value(self):
+        return self.vir_chain.value & ((1<<self.m_bits)-1)
+
     def update_vir(self):
 
         if self.vir_chain.value == 0:
             self.enumeration_idx = 0
+        else:
+            print("Note: VIR addr = %x, VIR value = %x" % (self.vir_addr(), self.vir_value()))
+            print("      %s" % self.sld_nodes[self.vir_addr()-1])
 
         pass
 
@@ -116,8 +138,18 @@ class SLDModel:
                         self.hub_mfg_id     = (enum_id >> 8)  & 0xff
                         self.hub_num_nodes  = (enum_id >> 19) & 0xff
                         self.hub_rev        = (enum_id >> 27) & 0x1f
-
+                        self.n_bits         = math.ceil(math.log2(self.hub_num_nodes+1)) 
                         print("Note: new SLD hub : %08x: mfg id: %d, nr nodes: %d, hub rev: %d, m: %d" % (enum_id, self.hub_mfg_id, self.hub_num_nodes, self.hub_rev, self.m_bits))
+                        print("Note: VIR length = n(%d) + m(%d) = %d" % ( self.n_bits, self.m_bits, self.n_bits + self.m_bits))
+
+                        new_vir_chain_length = self.m_bits + self.n_bits
+
+                        if self.vir_chain.length != new_vir_chain_length:
+                            print("Error: previous VIR chain length (%d) was wrong." % self.vir_chain.length)
+                        else:
+                            print("Note: previous VIR chain length (%d) matches new length." % self.vir_chain.length)
+
+                        self.vir_chain.length = self.m_bits + self.n_bits
 
                     else:
                         sld_node = SLDNode()
@@ -133,10 +165,6 @@ class SLDModel:
 
 
         pass
-
-    def n_bits(self):
-
-        return self.hub_num_ndes
 
     def __str__():
         

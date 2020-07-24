@@ -3505,7 +3505,9 @@ USER1 - VIR:
 Shift-DR: USER0 - VDR
 
 Note: adding 0 to enumeration array.
-Note: new SLD hub : 08186e05: group: 110, nr items: 3, rev: 1, count: 5
+Note: new SLD hub : 08186e05: mfg id: 110, nr nodes: 3, hub rev: 1, m: 5
+Note: VIR length = n(2) + m(5) = 7
+Note: previous VIR chain length (7) matches new length.
 IR:
     length:      10
     read_only:   False
@@ -4890,7 +4892,7 @@ USER1 - VIR:
 Shift-DR: USER0 - VDR
 
 Note: adding 0 to enumeration array.
-Note: new SLD item: 0c006e00: group: 110, class: 128, rev: 1, count: 0
+Note: new SLD item: 0c006e00: mfg id: 110, node id: 128, node rev: 1, inst id: 0
 IR:
     length:      10
     read_only:   False
@@ -6275,7 +6277,7 @@ USER1 - VIR:
 Shift-DR: USER0 - VDR
 
 Note: adding 0 to enumeration array.
-Note: new SLD item: 0c006e01: group: 110, class: 128, rev: 1, count: 1
+Note: new SLD item: 0c006e01: mfg id: 110, node id: 128, node rev: 1, inst id: 1
 IR:
     length:      10
     read_only:   False
@@ -7660,7 +7662,7 @@ USER1 - VIR:
 Shift-DR: USER0 - VDR
 
 Note: adding 0 to enumeration array.
-Note: new SLD item: 0c006e02: group: 110, class: 128, rev: 1, count: 2
+Note: new SLD item: 0c006e02: mfg id: 110, node id: 128, node rev: 1, inst id: 2
 IR:
     length:      10
     read_only:   False
@@ -8040,6 +8042,8 @@ USER1 - VIR:
 Shift-DR: USER1 - VIR
 
 Update value: 0 -> 61
+Note: VIR addr = 3, VIR value = 1
+      mfg id: 110, node id: 128, rev id: 1, inst id: 2
 IR:
     length:      10
     read_only:   False
@@ -8798,6 +8802,8 @@ Shift-DR: USER1 - VIR
 
 Unexpected lower TDO value: 21 (act) != 61 (exp)
 Update value: 61 -> 60
+Note: VIR addr = 3, VIR value = 0
+      mfg id: 110, node id: 128, rev id: 1, inst id: 2
 IR:
     length:      10
     read_only:   False

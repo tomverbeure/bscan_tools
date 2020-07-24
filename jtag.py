@@ -77,7 +77,6 @@ class JtagTransaction:
 
         pass
 
-
     def __str__(self):
 
         s = ""
