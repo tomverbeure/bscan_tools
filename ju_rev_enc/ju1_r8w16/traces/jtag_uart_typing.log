@@ -5271,7 +5271,7 @@ Shift-DR: USER1 - VIR
 Upper TDO value match! 0
 Update value: 0 -> 11
 Note: VIR addr = 1, VIR value = 1
-      mfg id: 110, node id: 128, rev id: 1, inst id: 0
+      mfg id: 110, node id: 128, rev id: 1, inst id: 0 (JTAG UART)
 IR:
     length:      10
     read_only:   False
@@ -6032,7 +6032,7 @@ Unexpected lower TDO value: 1 (act) != 11 (exp)
 Upper TDO value match! 0
 Update value: 11 -> 10
 Note: VIR addr = 1, VIR value = 0
-      mfg id: 110, node id: 128, rev id: 1, inst id: 0
+      mfg id: 110, node id: 128, rev id: 1, inst id: 0 (JTAG UART)
 IR:
     length:      10
     read_only:   False

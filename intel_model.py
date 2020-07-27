@@ -60,6 +60,12 @@ class Chip:
 
 class SLDNode:
 
+    KNOWN_SLDs = {
+        110*256 +   0 : "SLD HUB",
+        110*256 + 128 : "JTAG UART",
+        110*256 +   9 : "Signaltap",
+    }
+
     def __init__(self):
 
         self.mfg_id         = 100
@@ -71,8 +77,15 @@ class SLDNode:
 
     def __str__(self):
 
+
         s = ""
         s += "mfg id: %d, node id: %d, rev id: %d, inst id: %d" % (self.mfg_id, self.node_id, self.rev, self.inst_id)
+
+        key = self.mfg_id * 256 + self.node_id
+        if key in SLDNode.KNOWN_SLDs:
+            s += " (%s)" % SLDNode.KNOWN_SLDs[key]
+        else:
+            s += " (<Unknown>)"
 
         return s
 

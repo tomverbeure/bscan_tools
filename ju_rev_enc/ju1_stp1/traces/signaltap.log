@@ -6337,7 +6337,7 @@ Shift-DR: USER1 - VIR
 Upper TDO value match! 0
 Update value: 0 -> 220
 Note: VIR addr = 2, VIR value = 20
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -8302,7 +8302,7 @@ Unexpected lower TDO value: 20 (act) != 220 (exp)
 Upper TDO value match! 0
 Update value: 220 -> 240
 Note: VIR addr = 2, VIR value = 40
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -9063,7 +9063,7 @@ Unexpected lower TDO value: 40 (act) != 240 (exp)
 Upper TDO value match! 0
 Update value: 240 -> 201
 Note: VIR addr = 2, VIR value = 1
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -9240,7 +9240,7 @@ Unexpected lower TDO value: 1 (act) != 201 (exp)
 Upper TDO value match! 0
 Update value: 201 -> 208
 Note: VIR addr = 2, VIR value = 8
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -10001,7 +10001,7 @@ Unexpected lower TDO value: 8 (act) != 208 (exp)
 Upper TDO value match! 0
 Update value: 208 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -10762,7 +10762,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -11523,7 +11523,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -12284,7 +12284,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -13045,7 +13045,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -13806,7 +13806,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -14567,7 +14567,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -15328,7 +15328,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -16089,7 +16089,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -16850,7 +16850,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -17818,7 +17818,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -18579,7 +18579,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -19340,7 +19340,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -20101,7 +20101,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 202
 Note: VIR addr = 2, VIR value = 2
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -20278,7 +20278,7 @@ Unexpected lower TDO value: 2 (act) != 202 (exp)
 Upper TDO value match! 0
 Update value: 202 -> 204
 Note: VIR addr = 2, VIR value = 4
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -20455,7 +20455,7 @@ Unexpected lower TDO value: 4 (act) != 204 (exp)
 Upper TDO value match! 0
 Update value: 204 -> 210
 Note: VIR addr = 2, VIR value = 10
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -21216,7 +21216,7 @@ Unexpected lower TDO value: 10 (act) != 210 (exp)
 Upper TDO value match! 0
 Update value: 210 -> 280
 Note: VIR addr = 2, VIR value = 80
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False
@@ -27969,7 +27969,7 @@ Shift-DR: USER1 - VIR
 Upper TDO value match! 0
 Update value: 0 -> 220
 Note: VIR addr = 2, VIR value = 20
-      mfg id: 110, node id: 0, rev id: 6, inst id: 0
+      mfg id: 110, node id: 0, rev id: 6, inst id: 0 (SLD HUB)
 IR:
     length:      10
     read_only:   False

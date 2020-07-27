@@ -7928,7 +7928,7 @@ Shift-DR: USER1 - VIR
 
 Update value: 0 -> 41
 Note: VIR addr = 2, VIR value = 1
-      mfg id: 110, node id: 128, rev id: 1, inst id: 1
+      mfg id: 110, node id: 128, rev id: 1, inst id: 1 (JTAG UART)
 IR:
     length:      10
     read_only:   False
@@ -8688,7 +8688,7 @@ Shift-DR: USER1 - VIR
 Unexpected lower TDO value: 1 (act) != 41 (exp)
 Update value: 41 -> 40
 Note: VIR addr = 2, VIR value = 0
-      mfg id: 110, node id: 128, rev id: 1, inst id: 1
+      mfg id: 110, node id: 128, rev id: 1, inst id: 1 (JTAG UART)
 IR:
     length:      10
     read_only:   False
