@@ -73,6 +73,13 @@ class SLDNode:
         self.rev            = None
         self.inst_id        = None
 
+        self.ir_chain       = IrScanChain(None, None, None)
+        self.dr_chains      = collections.OrderedDict()
+
+        pass
+
+    def shift_dr(self, value):
+
         pass
 
     def __str__(self):
@@ -90,6 +97,17 @@ class SLDNode:
         return s
 
     pass
+
+class JtagUart(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        self.ir_chain       = IrScanChain(1, None, None)
+        self.dr_chains[1]   = FixedLengthScanChain("Config", length = 15, reset_value = None, read_only = True)
+
+        pass
+
 
 class SLDModel:
 
@@ -176,6 +194,8 @@ class SLDModel:
 
                         print("Note: new SLD item: %08x: mfg id: %d, node id: %d, node rev: %d, inst id: %d" % (enum_id, sld_node.mfg_id, sld_node.node_id, sld_node.rev, sld_node.inst_id))
 
+        else:
+            self.sld_nodes[self.vir_addr()-1].shift_dr(self.vir_value())
 
         pass
 

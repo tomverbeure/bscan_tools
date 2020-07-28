@@ -78,7 +78,36 @@ signaltap: 110:0 v6
           v6        0      0?
 
 
-After SLD enumeration:
+
+# JTAG UART Config chain:
+
+## ju4
+
+ju4-0: 281: Shift-DR - TDI 0000 - TDO 00a9 - 15 - 0000_000|0_101|0_100|1 - r32,w16  - 2^5,  2^4
+ju4-1: 281: Shift-DR - TDI 0000 - TDO 00c6 - 15 - 0000_000|0_110|0_011|0 - r64,w8   - 2^6,  2^3
+ju4-2: 281: Shift-DR - TDI 0000 - TDO 006a - 15 - 0000_000|0_011|0_101|0 - r8,w32   - 2^3  ,2^5
+ju4-3: 281: Shift-DR - TDI 0000 - TDO 0166 - 15 - 0000_000|1_011|0_011|0 - r2048,w8 - 2^11, 2^3
+
+Progress: Adding jtag_uart_w16_r32 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w16_r32
+Progress: Adding jtag_uart_w8_r64 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r64
+Progress: Adding jtag_uart_w32_r8 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w32_r8
+Progress: Adding jtag_uart_w8_r2048 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r2048
+
+## ju1_sp1
+
+ju1_sp1/traces/jtag_uart_i0.log:201: Shift-DR - TDI 0000 - TDO 0067 - 15 - 0000_000|0_011|0_011|1 - r8,w8 - 2^3,2^3
+
+Progress: Adding jtag_uart_w8_r8 [altera_avalon_jtag_uart 13.0.1.99.2]
+Progress: Parameterizing module jtag_uart_w8_r8
+
+## ju1_stp1
+
+ju1_stp1/traces/jtag_uart_i0.log:201: Shift-DR - TDI 0000 - TDO 0069 - 15 - 0000_000|0_011|0_100|1 - r8,w16 - 2^3,2^4
+
 
 
 
