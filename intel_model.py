@@ -58,17 +58,16 @@ class Chip:
 
         return s
 
+
+# Generic System Level Debugging node.
+# Each SLD node has its own IR and, optionally, a bunch of DR
 class SLDNode:
 
-    KNOWN_SLDs = {
-        110*256 +   0 : "SLD HUB",
-        110*256 + 128 : "JTAG UART",
-        110*256 +   9 : "Signaltap",
-    }
+    KNOWN_SLDs = { }
 
     def __init__(self):
 
-        self.mfg_id         = 100
+        self.mfg_id         = 100               # Intel/Altera
         self.node_id        = None
         self.rev            = None
         self.inst_id        = None
@@ -78,12 +77,26 @@ class SLDNode:
 
         pass
 
-    def shift_dr(self, value):
+    def name(self):
+        return "<Unknown SLD Node>"
 
+    def update_vir(self, value):
+
+        self.ir_chain.value = value
         pass
 
-    def __str__(self):
+    def shift_dr(self, value):
+        pass
 
+    def factory(mfg_id, node_id):
+        id = mfg_id * 256 + node_id
+
+        if id in SLDNode.KNOWN_SLDs:
+            return SLDNode.KNOWN_SLDs[id]()
+
+        return SLDNode()
+
+    def __str__(self):
 
         s = ""
         s += "mfg id: %d, node id: %d, rev id: %d, inst id: %d" % (self.mfg_id, self.node_id, self.rev, self.inst_id)
@@ -94,20 +107,45 @@ class SLDNode:
         else:
             s += " (<Unknown>)"
 
+        s += ", VIR: %x" % self.ir_chain.value
+
+        for ir_code, dr in self.dr_chains.items():
+            s += "IR code: %x\n" % ir_code
+            s += dr.__str__()
+            s += "\n"
+
         return s
 
     pass
+
+class SLDHub:
+
+    def name(self):
+        return "SLD Hub"
+
+SLDNode.KNOWN_SLDs[110*256 +   0] = SLDHub
+
+class SignalTap(SLDNode):
+
+    def name(self):
+        return "SignalTap"
+
+SLDNode.KNOWN_SLDs[110*256 +   9] = SignalTap
 
 class JtagUart(SLDNode):
 
     def __init__(self):
         super().__init__()
 
-        self.ir_chain       = IrScanChain(1, None, None)
+        self.ir_chain.length = 1
         self.dr_chains[1]   = FixedLengthScanChain("Config", length = 15, reset_value = None, read_only = True)
 
         pass
 
+    def name(self):
+        return "JTAG UART"
+
+SLDNode.KNOWN_SLDs[110*256 + 128] = JtagUart
 
 class SLDModel:
 
@@ -116,10 +154,14 @@ class SLDModel:
         self.vdr_chain = vdr_chain
         self.vir_chain = vir_chain
 
+        # During enumeration, there are 8 7-bit values shifted out from the DR register.
+        # We record them as we go and store them in enumeration_array.
+        # When we reach the 8th value, we can decode these 8 values and determine what kind of SLD node
+        # has been discovered.
         self.enumeration_idx = 0
         self.enumeration_array = []
 
-        self.sld_nodes = []
+        self.sld_nodes = collections.OrderedDict()
 
         pass
 
@@ -135,13 +177,16 @@ class SLDModel:
             self.enumeration_idx = 0
         else:
             print("Note: VIR addr = %x, VIR value = %x" % (self.vir_addr(), self.vir_value()))
-            print("      %s" % self.sld_nodes[self.vir_addr()-1])
+            sld_node = self.sld_nodes[self.vir_addr()]
+            print("      %s" % sld_node.name())
 
+            self.sld_nodes[self.vir_addr()].update_vir(self.vir_value())
         pass
 
     def shift_dr(self, trans):
 
         if self.vir_chain.value == 0:
+            # When VIR is set to 0, the host can scan out the enumeration values.
 
             if trans.tdo_length != 7:
                 print("Error: unexpected SLD enumeration chain length: %d (act) != %d (exp)" % (trans.tdo_length, 7))
@@ -160,11 +205,14 @@ class SLDModel:
                 print("Note: adding %x to enumeration array." % trans.tdo_value)
 
                 if (self.enumeration_idx % 8) == 0:
+                    # There are 8 shifts per SLD item.
+
                     enum_id = 0
                     for i in range(0,8):
                         enum_id += (self.enumeration_array[self.enumeration_idx-8+i] & 0xf) << (i * 4)
 
                     if self.enumeration_idx == 8:
+                        # The first 8 enumeration shifts are to define the SLD hub info
                         self.m_bits         =  enum_id        & 0xff
                         self.hub_mfg_id     = (enum_id >> 8)  & 0xff
                         self.hub_num_nodes  = (enum_id >> 19) & 0xff
@@ -183,19 +231,24 @@ class SLDModel:
                         self.vir_chain.length = self.m_bits + self.n_bits
 
                     else:
-                        sld_node = SLDNode()
+                        inst_id    =  enum_id        & 0xff
+                        mfg_id     = (enum_id >> 8)  & 0xff
+                        node_id    = (enum_id >> 19) & 0xff
+                        rev        = (enum_id >> 27) & 0x1f
+
+                        sld_node = SLDNode.factory(mfg_id, node_id)
 
                         sld_node.inst_id    =  enum_id        & 0xff
                         sld_node.mfg_id     = (enum_id >> 8)  & 0xff
                         sld_node.node_id    = (enum_id >> 19) & 0xff
                         sld_node.rev        = (enum_id >> 27) & 0x1f
 
-                        self.sld_nodes.append(sld_node)
+                        self.sld_nodes[len(self.sld_nodes)+1] = sld_node
 
                         print("Note: new SLD item: %08x: mfg id: %d, node id: %d, node rev: %d, inst id: %d" % (enum_id, sld_node.mfg_id, sld_node.node_id, sld_node.rev, sld_node.inst_id))
 
         else:
-            self.sld_nodes[self.vir_addr()-1].shift_dr(self.vir_value())
+            self.sld_nodes[self.vir_addr()].shift_dr(self.vir_value())
 
         pass
 
