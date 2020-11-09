@@ -3,35 +3,23 @@
 import json
 import fileinput
 import sys
-import getopt
+import argparse
 
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
-#============================================================
 
-def usage():
-    sys.stderr.write(f"Usage: {sys.argv[0]} [options] <BSDL file> <file with boundary scan dump HEX values>\n")
-    sys.stderr.write(f"    -r , --rename <file>                  : file with port name renamings\n")
+parser = argparse.ArgumentParser(description="Parse and visualize openocd's BSCAN data.")
+parser.add_argument('bsdl_file', nargs=1, help='Path to BSDL file.')
+parser.add_argument('oocd_hex_dump', nargs='+', help='File with boundary scan dump HEX values.')
+parser.add_argument('-r', '--rename', default=None, help='File with port name renamings')
+args = parser.parse_args()
 
+rename_filename = args.rename
+bsdl_file = args.bsdl_file[0]
+oocd_hex_dump_files = args.oocd_hex_dump
 
-try:
-    opts, argv = getopt.getopt(sys.argv[1:], "r:", ["rename="])
-except getopt.GetoptError as err:
-    print(err)
-    usage()
-    sys.exit(2)
-
-rename_filename = None
-
-for o, a in opts:
-    if o in ("-r", "--rename"):
-        rename_filename = a
-
-if len(argv) < 2:
-    usage()
-    sys.exit(2)
 
 #============================================================
 
@@ -50,8 +38,6 @@ all_ports = {}
 all_bregs_list = []
 
 # Merge all BSDL port and pin data into 1 struct
-
-bsdl_file = argv.pop(0)
 
 with open(bsdl_file) as json_file:
     data = json.load(json_file)
@@ -88,7 +74,7 @@ with open(bsdl_file) as json_file:
     #print(json.dumps(data, indent=4))
 
 
-for filename in argv:
+for filename in oocd_hex_dump_files:
 
     for line in open(filename).readlines():
         line = line.strip()
