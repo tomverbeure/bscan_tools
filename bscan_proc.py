@@ -7,6 +7,8 @@ import argparse
 import os
 import subprocess
 import logging
+import appdirs
+ 
 
 import pprint
 
@@ -21,7 +23,7 @@ parser = argparse.ArgumentParser(description="Parse and visualize openocd's BSCA
 parser.add_argument('bsdl_file', nargs=1, help='Path to BSDL file.')
 parser.add_argument('oocd_hex_dump', nargs='+', help='File with boundary scan dump HEX values.')
 parser.add_argument('-r', '--rename', default=None, help='File with port name renamings')
-parser.add_argument('--bsdl-cache', default='.bsdl_cache/', help='Path to store parsed bsdl-files.')
+parser.add_argument('--bsdl-cache', default=None, help='Path to store parsed bsdl-files.')
 args = parser.parse_args()
 
 rename_filename = args.rename
@@ -55,11 +57,14 @@ except json.decoder.JSONDecodeError:
     # bsdl_file is an original BSDL file. Let's find in the cache:
     logging.info(f"{bsdl_file} is not a json file... Lets's find in the cache")
     bname = os.path.basename(bsdl_file)
+    cachedir = appdirs.user_cache_dir("bscan_proc") 
+    if args.bsdl_cache:
+        cachedir = args.bsdl_cache
     try:
-        os.mkdir(args.bsdl_cache)
+        os.mkdir(cachedir)
     except FileExistsError:
-        pass 
-    cached_bsdl_json_file = os.path.abspath(os.path.join(args.bsdl_cache, f'{bname}.json'))
+        pass
+    cached_bsdl_json_file = os.path.abspath(os.path.join(cachedir, f'{bname}.json'))
     if not os.path.isfile(cached_bsdl_json_file):
         logging.info(f"{cached_bsdl_json_file} not found in cache... Lets's parse original.")
         # This original BSDL file has not been parsed yet...
