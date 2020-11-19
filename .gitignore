@@ -3,3 +3,6 @@ EP1AGX90EF1152.json
 .*.swp
 
 .bsdl_cache/*
+
+.env/*
+.vscode/*
