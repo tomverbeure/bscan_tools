@@ -13,7 +13,7 @@ import appdirs
 import pprint
 
 logging.basicConfig()
-logging.getLogger().setLevel(logging.DEBUG)
+logging.getLogger().setLevel(logging.INFO)
 
 
 pp = pprint.PrettyPrinter(indent=4)
@@ -77,7 +77,23 @@ except json.decoder.JSONDecodeError:
         logging.info(f"{cached_bsdl_json_file} json has found in the cace.")
         data = json.load(json_file)
 
-    
+#
+# Fetch IDCODE, instruction length, and instruction opcodes.
+#
+
+# Based on https://stackoverflow.com/a/3495395/2506522
+data['optional_register_description'] = {k: v for d in data['optional_register_description'] for k, v in d.items()}
+id_code = data['optional_register_description']['idcode_register']
+logging.debug(f'IDCODE: {id_code}')
+ir_length = data['instruction_register_description']['instruction_length']
+logging.debug(f'IRLENGTH: {ir_length}')
+data['instruction_register_description']['instruction_opcodes'] = {d['instruction_name']: ''.join(d['opcode_list']) for d in data['instruction_register_description']['instruction_opcodes']}
+instruction_opcodes = data['instruction_register_description']['instruction_opcodes']
+
+logging.debug('OPCODES:')
+for instr, opcode in instruction_opcodes.items():
+    logging.debug(f'  {instr}: {opcode}')
+
 for log_port_segment in data["logical_port_description"]:
     for port_name in log_port_segment["identifier_list"]:
         all_ports[port_name] = {
