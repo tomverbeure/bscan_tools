@@ -8,6 +8,7 @@ import os
 import subprocess
 import logging
 import appdirs
+import bsdl_parser.bsdl2json
  
 
 import pprint
@@ -68,11 +69,11 @@ except json.decoder.JSONDecodeError:
     if not os.path.isfile(cached_bsdl_json_file):
         logging.info(f"{cached_bsdl_json_file} not found in cache... Lets's parse original.")
         # This original BSDL file has not been parsed yet...
-        cmdlist = ['bsdl2json', bsdl_file, '-o', cached_bsdl_json_file]
+        cmdlist = ['python3', bsdl_parser.bsdl2json.__file__, bsdl_file, '-o', cached_bsdl_json_file]
         logging.info(f"{' '.join(cmdlist)} From: '../python-bsdl-parser'")
-        p = subprocess.Popen(cmdlist, cwd='../python-bsdl-parser')
+        p = subprocess.Popen(cmdlist)
         p.wait()
-        
+
     with open(cached_bsdl_json_file) as json_file:
         logging.info(f"{cached_bsdl_json_file} json has found in the cace.")
         data = json.load(json_file)
