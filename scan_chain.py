@@ -97,7 +97,10 @@ class FixedLengthScanChain(ScanChain):
         if self.value is None:
             s += indent_str + "value:       Unknown\n"
         else:
-            s += indent_str + "value:       0x%x\n" % self.value
+            if (self.value != -1):
+                s += indent_str + "value:       0x%x\n" % self.value
+            else:
+                s += indent_str + "value:       Unknown\n"
 
         return s
 

@@ -6,21 +6,21 @@ IR chain:
     length:      10
     read_only:   False
     reset:       0x6
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
     reset:       0x20b10dd
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -30,7 +30,7 @@ DR chain (IR code: 0xe):
     length:      Unknown
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 
 ============================================================
@@ -41,21 +41,21 @@ IR chain:
     length:      10
     read_only:   False
     reset:       0x6
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
     reset:       0x20b10dd
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -65,7 +65,7 @@ DR chain (IR code: 0xe):
     length:      Unknown
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 
 ============================================================
@@ -76,21 +76,21 @@ IR chain:
     length:      10
     read_only:   False
     reset:       0x6
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
     reset:       0x20b10dd
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -100,7 +100,7 @@ DR chain (IR code: 0xe):
     length:      Unknown
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 
 ============================================================
@@ -6520,5 +6520,5 @@ Shift-DR: USER1 - VIR
 Upper TDO value match! 0x0
 Update value: 0x0 -> 0x220
 Note: VIR addr = 0x2, VIR value = 0x20
-      <intel_model.SLDHub object at 0x10e2b7350>
+      <intel_model.SLDHub object at 0x1066023d0>
       SLD Hub

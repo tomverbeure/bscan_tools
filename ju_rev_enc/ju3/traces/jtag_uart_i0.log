@@ -6,21 +6,21 @@ IR chain:
     length:      10
     read_only:   False
     reset:       0x6
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
     reset:       0x20b10dd
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -30,7 +30,7 @@ DR chain (IR code: 0xe):
     length:      Unknown
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 
 ============================================================
@@ -41,21 +41,21 @@ IR chain:
     length:      10
     read_only:   False
     reset:       0x6
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
     reset:       0x20b10dd
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -65,7 +65,7 @@ DR chain (IR code: 0xe):
     length:      Unknown
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 
 ============================================================
@@ -76,21 +76,21 @@ IR chain:
     length:      10
     read_only:   False
     reset:       0x6
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
     reset:       0x20b10dd
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -100,7 +100,7 @@ DR chain (IR code: 0xe):
     length:      Unknown
     read_only:   False
     reset:       0x0
-    value:       0x-1
+    value:       Unknown
 
 
 ============================================================
@@ -8164,7 +8164,7 @@ name:        Config
 length:      15
 read_only:   True
 reset:       Unknown
-value:       0x-1
+value:       Unknown
 
 
       JTAG UART
@@ -8956,7 +8956,7 @@ name:        Config
 length:      15
 read_only:   True
 reset:       Unknown
-value:       0x-1
+value:       Unknown
 
 
       JTAG UART
