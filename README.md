@@ -36,11 +36,12 @@ from the [Intel website](https://www.intel.com/content/www/us/en/programmable/su
 
 * Install requirements by 
 
-    `python -m pip install -r requirements.txt`
+    `python3 -m pip install -r requirements.txt`
 
 * Create an OpenOCD file that describes the JTAG chain of the PCB.
 
-    The Comtech AHA363PCIE0301G board that I'm using has a relatively complex chain with 4 devices.
+    The [Comtech AHA363PCIE0301G board](https://tomverbeure.github.io/2020/06/14/AHA363-Reverse-Engineering.html)
+	that I'm using has a relatively complex chain with 4 devices.
 
 `./example/aha363.tcl`:
 
@@ -50,6 +51,11 @@ jtag newtap AHA6310B_1          tap -irlen 5 -expected-id 0x10e1b291
 jtag newtap EP1AGX90EF1152C6N   tap -irlen 10 -expected-id 0x021230dd
 jtag newtap EPM570              tap -irlen 10 -expected-id 0x020a20dd
 ```
+
+The `-expected-id` parameter specifies the JTAG IDCODE of the chips in the JTAG scan chain.
+OpenOCD can figure out those values for you with an autoscan. For well documented chips (such
+as Intel FPGAs and CPLDs), you can also find these values in their development documentation
+or in their BDSL files.
 
 * Create an OpenOCD file that prints the boundary scan register contents:
 
@@ -110,7 +116,13 @@ Open On-Chip Debugger
 ./bscan_proc.py EP1AGX90EF1152.bsdl bscan_values.txt > pin_report.txt
 ```
 
-The result will look like this:
+*If the parsed `EP1AGX90EF1152.bsdl` wasn't already in the local cache 
+(located in `~/.cache/bscan_proc` by default), `bscan_proc.py` will also
+create a `EP1AGX90EF1152_dev.tcl` with a number of useful constants
+that can be used by OpenOCD.*
+
+The `pin_report.txt` file will look like this:
+
 ```
 ...
 AJ16  (IOAJ16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
@@ -212,3 +224,4 @@ AJ19  (CLK100)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1
 * Link the script directly with OpenOCD through its TCL interface for interactive debugging
 * Create OpenOCD scripts to change the value of the boundary scan register
 * ...
+
