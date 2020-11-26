@@ -4,3 +4,8 @@ EP1AGX90EF1152.json
 __pycache__/
 *.bak
 .qsys_edit/
+
+.bsdl_cache/*
+
+.env/*
+.vscode/*

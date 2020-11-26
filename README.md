@@ -34,29 +34,34 @@ from the [Intel website](https://www.intel.com/content/www/us/en/programmable/su
 
     This will give you a file called `EP1AGX90EF1152.BSD`.
 
+* Install requirements by 
 
-* Convert the BSDL file to a JSON format with Cyrozap's awesome [bsdl2json converter](https://github.com/cyrozap/python-bsdl-parser).
-
-    `../python-bsdl-parser/bsdl2json.py EP1AGX90EF1152.BSD > EP1AGX90EF1152.json`
+    `python3 -m pip install -r requirements.txt`
 
 * Create an OpenOCD file that describes the JTAG chain of the PCB.
 
-    The Comtech AHA363PCIE0301G board that I'm using has a relatively complex chain with 4 devices.
+    The [Comtech AHA363PCIE0301G board](https://tomverbeure.github.io/2020/06/14/AHA363-Reverse-Engineering.html)
+	that I'm using has a relatively complex chain with 4 devices.
 
 `./example/aha363.tcl`:
 
-```
+```tcl
 jtag newtap AHA6310B_0          tap -irlen 5 -expected-id 0x10e1b291
 jtag newtap AHA6310B_1          tap -irlen 5 -expected-id 0x10e1b291
 jtag newtap EP1AGX90EF1152C6N   tap -irlen 10 -expected-id 0x021230dd
 jtag newtap EPM570              tap -irlen 10 -expected-id 0x020a20dd
 ```
 
+The `-expected-id` parameter specifies the JTAG IDCODE of the chips in the JTAG scan chain.
+OpenOCD can figure out those values for you with an autoscan. For well documented chips (such
+as Intel FPGAs and CPLDs), you can also find these values in their development documentation
+or in their BDSL files.
+
 * Create an OpenOCD file that prints the boundary scan register contents:
 
 `./example/bscan_dump.tcl`:
 
-```
+```tcl
 set BSCAN_SAMPLE    0x005
 set BSCAN_LEN       2016
 
@@ -68,7 +73,7 @@ drscan EP1AGX90EF1152C6N.tap $BSCAN_LEN 0
 
 * Using OpenOCD, connect to the chip:
 
-```
+```console
 tom@thinkcenter:~/projects/bscan_tools/example$ sudo /opt/openocd/bin/openocd -f /opt/openocd/share/openocd/scripts/interface/altera-usb-blaster.cfg -f ./aha363.tcl
 
 Open On-Chip Debugger 0.10.0+dev-00930-g09eb941 (2019-09-16-21:01)
@@ -89,7 +94,7 @@ Warn : gdb services need one or more targets defined
 
 * Telnet to the OpenOCD session, and dump the boundary scan values:
 
-```
+```console
 tom@thinkcenter:~/projects/bscan_tools/example$ telnet localhost 4444
 Trying 127.0.0.1...
 Connected to localhost.
@@ -107,11 +112,17 @@ Open On-Chip Debugger
 
 ### Process Data
 
-```
-../bscan_proc.py EP1AGX90EF1152.json bscan_values.txt > pin_report.txt
+```sh
+./bscan_proc.py EP1AGX90EF1152.bsdl bscan_values.txt > pin_report.txt
 ```
 
-The result will look like this:
+*If the parsed `EP1AGX90EF1152.bsdl` wasn't already in the local cache 
+(located in `~/.cache/bscan_proc` by default), `bscan_proc.py` will also
+create a `EP1AGX90EF1152_dev.tcl` with a number of useful constants
+that can be used by OpenOCD.*
+
+The `pin_report.txt` file will look like this:
+
 ```
 ...
 AJ16  (IOAJ16)    : INPUT     :  1 1 1 1 1 1 1 1 1 1 
@@ -193,7 +204,7 @@ H22:PGM[0]
 
 Now rerun with the pin renamings file as a parameter:
 ```
-../bscan_proc.py -r pin_renamings.txt EP1AGX90EF1152.json bscan_values.txt > pin_report.ann.txt
+./bscan_proc.py -r pin_renamings.txt EP1AGX90EF1152.bsdl bscan_values.txt > pin_report.ann.txt
 ```
 
 And you get somethingn like this:
@@ -213,6 +224,4 @@ AJ19  (CLK100)    : CONTROL   :  1 1 1 1 1 1 1 1 1 1
 * Link the script directly with OpenOCD through its TCL interface for interactive debugging
 * Create OpenOCD scripts to change the value of the boundary scan register
 * ...
-
-
 

@@ -3,35 +3,34 @@
 import json
 import fileinput
 import sys
-import getopt
+import argparse
+import os
+import subprocess
+import logging
+import appdirs
+import bsdl_parser.bsdl2json
+ 
 
 import pprint
 
+logging.basicConfig()
+logging.getLogger().setLevel(logging.INFO)
+
+
 pp = pprint.PrettyPrinter(indent=4)
 
-#============================================================
 
-def usage():
-    sys.stderr.write(f"Usage: {sys.argv[0]} [options] <BSDL file> <file with boundary scan dump HEX values>\n")
-    sys.stderr.write(f"    -r , --rename <file>                  : file with port name renamings\n")
+parser = argparse.ArgumentParser(description="Parse and visualize openocd's BSCAN data.")
+parser.add_argument('bsdl_file', nargs=1, help='Path to BSDL file.')
+parser.add_argument('oocd_hex_dump', nargs='+', help='File with boundary scan dump HEX values.')
+parser.add_argument('-r', '--rename', default=None, help='File with port name renamings')
+parser.add_argument('--bsdl-cache', default=None, help='Path to store parsed bsdl-files.')
+args = parser.parse_args()
 
+rename_filename = args.rename
+bsdl_file = args.bsdl_file[0]
+oocd_hex_dump_files = args.oocd_hex_dump
 
-try:
-    opts, argv = getopt.getopt(sys.argv[1:], "r:", ["rename="])
-except getopt.GetoptError as err:
-    print(err)
-    usage()
-    sys.exit(2)
-
-rename_filename = None
-
-for o, a in opts:
-    if o in ("-r", "--rename"):
-        rename_filename = a
-
-if len(argv) < 2:
-    usage()
-    sys.exit(2)
 
 #============================================================
 
@@ -51,44 +50,113 @@ all_bregs_list = []
 
 # Merge all BSDL port and pin data into 1 struct
 
-bsdl_file = argv.pop(0)
+try:
+    # Try to open as bsdl-json-file:
+    with open(bsdl_file) as json_file:
+        data = json.load(json_file)
+except json.decoder.JSONDecodeError:
+    # bsdl_file is an original BSDL file. Let's find in the cache:
+    logging.info(f"{bsdl_file} is not a json file... Lets's find in the cache")
+    bname = os.path.basename(bsdl_file)
+    cachedir = appdirs.user_cache_dir("bscan_proc") 
+    if args.bsdl_cache:
+        cachedir = args.bsdl_cache
+    try:
+        os.mkdir(cachedir)
+    except FileExistsError:
+        pass
+    cached_bsdl_json_file = os.path.abspath(os.path.join(cachedir, f'{bname}.json'))
+    if not os.path.isfile(cached_bsdl_json_file):
+        logging.info(f"{cached_bsdl_json_file} not found in cache... Lets's parse original.")
+        # This original BSDL file has not been parsed yet...
+        cmdlist = ['python3', bsdl_parser.bsdl2json.__file__, bsdl_file, '-o', cached_bsdl_json_file]
+        logging.info(f"Executing: {' '.join(cmdlist)}")
+        p = subprocess.Popen(cmdlist)
+        p.wait()
 
-with open(bsdl_file) as json_file:
-    data = json.load(json_file)
-    for log_port_segment in data["logical_port_description"]:
-        for port_name in log_port_segment["identifier_list"]:
-            all_ports[port_name] = {
-                        "pin_type"          : log_port_segment["pin_type"],
-                        "port_dimension"    : log_port_segment["port_dimension"],
-                        "pin_info"          : {},
-                        "bscan_regs"        : []
-                    }
+    with open(cached_bsdl_json_file) as json_file:
+        logging.info(f"{cached_bsdl_json_file} json has found in the cace.")
+        data = json.load(json_file)
 
-    for port2pin in data["device_package_pin_mappings"][0]["pin_map"]:
-        all_ports[port2pin["port_name"]]["pin_info"] = port2pin
+#
+# Fetch IDCODE, instruction length, and instruction opcodes.
+#
 
-    fixed_boundary_stmts = data["boundary_scan_register_description"]["fixed_boundary_stmts"]
-    bscan_length = int(fixed_boundary_stmts["boundary_length"])
+# Based on https://stackoverflow.com/a/3495395/2506522
+data['optional_register_description'] = {k: v for d in data['optional_register_description'] for k, v in d.items()}
+id_code = ''.join(data['optional_register_description']['idcode_register'])
+logging.debug(f'IDCODE: {id_code}')
+ir_length = data['instruction_register_description']['instruction_length']
+logging.debug(f'IRLENGTH: {ir_length}')
+data['instruction_register_description']['instruction_opcodes'] = {d['instruction_name']: ''.join(d['opcode_list']) for d in data['instruction_register_description']['instruction_opcodes']}
+instruction_opcodes = data['instruction_register_description']['instruction_opcodes']
 
-    for bscan_reg in fixed_boundary_stmts["boundary_register"]:
-        all_bregs_list.append(bscan_reg)
+logging.debug('OPCODES:')
+for instr, opcode in instruction_opcodes.items():
+    logging.debug(f'  {instr}: {opcode}')
 
-    for bscan_reg in all_bregs_list:
-        port_name = bscan_reg["cell_info"]["cell_spec"]["port_id"]
-        bscan_reg["values"] = []
-        if port_name != "*":
-            all_ports[port_name]["bscan_regs"].append(bscan_reg)
+#
+# Generate device TCL
+#
 
-            input_or_disable_spec = bscan_reg["cell_info"]["input_or_disable_spec"]
-            if input_or_disable_spec:
-                all_ports[port_name]["bscan_regs"].append(all_bregs_list[int(input_or_disable_spec["control_cell"])])
+bname = os.path.basename(bsdl_file)
+device_name = os.path.splitext(bname)[0]
+tcl_dev_file_content = []
+tcl_dev_file_content += [f'# Generated with bscan_proc from {bsdl_file}']
+
+tcl_dev_file_content += ['']
+tcl_dev_file_content += ['# ID code']
+tcl_dev_file_content += [f'set {device_name}_IDCODE {id_code}']
+
+tcl_dev_file_content += ['']
+tcl_dev_file_content += ['# Instruction length']
+tcl_dev_file_content += [f'set {device_name}_IRLEN {ir_length}']
+
+tcl_dev_file_content += ['']
+tcl_dev_file_content += ['# Instruction opcodes']
+for instr, opcode in instruction_opcodes.items():
+    tcl_dev_file_content += [f'set {device_name}_{instr} {opcode}']
+
+tcl_dev_file_name = f'{device_name}_dev.tcl'
+with open(tcl_dev_file_name, 'w') as tcl_dev_file:
+    tcl_dev_file.write(os.linesep.join(tcl_dev_file_content))
+
+
+
+for log_port_segment in data["logical_port_description"]:
+    for port_name in log_port_segment["identifier_list"]:
+        all_ports[port_name] = {
+                    "pin_type"          : log_port_segment["pin_type"],
+                    "port_dimension"    : log_port_segment["port_dimension"],
+                    "pin_info"          : {},
+                    "bscan_regs"        : []
+                }
+
+for port2pin in data["device_package_pin_mappings"][0]["pin_map"]:
+    all_ports[port2pin["port_name"]]["pin_info"] = port2pin
+
+fixed_boundary_stmts = data["boundary_scan_register_description"]["fixed_boundary_stmts"]
+bscan_length = int(fixed_boundary_stmts["boundary_length"])
+
+for bscan_reg in fixed_boundary_stmts["boundary_register"]:
+    all_bregs_list.append(bscan_reg)
+
+for bscan_reg in all_bregs_list:
+    port_name = bscan_reg["cell_info"]["cell_spec"]["port_id"]
+    bscan_reg["values"] = []
+    if port_name != "*":
+        all_ports[port_name]["bscan_regs"].append(bscan_reg)
+
+        input_or_disable_spec = bscan_reg["cell_info"]["input_or_disable_spec"]
+        if input_or_disable_spec:
+            all_ports[port_name]["bscan_regs"].append(all_bregs_list[int(input_or_disable_spec["control_cell"])])
 
 
     #pp.pprint(all_ports)
     #print(json.dumps(data, indent=4))
 
 
-for filename in argv:
+for filename in oocd_hex_dump_files:
 
     for line in open(filename).readlines():
         line = line.strip()
@@ -150,5 +218,3 @@ for renamed_port in sorted(all_renamed_ports.keys()):
         print()
 
     print()
-
-
