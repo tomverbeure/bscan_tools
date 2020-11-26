@@ -70,7 +70,7 @@ except json.decoder.JSONDecodeError:
         logging.info(f"{cached_bsdl_json_file} not found in cache... Lets's parse original.")
         # This original BSDL file has not been parsed yet...
         cmdlist = ['python3', bsdl_parser.bsdl2json.__file__, bsdl_file, '-o', cached_bsdl_json_file]
-        logging.info(f"{' '.join(cmdlist)} From: '../python-bsdl-parser'")
+        logging.info(f"Executing: {' '.join(cmdlist)}")
         p = subprocess.Popen(cmdlist)
         p.wait()
 
