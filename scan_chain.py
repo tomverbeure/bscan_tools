@@ -14,9 +14,10 @@ class ScanChain:
     def shift(self, trans):
         pass
 
-    def __str__(self):
+    def __str__(self, indent = 0):
+        indent_str = ' ' * (4 * indent)
 
-        s   = "%s:\n" % self.name
+        s = indent_str + "name:        %s\n" % self.name
         return s
 
 
@@ -30,13 +31,17 @@ class FixedLengthScanChain(ScanChain):
         self.reset_value    = reset_value
         self.value          = -1
         self.read_only      = read_only
-
         pass
 
     def reset(self):
         if self.reset_value is not None:
             self.value  = self.reset_value
 
+    # The value that gets captured during the CAPTURE_IR or CAPTURE_DR phase.
+    # By default, return the value that was shifted in earlier or that was
+    # set during reset.
+    # However, some chains return a different value than the value that was shifted
+    # in. IR chain is a good example of that.
     def capture_value(self):
         return self.value
 
@@ -72,25 +77,27 @@ class FixedLengthScanChain(ScanChain):
             print("Update value: %x -> %x" % (self.value, tdi_shifted))
             self.value = trans.tdi_value >> (trans.tdi_length - self.length)
 
-    def __str__(self):
+    def __str__(self, indent = 0):
 
-        s = super().__str__()
+        indent_str = ' ' * (indent * 4)
+
+        s = super().__str__(indent)
         if self.length is None:
-            s += "    length:      Unknown\n"
+            s += indent_str + "length:      Unknown\n"
         else:
-            s += "    length:      %d\n" % self.length
+            s += indent_str + "length:      %d\n" % self.length
 
-        s += "    read_only:   %s\n" % self.read_only
+        s += indent_str + "read_only:   %s\n" % self.read_only
 
         if self.reset_value is None:
-            s += "    reset:       Unknown\n"
+            s += indent_str + "reset:       Unknown\n"
         else:
-            s += "    reset:       %x\n" % self.reset_value
+            s += indent_str + "reset:       %x\n" % self.reset_value
 
         if self.value is None:
-            s += "    value:       Unknown\n"
+            s += indent_str + "value:       Unknown\n"
         else:
-            s += "    value:       %x\n" % self.value
+            s += indent_str + "value:       %x\n" % self.value
 
         return s
 
@@ -101,7 +108,6 @@ class IrScanChain(FixedLengthScanChain):
         super().__init__("IR", length, reset_value, read_only = False)
 
         self.cap_value = capture_value
-
         pass
 
     def capture_value(self):
@@ -112,18 +118,13 @@ class IdCodeScanChain(FixedLengthScanChain):
     def __init__(self, idcode):
 
         super().__init__("IDCODE", 32, idcode, read_only = True)
-
         pass
 
-#    def shift_dr(self, transaction):
-
-        
 class BypassScanChain(FixedLengthScanChain):
 
     def __init__(self):
 
         super().__init__("BYPASS", 1, 0)
-
         pass
 
     def capture_value(self):

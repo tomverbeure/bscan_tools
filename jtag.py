@@ -77,11 +77,12 @@ class JtagTransaction:
 
         pass
 
-    def __str__(self):
+    def __str__(self, indent=0):
+        indent_str = ' ' * (4*indent)
 
         s = ""
 
-        s += "%d: %s" % (self.nr, JtagState.STATE_STR[self.state])
+        s += indent_str + "%d: %s" % (self.nr, JtagState.STATE_STR[self.state])
 
         if self.state in (JtagState.SHIFT_DR, JtagState.SHIFT_IR):
             tdi_str = ("%x" % self.tdi_value).zfill((self.tdi_length+3) // 4)

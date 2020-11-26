@@ -9,7 +9,11 @@ class Chip:
 
     def __init__(self, name, ir_length, ir_reset_value, ir_capture_value, idcode, idcode_ir):
 
+        # All chips have an IR chain
         self.ir_chain   = IrScanChain(ir_length, ir_reset_value, ir_capture_value)
+
+        # DR chains are chip specific, but we assume there are at least 2 default ones in 
+        # all chips: IDCODE and BYPASS 
         self.dr_chains  = {}
 
         idcode_chain    = IdCodeScanChain(idcode)
@@ -45,15 +49,17 @@ class Chip:
         pass
 
 
-    def __str__(self):
+    def __str__(self, indent = 0):
+        # Dump the status of all scan chains
+        indent_str = ' ' * (indent * 4)
 
-        s = ""
-        s += self.ir_chain.__str__()
+        s = "IR chain:\n"
+        s += self.ir_chain.__str__(indent+1)
         s += "\n"
 
         for ir_code, dr in self.dr_chains.items():
-            s += "IR code: %x\n" % ir_code
-            s += dr.__str__()
+            s += "DR chain (IR code: 0x%x):\n" % ir_code
+            s += dr.__str__(indent+1)
             s += "\n"
 
         return s
@@ -96,21 +102,25 @@ class SLDNode:
 
         return SLDNode()
 
-    def __str__(self):
+    def __str__(self, indent = 0):
+
+        indent_str = ' ' * (indent * 4)
 
         s = ""
-        s += "mfg id: %d, node id: %d, rev id: %d, inst id: %d" % (self.mfg_id, self.node_id, self.rev, self.inst_id)
 
+        s += indent_str + "mfg id: %d, node id: %d, rev id: %d, inst id: %d" % (self.mfg_id, self.node_id, self.rev, self.inst_id)
         key = self.mfg_id * 256 + self.node_id
         if key in SLDNode.KNOWN_SLDs:
-            s += " (%s)" % SLDNode.KNOWN_SLDs[key]
+            s += " (%s)" % self.name()
         else:
             s += " (<Unknown>)"
+        s+= "\n"
 
-        s += ", VIR: %x" % self.ir_chain.value
+        s += indent_str + "    VIR value: %x" % self.ir_chain.value
 
         for ir_code, dr in self.dr_chains.items():
-            s += "IR code: %x\n" % ir_code
+            s += "\n"
+            s += indent_str + "    IR code: %x\n" % ir_code
             s += dr.__str__()
             s += "\n"
 
@@ -118,6 +128,8 @@ class SLDNode:
 
     pass
 
+
+# XXX FIXME: this needs to have some shared base class with SLDNode
 class SLDHub:
 
     def name(self):
@@ -178,6 +190,7 @@ class SLDModel:
         else:
             print("Note: VIR addr = %x, VIR value = %x" % (self.vir_addr(), self.vir_value()))
             sld_node = self.sld_nodes[self.vir_addr()]
+            print("      %s" % sld_node)
             print("      %s" % sld_node.name())
 
             self.sld_nodes[self.vir_addr()].update_vir(self.vir_value())
@@ -252,7 +265,7 @@ class SLDModel:
 
         pass
 
-    def __str__():
+    def __str__(self, indent = 0):
         
         s = ""
 
@@ -312,9 +325,9 @@ class User1ScanChain(FixedLengthScanChain):
         self.sld_model.update_vir()
         pass
 
-    def __str__(self):
+    def __str__(self, indent = 0):
 
-        s = super().__str__()
+        s = super().__str__(indent)
         return s
 
 
@@ -322,6 +335,7 @@ class IntelFpga(Chip):
 
     MANUFACTURER_ID = "00001101110"
 
+    # FIXME: get these values from the BSDL file
     IR_CODES = {
         "SAMPLE_PRELOAD"     : int("0000000101", 2),
         "EXTEST"             : int("0000001111", 2),
@@ -338,7 +352,13 @@ class IntelFpga(Chip):
 
     def __init__(self, name, idcode):
 
-        super().__init__(name, 10, IntelFpga.IR_CODES["IDCODE"], 0x155, idcode, IntelFpga.IR_CODES["IDCODE"])
+        super().__init__(
+                    name = name, 
+                    ir_length = 10, 
+                    ir_reset_value = IntelFpga.IR_CODES["IDCODE"], 
+                    ir_capture_value = 0x155, 
+                    idcode = idcode, 
+                    idcode_ir = IntelFpga.IR_CODES["IDCODE"])
 
         user0 = User0ScanChain()
         user1 = User1ScanChain()
@@ -357,6 +377,6 @@ class IntelEP2C5(IntelFpga):
     def __init__(self):
 
         idcode  = int(''.join(("0000", "0010000010110001", IntelFpga.MANUFACTURER_ID, "1")), 2)
-        super().__init__("EP2C5", idcode)
+        super().__init__(name = "EP2C5", idcode = idcode)
         pass
 
