@@ -58,7 +58,11 @@ class Chip:
         s += "\n"
 
         for ir_code, dr in self.dr_chains.items():
-            s += "DR chain (IR code: 0x%x):\n" % ir_code
+            s += "DR chain (IR code: 0x%x):" % ir_code
+            if ir_code == self.ir_chain.value:
+                s += "       <<<<< SELECTED"
+            s += "\n"
+
             s += dr.__str__(indent+1)
             s += "\n"
 

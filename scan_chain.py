@@ -57,9 +57,9 @@ class FixedLengthScanChain(ScanChain):
             tdo_masked = trans.tdo_value & ((1<<self.length)-1)
 
             if capture_value != tdo_masked:
-                print("Unexpected lower TDO value: 0x%x (act) != 0x%x (exp)" % (tdo_masked, capture_value))
+                print("Warn: Unexpected lower TDO value: 0x%x (act) != 0x%x (exp)" % (tdo_masked, capture_value))
             else:
-                print("Lower TDO value match! 0x%x" % (capture_value))
+                print("Note: Lower TDO value match! 0x%x" % (capture_value))
 
         if (trans.tdi_length > self.length):
             # Check that excess bits on TDI appeared on TDO 
@@ -67,14 +67,14 @@ class FixedLengthScanChain(ScanChain):
             tdo_shifted = trans.tdo_value >> self.length
 
             if tdi_masked != tdo_shifted:
-                print("Unexpected upper TDO value: 0x%x (act) != 0x%x (exp)" % (tdo_shifted, tdi_masked))
+                print("Warn: Unexpected upper TDO value: 0x%x (act) != 0x%x (exp)" % (tdo_shifted, tdi_masked))
             else:
-                print("Upper TDO value match! 0x%x" % (tdi_masked))
+                print("Note: Upper TDO value match! 0x%x" % (tdi_masked))
 
 
         if not(self.read_only):
             tdi_shifted = trans.tdi_value >> (trans.tdi_length - self.length)
-            print("Update value: 0x%x -> 0x%x" % (self.value, tdi_shifted))
+            print("Action: Update value: 0x%x -> 0x%x" % (self.value, tdi_shifted))
             self.value = trans.tdi_value >> (trans.tdi_length - self.length)
 
     def __str__(self, indent = 0):
