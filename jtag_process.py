@@ -33,15 +33,19 @@ if len(argv) != 1:
     usage()
     sys.exit(2)
 
+
+transactions = JtagTransaction.read_saleae_jtag_csv(argv[0])
+#pp.pprint(transactions)
+
+# https://stackoverflow.com/questions/312443/how-do-you-split-a-list-into-evenly-sized-chunks
 def chunks(lst, n):
     """Yield successive n-sized chunks from lst."""
     for i in range(0, len(lst), n):
         yield lst[i:i + n]
 
-transactions = JtagTransaction.read_saleae_jtag_csv(argv[0])
-
-#pp.pprint(transactions)
-
+# Given 2 bit vectors (given as an integer and length in number of bits), pattern
+# and sequence, scan the sequence for the first occurence of the pattern, 
+# starting at a start bit.
 def match_bit_pattern(pattern, pattern_len, sequence, sequence_len, start_bit):
 
     for first_bit in range(start_bit, sequence_len-pattern_len):
@@ -57,37 +61,49 @@ def reverse_int(value, width):
     b = '{:0{width}b}'.format(value, width=width)
     return int(b[::-1], 2)
 
-special_list = []
-for num, trans in enumerate(transactions):
-    if None and trans.state in [JtagState.SHIFT_DR, JtagState.SHIFT_IR]:
-        bit_nr = match_bit_pattern(ord('e'), 8, trans.tdi_value, trans.tdi_length, 0)
-        #bit_nr = match_bit_pattern(0xc0f, 12, trans.tdi_value, trans.tdi_length, 0)
-        if bit_nr >= 0:
-            print("Transaction nr %d: bit_nr: %d:" % (num, bit_nr))
-            pp.pprint(trans)
-            print("0x%x" % trans.tdi_value)
-            sys.exit()
-        
 
-    if True and trans.state in [JtagState.SHIFT_DR] and trans.tdi_length == 643:
-        special_list.append(trans)
+# Experimental function to figure out where interesting data might be stored.
+def extract_jtag_data(transactions):
 
+    special_list = []
+    for num, trans in enumerate(transactions):
 
-diff = 0
+        if None and trans.state in [JtagState.SHIFT_DR, JtagState.SHIFT_IR]:
+            # Search for a desired value in a JTAG IR or DR transaction
 
-for g_num, g in enumerate(chunks(special_list, 8)):
-    print("============================================================")
-    print("Group %d:" % g_num)
+            bit_nr = match_bit_pattern(ord('e'), 8, trans.tdi_value, trans.tdi_length, 0)
+            #bit_nr = match_bit_pattern(0xc0f, 12, trans.tdi_value, trans.tdi_length, 0)
+            if bit_nr >= 0:
+                print("Transaction nr %d: bit_nr: %d:" % (num, bit_nr))
+                pp.pprint(trans)
+                print("0x%x" % trans.tdi_value)
+                sys.exit()
+            
+        if True and trans.state in [JtagState.SHIFT_DR] and trans.tdi_length == 643:
+            # Find all transactions of 632 data bits contain JTAG UART data
+            special_list.append(trans)
 
-    for n in range(0,8):
-        #print("%d: %x" % (n, g[n]["tdi"]))
+    diff = 0
     
-        for nn in range(0, n):
-            local_diff = (g[n].tdi_value ^ g[nn].tdi_value)
-            diff = diff | local_diff
-            #print("%d, %d: %x: %x, %x" % (n, nn, local_diff, g[n]["tdi"], g[nn]["tdi"]))
 
-    print("   %x, %c" % (diff, chr( (g[0].tdi_value >> 3) & 0xff)))
+    print("Special list length: %d" % len(special_list))
+    # WTF am I doing here???
+    for g_num, g in enumerate(chunks(special_list, 8)):
+        print("============================================================")
+        print("Group %d (length: %d):" % (g_num, len(g)))
+
+        for n in range(0,8):
+            #print("%d: %x" % (n, g[n]["tdi"]))
+        
+            for nn in range(0, n):
+                # Find bit mismatches withint a groupd of 8 JTAG UART transactions. (Why?)
+                local_diff = (g[n].tdi_value ^ g[nn].tdi_value)
+                diff = diff | local_diff
+                #print("%d, %d: %x: %x, %x" % (n, nn, local_diff, g[n]["tdi"], g[nn]["tdi"]))
+    
+        print("   %x, %c" % (diff, chr( (g[0].tdi_value >> 3) & 0xff)))
+
+extract_jtag_data(transactions)
 
 ep2c5 = IntelEP2C5()
 
