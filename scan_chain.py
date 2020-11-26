@@ -79,9 +79,18 @@ class FixedLengthScanChain(ScanChain):
             s += "    length:      Unknown\n"
         else:
             s += "    length:      %d\n" % self.length
+
         s += "    read_only:   %s\n" % self.read_only
-        s += "    reset:       %x\n" % self.reset_value
-        s += "    value:       %x\n" % self.value
+
+        if self.reset_value is None:
+            s += "    reset:       Unknown\n"
+        else:
+            s += "    reset:       %x\n" % self.reset_value
+
+        if self.value is None:
+            s += "    value:       Unknown\n"
+        else:
+            s += "    value:       %x\n" % self.value
 
         return s
 
