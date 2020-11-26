@@ -91,5 +91,81 @@ class JtagTransaction:
 
         return s
 
+    # Read a Saleae JTAG decoded file that was saved as CSV and return a list of JTAG transactions.
+    def read_saleae_jtag_csv(jtag_csv_filename):
+        transactions = []
+
+        # Saleae JTAG CSV files store TDI and TDO data in 2 different formats, depending
+        # on how long the data is.
+        #     Short format: 0x155
+        #     Long format:  [0x0FECC0FF020B10DD], [0xFFFFFFFFFFFFFFFF], [0x1]
+        # Convert it a simple integer...
+        def convert_tdi_tdo_str(str):
+
+            val = 0
+        
+            str_segments = str.split(",")
+            if len(str_segments) == 1:
+                val = int(str_segments[0][2:], 16)
+            else: 
+                val = 0
+                start_bit = 0
+                for segment in str_segments:
+                    segment_val = int(segment.strip()[3:-1], 16) << start_bit
+                    val += segment_val
+                    start_bit += 64
+        
+            return val
+    
+        with open(jtag_csv_filename) as jtag_file:
+            first_line = True
+    
+            for line_num, line in enumerate(jtag_file):
+                if first_line:
+                    first_line = False
+                    continue 
+    
+                time, tap_state, tdi, tdo, tdi_bits, tdo_bits = line.strip().split(";")
+    
+                time = float(time)
+    
+                if tap_state in JtagState.STATE_LOOKUP:
+                    tap_state_nr    = JtagState.STATE_LOOKUP[tap_state]
+    
+                if tdi_bits != "":
+                    tdi_bits = int(tdi_bits)
+                else:
+                    tdi_bits = 0
+    
+                if tdo_bits != "":
+                    tdo_bits = int(tdo_bits)
+                else:
+                    tdo_bits = 0
+    
+                if tdi != "": 
+                    tdi = convert_tdi_tdo_str(tdi)
+                else:
+                    tdi = None
+    
+                if tdo != "": 
+                    tdo = convert_tdi_tdo_str(tdo)
+                else:
+                    tdo = None
+    
+                #print(time, tap_state_nr, tap_state, tdi_bits, tdi, tdo_bits, tdo)
+    
+                trans = JtagTransaction()
+                trans.nr            = line_num
+                trans.time          = time
+                trans.state         = tap_state_nr
+                trans.tdi_value     = tdi
+                trans.tdi_length    = tdi_bits
+                trans.tdo_value     = tdo
+                trans.tdo_length    = tdo_bits
+    
+                transactions.append(trans)
+    
+        return transactions
+
 
 
