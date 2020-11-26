@@ -1,4 +1,3 @@
-Special list length: 0
 ============================================================
 1: Run-Test/Idle
 
@@ -6,22 +5,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       -1
+    reset:       0x6
+    value:       0x-1
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       -1
+    reset:       0x20b10dd
+    value:       0x-1
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       -1
+    reset:       0x0
+    value:       0x-1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -30,8 +29,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       -1
+    reset:       0x0
+    value:       0x-1
 
 
 ============================================================
@@ -41,22 +40,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       -1
+    reset:       0x6
+    value:       0x-1
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       -1
+    reset:       0x20b10dd
+    value:       0x-1
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       -1
+    reset:       0x0
+    value:       0x-1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -65,8 +64,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       -1
+    reset:       0x0
+    value:       0x-1
 
 
 ============================================================
@@ -76,22 +75,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       -1
+    reset:       0x6
+    value:       0x-1
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       -1
+    reset:       0x20b10dd
+    value:       0x-1
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       -1
+    reset:       0x0
+    value:       0x-1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -100,8 +99,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       -1
+    reset:       0x0
+    value:       0x-1
 
 
 ============================================================
@@ -111,22 +110,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -135,8 +134,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -146,22 +145,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -170,8 +169,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -181,22 +180,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -205,8 +204,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -216,22 +215,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -240,37 +239,37 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-8: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1ffffffffffffffff0fecc0ff020b10dd - 129
+8: Shift-DR - TDI 0x1ffffffffffffffffffffffff0fecc0ff - TDO 0x1ffffffffffffffff0fecc0ff020b10dd - 129
 
 Shift-DR: IDCODE
 
-Lower TDO value match! 20b10dd
-Upper TDO value match! 1ffffffffffffffff0fecc0ff
+Lower TDO value match! 0x20b10dd
+Upper TDO value match! 0x1ffffffffffffffff0fecc0ff
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -279,8 +278,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -290,22 +289,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -314,8 +313,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -325,22 +324,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -349,8 +348,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -360,22 +359,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -384,8 +383,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -395,22 +394,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -419,8 +418,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -430,22 +429,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       6
+    reset:       0x6
+    value:       0x6
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -454,36 +453,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-14: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+14: Shift-IR - TDI 0x1ffffffffffffffffffffffff0fecc0ff - TDO 0x1fffffffffffffffffffffc3fb303fd55 - 129
 
-Lower TDO value match! 155
-Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
-Update value: 6 -> 3ff
+Lower TDO value match! 0x155
+Upper TDO value match! 0x7fffffffffffffffffffff0fecc0ff
+Update value: 0x6 -> 0x3ff
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -492,8 +491,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -503,22 +502,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -527,8 +526,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -538,22 +537,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -562,8 +561,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -573,22 +572,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -597,8 +596,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -608,22 +607,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -632,8 +631,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -643,22 +642,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -667,36 +666,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-20: Shift-IR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffc3fb303fd55 - 129
+20: Shift-IR - TDI 0x1ffffffffffffffffffffffff0fecc0ff - TDO 0x1fffffffffffffffffffffc3fb303fd55 - 129
 
-Lower TDO value match! 155
-Upper TDO value match! 7fffffffffffffffffffff0fecc0ff
-Update value: 3ff -> 3ff
+Lower TDO value match! 0x155
+Upper TDO value match! 0x7fffffffffffffffffffff0fecc0ff
+Update value: 0x3ff -> 0x3ff
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -705,8 +704,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -716,22 +715,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -740,8 +739,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -751,22 +750,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -775,8 +774,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -786,22 +785,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -810,8 +809,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -821,22 +820,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -845,37 +844,37 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-25: Shift-DR - TDI 1ffffffffffffffffffffffff0fecc0ff - TDO 1fffffffffffffffffffffffe1fd981fe - 129
+25: Shift-DR - TDI 0x1ffffffffffffffffffffffff0fecc0ff - TDO 0x1fffffffffffffffffffffffe1fd981fe - 129
 
 Shift-DR: BYPASS
 
-Upper TDO value match! ffffffffffffffffffffffff0fecc0ff
-Update value: 0 -> 1
+Upper TDO value match! 0xffffffffffffffffffffffff0fecc0ff
+Update value: 0x0 -> 0x1
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -884,8 +883,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -895,22 +894,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -919,8 +918,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -930,22 +929,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -954,8 +953,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -965,22 +964,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -989,8 +988,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1000,22 +999,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1024,8 +1023,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1035,22 +1034,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1059,35 +1058,35 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-31: Shift-IR - TDI 3ff - TDO 155 - 10
+31: Shift-IR - TDI 0x3ff - TDO 0x155 - 10
 
-Lower TDO value match! 155
-Update value: 3ff -> 3ff
+Lower TDO value match! 0x155
+Update value: 0x3ff -> 0x3ff
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1096,8 +1095,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1107,22 +1106,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1131,8 +1130,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1142,22 +1141,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1166,8 +1165,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1177,22 +1176,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1201,8 +1200,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1212,22 +1211,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       1
+    reset:       0x0
+    value:       0x1
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1236,38 +1235,38 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-36: Shift-DR - TDI 00 - TDO 00 - 7
+36: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: BYPASS
 
-Lower TDO value match! 0
-Upper TDO value match! 0
-Update value: 1 -> 0
+Lower TDO value match! 0x0
+Upper TDO value match! 0x0
+Update value: 0x1 -> 0x0
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1276,8 +1275,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1287,22 +1286,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1311,8 +1310,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1322,22 +1321,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1346,8 +1345,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1357,22 +1356,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1381,8 +1380,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1392,22 +1391,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1416,8 +1415,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1427,22 +1426,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       3ff
+    reset:       0x6
+    value:       0x3ff
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1451,35 +1450,35 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-42: Shift-IR - TDI 00e - TDO 155 - 10
+42: Shift-IR - TDI 0xe - TDO 0x155 - 10
 
-Lower TDO value match! 155
-Update value: 3ff -> e
+Lower TDO value match! 0x155
+Update value: 0x3ff -> 0xe
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1488,8 +1487,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1499,22 +1498,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1523,8 +1522,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1534,22 +1533,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1558,8 +1557,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1569,22 +1568,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1593,8 +1592,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1604,22 +1603,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1628,38 +1627,38 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      Unknown
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-47: Shift-DR - TDI 000000000000000000 - TDO 000000000000000100 - 71
+47: Shift-DR - TDI 0000000000000000x0 - TDO 00000000000000x100 - 71
 
 Shift-DR: USER1 - VIR
 
 Note: USER1 chain length: 9
-Upper TDO value match! 0
-Update value: 0 -> 0
+Upper TDO value match! 0x0
+Update value: 0x0 -> 0x0
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1668,8 +1667,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1679,22 +1678,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1703,8 +1702,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1714,22 +1713,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1738,8 +1737,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1749,22 +1748,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1773,8 +1772,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1784,22 +1783,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1808,8 +1807,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1819,22 +1818,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1843,35 +1842,35 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-53: Shift-IR - TDI 00c - TDO 155 - 10
+53: Shift-IR - TDI 0xc - TDO 0x155 - 10
 
-Lower TDO value match! 155
-Update value: e -> c
+Lower TDO value match! 0x155
+Update value: 0xe -> 0xc
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1880,8 +1879,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1891,22 +1890,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1915,8 +1914,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1926,22 +1925,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1950,8 +1949,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1961,22 +1960,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -1985,8 +1984,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -1996,22 +1995,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2020,36 +2019,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-58: Shift-DR - TDI 00 - TDO 08 - 7
+58: Shift-DR - TDI 0x0 - TDO 0x8 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 8 to enumeration array.
+Note: adding 0x8 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2058,8 +2057,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2069,22 +2068,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2093,8 +2092,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2104,22 +2103,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2128,8 +2127,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2139,22 +2138,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2163,8 +2162,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2174,22 +2173,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2198,36 +2197,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-63: Shift-DR - TDI 00 - TDO 00 - 7
+63: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2236,8 +2235,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2247,22 +2246,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2271,8 +2270,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2282,22 +2281,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2306,8 +2305,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2317,22 +2316,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2341,8 +2340,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2352,22 +2351,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2376,36 +2375,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-68: Shift-DR - TDI 00 - TDO 0e - 7
+68: Shift-DR - TDI 0x0 - TDO 0xe - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding e to enumeration array.
+Note: adding 0xe to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2414,8 +2413,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2425,22 +2424,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2449,8 +2448,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2460,22 +2459,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2484,8 +2483,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2495,22 +2494,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2519,8 +2518,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2530,22 +2529,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2554,36 +2553,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-73: Shift-DR - TDI 00 - TDO 06 - 7
+73: Shift-DR - TDI 0x0 - TDO 0x6 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 6 to enumeration array.
+Note: adding 0x6 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2592,8 +2591,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2603,22 +2602,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2627,8 +2626,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2638,22 +2637,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2662,8 +2661,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2673,22 +2672,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2697,8 +2696,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2708,22 +2707,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2732,36 +2731,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-78: Shift-DR - TDI 00 - TDO 00 - 7
+78: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2770,8 +2769,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2781,22 +2780,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2805,8 +2804,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2816,22 +2815,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2840,8 +2839,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2851,22 +2850,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2875,8 +2874,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2886,22 +2885,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2910,36 +2909,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-83: Shift-DR - TDI 00 - TDO 01 - 7
+83: Shift-DR - TDI 0x0 - TDO 0x1 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 1 to enumeration array.
+Note: adding 0x1 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2948,8 +2947,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2959,22 +2958,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -2983,8 +2982,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -2994,22 +2993,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3018,8 +3017,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3029,22 +3028,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3053,8 +3052,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3064,22 +3063,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3088,36 +3087,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-88: Shift-DR - TDI 00 - TDO 08 - 7
+88: Shift-DR - TDI 0x0 - TDO 0x8 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 8 to enumeration array.
+Note: adding 0x8 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3126,8 +3125,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3137,22 +3136,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3161,8 +3160,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3172,22 +3171,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3196,8 +3195,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3207,22 +3206,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3231,8 +3230,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3242,22 +3241,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3266,16 +3265,16 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      9
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-93: Shift-DR - TDI 00 - TDO 00 - 7
+93: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 Note: new SLD hub : 08106e08: mfg id: 110, nr nodes: 2, hub rev: 1, m: 8
 Note: VIR length = n(2) + m(8) = 10
 Error: previous VIR chain length (9) was wrong.
@@ -3283,22 +3282,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3307,8 +3306,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3318,22 +3317,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3342,8 +3341,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3353,22 +3352,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3377,8 +3376,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3388,22 +3387,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3412,8 +3411,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3423,22 +3422,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3447,36 +3446,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-98: Shift-DR - TDI 00 - TDO 00 - 7
+98: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3485,8 +3484,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3496,22 +3495,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3520,8 +3519,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3531,22 +3530,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3555,8 +3554,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3566,22 +3565,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3590,8 +3589,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3601,22 +3600,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3625,36 +3624,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-103: Shift-DR - TDI 00 - TDO 00 - 7
+103: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3663,8 +3662,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3674,22 +3673,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3698,8 +3697,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3709,22 +3708,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3733,8 +3732,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3744,22 +3743,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3768,8 +3767,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3779,22 +3778,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3803,36 +3802,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-108: Shift-DR - TDI 00 - TDO 0e - 7
+108: Shift-DR - TDI 0x0 - TDO 0xe - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding e to enumeration array.
+Note: adding 0xe to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3841,8 +3840,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3852,22 +3851,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3876,8 +3875,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3887,22 +3886,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3911,8 +3910,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3922,22 +3921,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3946,8 +3945,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -3957,22 +3956,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -3981,36 +3980,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-113: Shift-DR - TDI 00 - TDO 06 - 7
+113: Shift-DR - TDI 0x0 - TDO 0x6 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 6 to enumeration array.
+Note: adding 0x6 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4019,8 +4018,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4030,22 +4029,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4054,8 +4053,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4065,22 +4064,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4089,8 +4088,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4100,22 +4099,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4124,8 +4123,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4135,22 +4134,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4159,36 +4158,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-118: Shift-DR - TDI 00 - TDO 00 - 7
+118: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4197,8 +4196,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4208,22 +4207,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4232,8 +4231,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4243,22 +4242,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4267,8 +4266,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4278,22 +4277,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4302,8 +4301,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4313,22 +4312,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4337,36 +4336,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-123: Shift-DR - TDI 00 - TDO 00 - 7
+123: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4375,8 +4374,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4386,22 +4385,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4410,8 +4409,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4421,22 +4420,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4445,8 +4444,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4456,22 +4455,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4480,8 +4479,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4491,22 +4490,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4515,36 +4514,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-128: Shift-DR - TDI 00 - TDO 0c - 7
+128: Shift-DR - TDI 0x0 - TDO 0xc - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding c to enumeration array.
+Note: adding 0xc to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4553,8 +4552,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4564,22 +4563,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4588,8 +4587,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4599,22 +4598,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4623,8 +4622,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4634,22 +4633,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4658,8 +4657,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4669,22 +4668,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4693,37 +4692,37 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-133: Shift-DR - TDI 00 - TDO 00 - 7
+133: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 Note: new SLD item: 0c006e00: mfg id: 110, node id: 128, node rev: 1, inst id: 0
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4732,8 +4731,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4743,22 +4742,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4767,8 +4766,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4778,22 +4777,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4802,8 +4801,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4813,22 +4812,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4837,8 +4836,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4848,22 +4847,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4872,36 +4871,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-138: Shift-DR - TDI 00 - TDO 00 - 7
+138: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4910,8 +4909,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4921,22 +4920,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4945,8 +4944,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4956,22 +4955,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -4980,8 +4979,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -4991,22 +4990,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5015,8 +5014,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5026,22 +5025,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5050,36 +5049,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-143: Shift-DR - TDI 00 - TDO 00 - 7
+143: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5088,8 +5087,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5099,22 +5098,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5123,8 +5122,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5134,22 +5133,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5158,8 +5157,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5169,22 +5168,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5193,8 +5192,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5204,22 +5203,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5228,36 +5227,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-148: Shift-DR - TDI 00 - TDO 0e - 7
+148: Shift-DR - TDI 0x0 - TDO 0xe - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding e to enumeration array.
+Note: adding 0xe to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5266,8 +5265,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5277,22 +5276,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5301,8 +5300,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5312,22 +5311,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5336,8 +5335,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5347,22 +5346,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5371,8 +5370,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5382,22 +5381,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5406,36 +5405,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-153: Shift-DR - TDI 00 - TDO 06 - 7
+153: Shift-DR - TDI 0x0 - TDO 0x6 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 6 to enumeration array.
+Note: adding 0x6 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5444,8 +5443,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5455,22 +5454,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5479,8 +5478,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5490,22 +5489,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5514,8 +5513,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5525,22 +5524,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5549,8 +5548,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5560,22 +5559,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5584,36 +5583,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-158: Shift-DR - TDI 00 - TDO 00 - 7
+158: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5622,8 +5621,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5633,22 +5632,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5657,8 +5656,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5668,22 +5667,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5692,8 +5691,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5703,22 +5702,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5727,8 +5726,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5738,22 +5737,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5762,36 +5761,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-163: Shift-DR - TDI 00 - TDO 00 - 7
+163: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5800,8 +5799,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5811,22 +5810,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5835,8 +5834,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5846,22 +5845,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5870,8 +5869,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5881,22 +5880,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5905,8 +5904,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5916,22 +5915,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5940,36 +5939,36 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-168: Shift-DR - TDI 00 - TDO 00 - 7
+168: Shift-DR - TDI 0x0 - TDO 0x0 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 0 to enumeration array.
+Note: adding 0x0 to enumeration array.
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -5978,8 +5977,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -5989,22 +5988,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6013,8 +6012,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6024,22 +6023,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6048,8 +6047,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6059,22 +6058,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6083,8 +6082,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6094,22 +6093,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6118,37 +6117,37 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-173: Shift-DR - TDI 00 - TDO 03 - 7
+173: Shift-DR - TDI 0x0 - TDO 0x3 - 7
 
 Shift-DR: USER0 - VDR
 
-Note: adding 3 to enumeration array.
+Note: adding 0x3 to enumeration array.
 Note: new SLD item: 30006e00: mfg id: 110, node id: 0, node rev: 6, inst id: 0
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6157,8 +6156,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6168,22 +6167,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6192,8 +6191,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6203,22 +6202,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6227,8 +6226,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6238,22 +6237,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6262,8 +6261,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6273,22 +6272,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6297,8 +6296,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6308,22 +6307,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       c
+    reset:       0x6
+    value:       0xc
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6332,35 +6331,35 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-179: Shift-IR - TDI 00e - TDO 155 - 10
+179: Shift-IR - TDI 0xe - TDO 0x155 - 10
 
-Lower TDO value match! 155
-Update value: c -> e
+Lower TDO value match! 0x155
+Update value: 0xc -> 0xe
 IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6369,8 +6368,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6380,22 +6379,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6404,8 +6403,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6415,22 +6414,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6439,8 +6438,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6450,22 +6449,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6474,8 +6473,8 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
@@ -6485,22 +6484,22 @@ IR chain:
     name:        IR
     length:      10
     read_only:   False
-    reset:       6
-    value:       e
+    reset:       0x6
+    value:       0xe
 
 DR chain (IR code: 0x6):
     name:        IDCODE
     length:      32
     read_only:   True
-    reset:       20b10dd
-    value:       20b10dd
+    reset:       0x20b10dd
+    value:       0x20b10dd
 
 DR chain (IR code: 0x3ff):
     name:        BYPASS
     length:      1
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 DR chain (IR code: 0xc):
     name:        USER0 - VDR
@@ -6509,17 +6508,17 @@ DR chain (IR code: 0xe):
     name:        USER1 - VIR
     length:      10
     read_only:   False
-    reset:       0
-    value:       0
+    reset:       0x0
+    value:       0x0
 
 
 ============================================================
-184: Shift-DR - TDI 4400 - TDO 0000 - 15
+184: Shift-DR - TDI 0x4400 - TDO 00x0 - 15
 
 Shift-DR: USER1 - VIR
 
-Upper TDO value match! 0
-Update value: 0 -> 220
-Note: VIR addr = 2, VIR value = 20
-      <intel_model.SLDHub object at 0x1084fe950>
+Upper TDO value match! 0x0
+Update value: 0x0 -> 0x220
+Note: VIR addr = 0x2, VIR value = 0x20
+      <intel_model.SLDHub object at 0x10e2b7350>
       SLD Hub
