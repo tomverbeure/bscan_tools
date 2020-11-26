@@ -93,17 +93,17 @@ def extract_jtag_data(transactions):
         print("Group %d (length: %d):" % (g_num, len(g)))
 
         for n in range(0,8):
-            #print("%d: %x" % (n, g[n]["tdi"]))
+            #print("%d: 0x%x" % (n, g[n]["tdi"]))
         
             for nn in range(0, n):
                 # Find bit mismatches withint a groupd of 8 JTAG UART transactions. (Why?)
                 local_diff = (g[n].tdi_value ^ g[nn].tdi_value)
                 diff = diff | local_diff
-                #print("%d, %d: %x: %x, %x" % (n, nn, local_diff, g[n]["tdi"], g[nn]["tdi"]))
+                #print("%d, %d: 0x%x: 0x%x, 0x%x" % (n, nn, local_diff, g[n]["tdi"], g[nn]["tdi"]))
     
-        print("   %x, %c" % (diff, chr( (g[0].tdi_value >> 3) & 0xff)))
+        print("   0x%x, %c" % (diff, chr( (g[0].tdi_value >> 3) & 0xff)))
 
-extract_jtag_data(transactions)
+#extract_jtag_data(transactions)
 
 ep2c5 = IntelEP2C5()
 

@@ -42,7 +42,7 @@ class Chip:
                 cur_dr.shift(transaction)
 
             else:
-                print("Unknown DR chain: %x" % self.ir_chain.value)
+                print("Unknown DR chain: 0x%x" % self.ir_chain.value)
 
             pass
 
@@ -116,11 +116,11 @@ class SLDNode:
             s += " (<Unknown>)"
         s+= "\n"
 
-        s += indent_str + "    VIR value: %x" % self.ir_chain.value
+        s += indent_str + "    VIR value: 0x%x" % self.ir_chain.value
 
         for ir_code, dr in self.dr_chains.items():
             s += "\n"
-            s += indent_str + "    IR code: %x\n" % ir_code
+            s += indent_str + "    IR code: 0x%x\n" % ir_code
             s += dr.__str__()
             s += "\n"
 
@@ -188,7 +188,7 @@ class SLDModel:
         if self.vir_chain.value == 0:
             self.enumeration_idx = 0
         else:
-            print("Note: VIR addr = %x, VIR value = %x" % (self.vir_addr(), self.vir_value()))
+            print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
             sld_node = self.sld_nodes[self.vir_addr()]
             print("      %s" % sld_node)
             print("      %s" % sld_node.name())
@@ -205,17 +205,17 @@ class SLDModel:
                 print("Error: unexpected SLD enumeration chain length: %d (act) != %d (exp)" % (trans.tdo_length, 7))
 
             if trans.tdi_value != 0:
-                print("Error: unexpected TDI value during SLD enumeration: %x" % trans.tdi_value)
+                print("Error: unexpected TDI value during SLD enumeration: 0x%x" % trans.tdi_value)
 
             if trans.tdo_value > 15:
-                print("Error: TDO value larger than 15 during SLD enumeration: %x" % trans.tdo_value)
+                print("Error: TDO value larger than 15 during SLD enumeration: 0x%x" % trans.tdo_value)
 
             if len(self.enumeration_array) <= self.enumeration_idx:
                 # Fill in the value that was sent out
                 self.enumeration_array.append(trans.tdo_value)
                 self.enumeration_idx += 1
 
-                print("Note: adding %x to enumeration array." % trans.tdo_value)
+                print("Note: adding 0x%x to enumeration array." % trans.tdo_value)
 
                 if (self.enumeration_idx % 8) == 0:
                     # There are 8 shifts per SLD item.
