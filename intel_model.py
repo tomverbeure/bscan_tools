@@ -135,7 +135,10 @@ class SLDNode:
 
 
 # XXX FIXME: this needs to have some shared base class with SLDNode
-class SLDHub:
+class SLDHub(SLDNode):
+
+    def __init__(self):
+        super().__init__()
 
     def name(self):
         return "SLD Hub"
@@ -181,6 +184,7 @@ class SLDModel:
         self.enumeration_array = []
 
         self.sld_nodes = collections.OrderedDict()
+        #self.sld_nodes[0] = SLDNode.factory(110, 0)         # All SLD models have an SLDHub
 
         pass
 
@@ -199,7 +203,10 @@ class SLDModel:
         if self.vir_chain.value == 0: 
             # Select SLD enumeration chain
             # We can't use self.vir_addr() and self.vir_value() yet because m_bits isn't known yet.
+
             self.enumeration_idx = 0
+            #self.sld_nodes[0].update_vir(0)
+
         else:
             print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
             sld_node = self.sld_nodes[self.vir_addr()]
@@ -279,8 +286,19 @@ class SLDModel:
         pass
 
     def __str__(self, indent = 0):
+        indent_str = ' ' * (4*indent)
         
         s = ""
+
+        s += indent_str + "SLD Model:\n"
+        s += indent_str + "=========:\n"
+        s += indent_str + "VIR:\n" + self.vir_chain.__str__(indent+1)
+        s += indent_str + "VDR:\n" + self.vdr_chain.__str__(indent+1)
+
+        s += indent_str + "SLD nodes:\n"
+        for node in self.sld_nodes.items():
+            s += indent_str + "    Node %s:\n" % (node[0])
+            s += node[1].__str__(indent+2)
 
         return s
 
@@ -341,6 +359,7 @@ class User1ScanChain(FixedLengthScanChain):
     def __str__(self, indent = 0):
 
         s = super().__str__(indent)
+
         return s
 
 
@@ -384,6 +403,16 @@ class IntelFpga(Chip):
         self.dr_chains[ IntelFpga.IR_CODES["USER1"] ] = user1
 
         pass
+
+    def __str__(self, indent = 0):
+        indent_str = ' ' * (4*indent)
+
+        s = ""
+        s += indent_str + super().__str__(indent)
+
+        s += self.sld_model.__str__(indent)
+
+        return s
 
 class IntelEP2C5(IntelFpga):
 
