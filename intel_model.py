@@ -78,7 +78,7 @@ class SLDNode:
 
     def __init__(self):
 
-        self.mfg_id         = 100               # Intel/Altera
+        self.mfg_id         = None
         self.node_id        = None
         self.rev            = None
         self.inst_id        = None
@@ -99,21 +99,34 @@ class SLDNode:
     def shift_dr(self, value):
         pass
 
-    def factory(mfg_id, node_id):
+    def factory(mfg_id, node_id, rev = 0, inst_id = 0):
         id = mfg_id * 256 + node_id
 
         if id in SLDNode.KNOWN_SLDs:
-            return SLDNode.KNOWN_SLDs[id]()
+            node = SLDNode.KNOWN_SLDs[id]()
+        else:
+            node = SLDNode()
 
-        return SLDNode()
+        node.mfg_id     = mfg_id
+        node.node_id    = node_id
+        node.rev        = rev
+        node.inst_id    = inst_id
+
+        return node
+
+    def inst_id_str(self):
+
+        if self.inst_id is not None:
+            return str(self.inst_id)
+        else:
+            return "None"
 
     def __str__(self, indent = 0):
 
         indent_str = ' ' * (indent * 4)
 
         s = ""
-
-        s += indent_str + "mfg id: %d, node id: %d, rev id: %d, inst id: %d" % (self.mfg_id, self.node_id, self.rev, self.inst_id)
+        s += indent_str + "mfg id: %d, node id: %d, rev id: %d, inst id: %s" % (self.mfg_id, self.node_id, self.rev, self.inst_id_str())
         key = self.mfg_id * 256 + self.node_id
         if key in SLDNode.KNOWN_SLDs:
             s += " (%s)" % self.name()
@@ -184,7 +197,7 @@ class SLDModel:
         self.enumeration_array = []
 
         self.sld_nodes = collections.OrderedDict()
-        #self.sld_nodes[0] = SLDNode.factory(110, 0)         # All SLD models have an SLDHub
+        self.sld_nodes[0] = SLDNode.factory(mfg_id = 110, node_id = 0, rev = 0, inst_id = None)         # All SLD models have an SLDHub
 
         pass
 
@@ -205,9 +218,10 @@ class SLDModel:
             # We can't use self.vir_addr() and self.vir_value() yet because m_bits isn't known yet.
 
             self.enumeration_idx = 0
-            #self.sld_nodes[0].update_vir(0)
+            self.sld_nodes[0].update_vir(0)
 
         else:
+            print(str(self))
             print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
             sld_node = self.sld_nodes[self.vir_addr()]
             print("      %s" % sld_node)
@@ -269,14 +283,8 @@ class SLDModel:
                         node_id    = (enum_id >> 19) & 0xff
                         rev        = (enum_id >> 27) & 0x1f
 
-                        sld_node = SLDNode.factory(mfg_id, node_id)
-
-                        sld_node.inst_id    =  enum_id        & 0xff
-                        sld_node.mfg_id     = (enum_id >> 8)  & 0xff
-                        sld_node.node_id    = (enum_id >> 19) & 0xff
-                        sld_node.rev        = (enum_id >> 27) & 0x1f
-
-                        self.sld_nodes[len(self.sld_nodes)+1] = sld_node
+                        sld_node = SLDNode.factory(mfg_id, node_id, rev, inst_id)
+                        self.sld_nodes[len(self.sld_nodes)] = sld_node
 
                         print("Note: new SLD item: %08x: mfg id: %d, node id: %d, node rev: %d, inst id: %d" % (enum_id, sld_node.mfg_id, sld_node.node_id, sld_node.rev, sld_node.inst_id))
 
@@ -299,6 +307,7 @@ class SLDModel:
         for node in self.sld_nodes.items():
             s += indent_str + "    Node %s:\n" % (node[0])
             s += node[1].__str__(indent+2)
+            s += "\n"
 
         return s
 
