@@ -71,6 +71,7 @@ class Chip:
 
 # Generic System Level Debugging node.
 # Each SLD node has its own IR and, optionally, a bunch of DR
+# https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ug/ug_virtualjtag.pdf
 class SLDNode:
 
     KNOWN_SLDs = { }
@@ -163,6 +164,8 @@ class JtagUart(SLDNode):
 
 SLDNode.KNOWN_SLDs[110*256 + 128] = JtagUart
 
+# SLDModel contains the fully system-level debug/Virtual JTAG system:
+# one SLDHub and multiple SLD nodes
 class SLDModel:
 
     def __init__(self, vdr_chain, vir_chain):
@@ -181,6 +184,10 @@ class SLDModel:
 
         pass
 
+    # the VIR scan chain has 2 parts: the lower m bits are value that can be used by each SLD node 
+    # any way it wants, just like a regular IR scan chain.
+    # The bits above the lower m bits are an address that selects the desired SLD node or hub. 
+    # (Address is 0 the SLD hub.)
     def vir_addr(self):
         return self.vir_chain.value >> self.m_bits
 
@@ -189,7 +196,8 @@ class SLDModel:
 
     def update_vir(self):
 
-        if self.vir_chain.value == 0:
+        if self.vir_addr == 0 and self.vir_value == 0:
+            # Select SLD enumeration chain
             self.enumeration_idx = 0
         else:
             print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
