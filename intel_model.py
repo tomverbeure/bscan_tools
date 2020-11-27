@@ -196,8 +196,9 @@ class SLDModel:
 
     def update_vir(self):
 
-        if self.vir_addr == 0 and self.vir_value == 0:
+        if self.vir_chain.value == 0: 
             # Select SLD enumeration chain
+            # We can't use self.vir_addr() and self.vir_value() yet because m_bits isn't known yet.
             self.enumeration_idx = 0
         else:
             print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
