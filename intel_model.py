@@ -89,6 +89,7 @@ class SLDNode:
         # values get shifted into the vir_chain of the SLDModel, and the lower bits get
         # get present to the SLDNode.
         self.vir_chain      = IrScanChain(length = None, reset_value = None, capture_value = None)
+        
         self.vdr_chains     = collections.OrderedDict()
 
         pass
@@ -97,10 +98,17 @@ class SLDNode:
         return "<Unknown SLD Node>"
 
     def update_vir(self, value):
-        self.vir_chain.value = value
+        masked_value = value & ((1<<self.vir_chain.length)-1)
+
+        if masked_value != value:
+            print("Error: VIR assigned value (0x%x) exceeds VIR chain length (%d)!" % (value, self.vir_chain.length))
+            print(self)
+
+        self.vir_chain.value = masked_value
         pass
 
-    def shift_vdr(self, value):
+    def shift_vdr(self, trans):
+        print("Error: Unimplemented VDR shift!")
         pass
 
     def factory(mfg_id, node_id, rev, inst_id, sld_model):
@@ -139,7 +147,7 @@ class SLDNode:
             s += " (<Unknown>)"
         s+= "\n"
 
-        s += indent_str + "    VIR value: 0x%x" % self.vir_chain.value
+        s += self.vir_chain.__str__(indent+1)
 
         for vdr_code, vdr in self.vdr_chains.items():
             s += "\n"
@@ -155,6 +163,8 @@ class SLDHub(SLDNode):
 
     def __init__(self):
         super().__init__()
+
+        self.vir_chain.length = 4
 
         # During enumeration, there are 8 7-bit values shifted out from the DR register.
         # We record them as we go and store them in enumeration_array.
@@ -253,12 +263,65 @@ class JtagUart(SLDNode):
         super().__init__()
 
         self.vir_chain.length = 1
-        self.vdr_chains[1]   = FixedLengthScanChain("Config", length = 15, reset_value = None, read_only = True)
+        self.vdr_chains[1]    = FixedLengthScanChain("Config", length = 15, reset_value = None, read_only = True)
 
-        pass
+        self.r_fifo_bits    = None
+        self.w_fifo_bits    = None
+        self.mystery_bit    = None
+
+    def update_vir(self, value):
+        super().update_vir(value)
+
+        if value not in [0,1]:
+            print("Error: %s unknown VIR assignment! 0x%x" % (self.name(), value))
+
+    def shift_vdr(self, trans):
+
+        if self.vir_chain.value == 1:
+            print("Note: JTAG UART Config VDR shift")
+
+            if trans.tdi_length != self.vdr_chains[1].length:
+                print("Error: transaction length (%d) doesn't match chain length! (%d)\n" % (trans.tdi_length, self.vdr_chains[1].length))
+
+            if trans.tdi_value == 0x0:
+                # Config chain
+                r_fifo_bits = (trans.tdo_value >> 5) & 0x0f
+                w_fifo_bits = (trans.tdo_value >> 1) & 0x0f
+                mystery_bit = trans.tdo_value & 0x01
+
+                if (self.r_fifo_bits is not None) and self.r_fifo_bits != r_fifo_bits:
+                    print("Error: read FIFO bits changed (orig: %d, new: %d)" % (self.r_fifo_bits, r_fifo_bits))
+
+                if (self.w_fifo_bits is not None) and self.w_fifo_bits != w_fifo_bits:
+                    print("Error: write FIFO bits changed (orig: %d, new: %d)" % (self.w_fifo_bits, w_fifo_bits))
+
+                if (self.mystery_bit is not None) and self.mystery_bit != mystery_bit:
+                    print("Error: mystery bit changed (orig: %d, new: %d)" % (self.mystery_bit, mystery_bit))
+
+                self.r_fifo_bits = r_fifo_bits
+                self.w_fifo_bits = w_fifo_bits
+                self.mystery_bit = mystery_bit
+            pass
+
+        else:
+            super().shift_vdr(trans)
 
     def name(self):
         return "JTAG UART"
+
+    def __str__(self, indent=0):
+        indent_str = ' ' * (4*indent)
+
+        s = ""
+        s += super().__str__(indent)
+        if self.r_fifo_bits is not None:
+            s += indent_str + "    Rd FIFO: %d bits (%d deep)\n" % (self.r_fifo_bits, 1<<self.r_fifo_bits)
+        if self.w_fifo_bits is not None:
+            s += indent_str + "    Wr FIFO: %s bits (%s deep)\n" % (self.w_fifo_bits, 1<<self.w_fifo_bits)
+        if self.mystery_bit is not None:
+            s += indent_str + "    mystery: %d\n" % (self.mystery_bit)
+
+        return s
 
 SLDNode.KNOWN_SLDs[110*256 + 128] = JtagUart
 
@@ -326,7 +389,10 @@ class SLDModel:
 
         s += indent_str + "SLD nodes:\n"
         for node in self.sld_nodes.items():
-            s += indent_str + "    Node %s:\n" % (node[0])
+            s += indent_str + "    Node %s:" % (node[0])
+            if self.m_bits is not None and self.vir_addr() == node[0]:
+                s += "       <<<<< SELECTED"
+            s += "\n"
             s += node[1].__str__(indent+2)
             s += "\n"
 
