@@ -233,7 +233,6 @@ class SLDHub(SLDNode):
                             print("Note: previous VIR chain length (%d) matches new length." % self.sld_model.vir_chain.length)
 
                         self.sld_model.vir_chain.length = self.m_bits + self.n_bits
-                        self.vir_chain.length   = self.m_bits
                         self.sld_model.m_bits   = self.m_bits
 
                     else:
@@ -250,14 +249,71 @@ class SLDHub(SLDNode):
             print("Error: Unknown SLD HUB VIR value");
 
 
-SLDNode.KNOWN_SLDs[110*256 +   0] = SLDHub
+SLDNode.KNOWN_SLDs[110*256 +   -1] = SLDHub
 
 class SignalTap(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        self.vir_chain.length = 8
 
     def name(self):
         return "SignalTap"
 
-SLDNode.KNOWN_SLDs[110*256 +   9] = SignalTap
+SLDNode.KNOWN_SLDs[110*256 +  0x00] = SignalTap
+
+class JtagToAvalon(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        # FIXME
+        self.vir_chain.length = 1
+
+    def name(self):
+        return "JTAG to Avalon"
+
+SLDNode.KNOWN_SLDs[110*256 + 0x84] = JtagToAvalon
+
+class SerialFlashLoader(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        # FIXME
+        self.vir_chain.length = 1
+
+    def name(self):
+        return "Serial Flash Loader"
+
+SLDNode.KNOWN_SLDs[110*256 + 0x04] = SerialFlashLoader
+
+class VirtualJtag(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        # FIXME
+        self.vir_chain.length = 1
+
+    def name(self):
+        return "Virtual JTAG"
+
+SLDNode.KNOWN_SLDs[110*256 + 0x08] = VirtualJtag
+
+class SignalProbe(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        # FIXME
+        self.vir_chain.length = 1
+
+    def name(self):
+        return "Signal Probe"
+
+SLDNode.KNOWN_SLDs[110*256 + 0x09] = SignalProbe
 
 class JtagUart(SLDNode):
 
@@ -353,7 +409,7 @@ class JtagUart(SLDNode):
 
         return s
 
-SLDNode.KNOWN_SLDs[110*256 + 128] = JtagUart
+SLDNode.KNOWN_SLDs[110*256 + 0x80] = JtagUart
 
 # SLDModel contains the fully system-level debug/Virtual JTAG system:
 # one SLDHub and multiple SLD nodes
@@ -365,7 +421,7 @@ class SLDModel:
         self.vdr_chain = vdr_chain
 
         self.sld_nodes = collections.OrderedDict()
-        self.sld_nodes[0] = SLDNode.factory(mfg_id = 110, node_id = 0, rev = 0, inst_id = None, sld_model = self)
+        self.sld_nodes[0] = SLDNode.factory(mfg_id = 110, node_id = -1, rev = 0, inst_id = None, sld_model = self)
 
         self.m_bits = None
         pass
