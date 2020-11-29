@@ -318,8 +318,11 @@ class SLDModel:
 
         s += indent_str + "SLD Model:\n"
         s += indent_str + "=========:\n"
-#        s += indent_str + "VIR:\n" + self.vir_chain.__str__(indent+1)
-#        s += indent_str + "VDR:\n" + self.vdr_chain.__str__(indent+1)
+        s += indent_str + "VIR:\n"
+        s += self.vir_chain.__str__(indent+1)
+        s += indent_str + "    m_bits:      %s\n" % self.m_bits
+        if self.m_bits is not None:
+            s += indent_str + "    VIR addr:    %d\n" % (self.vir_chain.value >> self.m_bits)
 
         s += indent_str + "SLD nodes:\n"
         for node in self.sld_nodes.items():
