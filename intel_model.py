@@ -83,8 +83,13 @@ class SLDNode:
         self.rev            = None
         self.inst_id        = None
 
-        self.ir_chain       = IrScanChain(None, None, None)
-        self.dr_chains      = collections.OrderedDict()
+        self.sld_model      = None
+
+        # The vir_chain of an SLDNode is not identical to the vir_chain of the SLDModel: 
+        # values get shifted into the vir_chain of the SLDModel, and the lower bits get
+        # get present to the SLDNode.
+        self.vir_chain      = IrScanChain(length = None, reset_value = None, capture_value = None)
+        self.vdr_chains     = collections.OrderedDict()
 
         pass
 
@@ -92,14 +97,13 @@ class SLDNode:
         return "<Unknown SLD Node>"
 
     def update_vir(self, value):
-
-        self.ir_chain.value = value
+        self.vir_chain.value = value
         pass
 
-    def shift_dr(self, value):
+    def shift_vdr(self, value):
         pass
 
-    def factory(mfg_id, node_id, rev = 0, inst_id = 0):
+    def factory(mfg_id, node_id, rev, inst_id, sld_model):
         id = mfg_id * 256 + node_id
 
         if id in SLDNode.KNOWN_SLDs:
@@ -112,6 +116,7 @@ class SLDNode:
         node.rev        = rev
         node.inst_id    = inst_id
 
+        node.sld_model  = sld_model
         return node
 
     def inst_id_str(self):
@@ -134,60 +139,22 @@ class SLDNode:
             s += " (<Unknown>)"
         s+= "\n"
 
-        s += indent_str + "    VIR value: 0x%x" % self.ir_chain.value
+        s += indent_str + "    VIR value: 0x%x" % self.vir_chain.value
 
-        for ir_code, dr in self.dr_chains.items():
+        for vdr_code, vdr in self.vdr_chains.items():
             s += "\n"
-            s += indent_str + "    IR code: 0x%x\n" % ir_code
-            s += dr.__str__()
+            s += indent_str + "    VDR code:  0x%x\n" % vdr_code
+            s += vdr.__str__(indent+1)
             s += "\n"
 
         return s
 
     pass
 
-
-# XXX FIXME: this needs to have some shared base class with SLDNode
 class SLDHub(SLDNode):
 
     def __init__(self):
         super().__init__()
-
-    def name(self):
-        return "SLD Hub"
-
-SLDNode.KNOWN_SLDs[110*256 +   0] = SLDHub
-
-class SignalTap(SLDNode):
-
-    def name(self):
-        return "SignalTap"
-
-SLDNode.KNOWN_SLDs[110*256 +   9] = SignalTap
-
-class JtagUart(SLDNode):
-
-    def __init__(self):
-        super().__init__()
-
-        self.ir_chain.length = 1
-        self.dr_chains[1]   = FixedLengthScanChain("Config", length = 15, reset_value = None, read_only = True)
-
-        pass
-
-    def name(self):
-        return "JTAG UART"
-
-SLDNode.KNOWN_SLDs[110*256 + 128] = JtagUart
-
-# SLDModel contains the fully system-level debug/Virtual JTAG system:
-# one SLDHub and multiple SLD nodes
-class SLDModel:
-
-    def __init__(self, vdr_chain, vir_chain):
-
-        self.vdr_chain = vdr_chain
-        self.vir_chain = vir_chain
 
         # During enumeration, there are 8 7-bit values shifted out from the DR register.
         # We record them as we go and store them in enumeration_array.
@@ -196,41 +163,16 @@ class SLDModel:
         self.enumeration_idx = 0
         self.enumeration_array = []
 
-        self.sld_nodes = collections.OrderedDict()
-        self.sld_nodes[0] = SLDNode.factory(mfg_id = 110, node_id = 0, rev = 0, inst_id = None)         # All SLD models have an SLDHub
+    def name(self):
+        return "SLD Hub"
 
-        pass
+    def update_vir(self, value):
+        super().update_vir(value)
 
-    # the VIR scan chain has 2 parts: the lower m bits are value that can be used by each SLD node 
-    # any way it wants, just like a regular IR scan chain.
-    # The bits above the lower m bits are an address that selects the desired SLD node or hub. 
-    # (Address is 0 the SLD hub.)
-    def vir_addr(self):
-        return self.vir_chain.value >> self.m_bits
-
-    def vir_value(self):
-        return self.vir_chain.value & ((1<<self.m_bits)-1)
-
-    def update_vir(self):
-
-        if self.vir_chain.value == 0: 
-            # Select SLD enumeration chain
-            # We can't use self.vir_addr() and self.vir_value() yet because m_bits isn't known yet.
-
+        if value == 0:
             self.enumeration_idx = 0
-            self.sld_nodes[0].update_vir(0)
 
-        else:
-            print(str(self))
-            print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
-            sld_node = self.sld_nodes[self.vir_addr()]
-            print("      %s" % sld_node)
-            print("      %s" % sld_node.name())
-
-            self.sld_nodes[self.vir_addr()].update_vir(self.vir_value())
-        pass
-
-    def shift_dr(self, trans):
+    def shift_vdr(self, trans):
 
         if self.vir_chain.value == 0:
             # When VIR is set to 0, the host can scan out the enumeration values.
@@ -268,14 +210,21 @@ class SLDModel:
                         print("Note: new SLD hub : %08x: mfg id: %d, nr nodes: %d, hub rev: %d, m: %d" % (enum_id, self.hub_mfg_id, self.hub_num_nodes, self.hub_rev, self.m_bits))
                         print("Note: VIR length = n(%d) + m(%d) = %d" % ( self.n_bits, self.m_bits, self.n_bits + self.m_bits))
 
+                        # There are 2 VIR chain objects related to SLDHub:
+                        # - the one in SLDModel contains both the VIR address and the VIR value for a particular node.
+                        # - the one in SLDHub contains only the VIR value
                         new_vir_chain_length = self.m_bits + self.n_bits
 
-                        if self.vir_chain.length != new_vir_chain_length:
-                            print("Error: previous VIR chain length (%d) was wrong." % self.vir_chain.length)
+                        if self.sld_model.vir_chain.length != new_vir_chain_length:
+                            print(str(self.sld_model.vir_chain))
+                            print(new_vir_chain_length)
+                            print("Error: previous VIR chain length (%d) was wrong." % self.sld_model.vir_chain.length)
                         else:
-                            print("Note: previous VIR chain length (%d) matches new length." % self.vir_chain.length)
+                            print("Note: previous VIR chain length (%d) matches new length." % self.sld_model.vir_chain.length)
 
-                        self.vir_chain.length = self.m_bits + self.n_bits
+                        self.sld_model.vir_chain.length = self.m_bits + self.n_bits
+                        self.vir_chain.length   = self.m_bits
+                        self.sld_model.m_bits   = self.m_bits
 
                     else:
                         inst_id    =  enum_id        & 0xff
@@ -283,14 +232,83 @@ class SLDModel:
                         node_id    = (enum_id >> 19) & 0xff
                         rev        = (enum_id >> 27) & 0x1f
 
-                        sld_node = SLDNode.factory(mfg_id, node_id, rev, inst_id)
-                        self.sld_nodes[len(self.sld_nodes)] = sld_node
+                        sld_node = SLDNode.factory(mfg_id, node_id, rev, inst_id, self.sld_model)
+                        self.sld_model.sld_nodes[len(self.sld_model.sld_nodes)] = sld_node
 
                         print("Note: new SLD item: %08x: mfg id: %d, node id: %d, node rev: %d, inst id: %d" % (enum_id, sld_node.mfg_id, sld_node.node_id, sld_node.rev, sld_node.inst_id))
 
-        else:
-            self.sld_nodes[self.vir_addr()].shift_dr(self.vir_value())
 
+SLDNode.KNOWN_SLDs[110*256 +   0] = SLDHub
+
+class SignalTap(SLDNode):
+
+    def name(self):
+        return "SignalTap"
+
+SLDNode.KNOWN_SLDs[110*256 +   9] = SignalTap
+
+class JtagUart(SLDNode):
+
+    def __init__(self):
+        super().__init__()
+
+        self.vir_chain.length = 1
+        self.vdr_chains[1]   = FixedLengthScanChain("Config", length = 15, reset_value = None, read_only = True)
+
+        pass
+
+    def name(self):
+        return "JTAG UART"
+
+SLDNode.KNOWN_SLDs[110*256 + 128] = JtagUart
+
+# SLDModel contains the fully system-level debug/Virtual JTAG system:
+# one SLDHub and multiple SLD nodes
+class SLDModel:
+
+    def __init__(self, vir_chain, vdr_chain):
+
+        self.vir_chain = vir_chain
+        self.vdr_chain = vdr_chain
+
+        self.sld_nodes = collections.OrderedDict()
+        self.sld_nodes[0] = SLDNode.factory(mfg_id = 110, node_id = 0, rev = 0, inst_id = None, sld_model = self)
+
+        self.m_bits = None
+        pass
+
+    # the VIR scan chain has 2 parts: the lower m bits are value that can be used by each SLD node 
+    # any way it wants, just like a regular IR scan chain.
+    # The bits above the lower m bits are an address that selects the desired SLD node or hub. 
+    # (Address is 0 the SLD hub.)
+    def vir_addr(self):
+        return self.vir_chain.value >> self.m_bits
+
+    def vir_value(self):
+        return self.vir_chain.value & ((1<<self.m_bits)-1)
+
+    def update_vir(self):
+
+        if self.vir_chain.value == 0: 
+            # Select SLD enumeration chain
+            # We can't use self.vir_addr() and self.vir_value() yet because m_bits isn't known yet.
+            self.sld_nodes[0].update_vir(0)
+
+        else:
+            print(str(self))
+            print("Note: VIR addr = 0x%x, VIR value = 0x%x" % (self.vir_addr(), self.vir_value()))
+            sld_node = self.sld_nodes[self.vir_addr()]
+            print("      %s" % sld_node)
+            print("      %s" % sld_node.name())
+
+            self.sld_nodes[self.vir_addr()].update_vir(self.vir_value())
+        pass
+
+    def shift_vdr(self, trans):
+        if self.vir_chain.value == 0:
+            self.sld_nodes[0].shift_vdr(trans)
+        else:
+            self.sld_nodes[self.vir_addr()].shift_vdr(trans)
         pass
 
     def __str__(self, indent = 0):
@@ -300,8 +318,8 @@ class SLDModel:
 
         s += indent_str + "SLD Model:\n"
         s += indent_str + "=========:\n"
-        s += indent_str + "VIR:\n" + self.vir_chain.__str__(indent+1)
-        s += indent_str + "VDR:\n" + self.vdr_chain.__str__(indent+1)
+#        s += indent_str + "VIR:\n" + self.vir_chain.__str__(indent+1)
+#        s += indent_str + "VDR:\n" + self.vdr_chain.__str__(indent+1)
 
         s += indent_str + "SLD nodes:\n"
         for node in self.sld_nodes.items():
@@ -322,13 +340,11 @@ class User0ScanChain(ScanChain):
         self.sld_model = None
 
         # There will be many different lengths, depending on which VDR is selected.
-
         pass
 
     def shift(self, trans):
 
-        self.sld_model.shift_dr(trans)
-
+        self.sld_model.shift_vdr(trans)
         pass
 
 
@@ -338,7 +354,6 @@ class User1ScanChain(FixedLengthScanChain):
 
         super().__init__(name = "USER1 - VIR", length = None, reset_value = 0, read_only = False)
         self.sld_model = None
-
         pass
 
     def shift(self, trans):
@@ -366,7 +381,6 @@ class User1ScanChain(FixedLengthScanChain):
         pass
 
     def __str__(self, indent = 0):
-
         s = super().__str__(indent)
 
         return s
@@ -404,7 +418,7 @@ class IntelFpga(Chip):
         user0 = User0ScanChain()
         user1 = User1ScanChain()
 
-        self.sld_model = SLDModel(user0, user1)
+        self.sld_model = SLDModel(vdr_chain = user0, vir_chain = user1)
         user0.sld_model = self.sld_model
         user1.sld_model = self.sld_model
 

@@ -114,5 +114,3 @@ for trans in transactions:
         print("Shift-DR: %s\n" % ep2c5.dr_chains[ep2c5.ir_chain.value].name)
     ep2c5.apply_transaction(trans)
     print(ep2c5)
-
-print(ep2c5)
