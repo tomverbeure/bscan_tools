@@ -108,7 +108,7 @@ class SLDNode:
         pass
 
     def shift_vdr(self, trans):
-        print("Error: Unimplemented VDR shift!")
+        print("Error: Unimplemented VDR shift! (VIR value: 0x%x)" % (self.vir_chain.value))
         pass
 
     def factory(mfg_id, node_id, rev, inst_id, sld_model):
@@ -246,6 +246,8 @@ class SLDHub(SLDNode):
                         self.sld_model.sld_nodes[len(self.sld_model.sld_nodes)] = sld_node
 
                         print("Note: new SLD item: %08x: mfg id: %d, node id: %d, node rev: %d, inst id: %d" % (enum_id, sld_node.mfg_id, sld_node.node_id, sld_node.rev, sld_node.inst_id))
+        else:
+            print("Error: Unknown SLD HUB VIR value");
 
 
 SLDNode.KNOWN_SLDs[110*256 +   0] = SLDHub
@@ -277,7 +279,33 @@ class JtagUart(SLDNode):
 
     def shift_vdr(self, trans):
 
-        if self.vir_chain.value == 1:
+        if self.vir_chain.value == 0:
+            print("Note: JTAG UART Data VDR shift")
+
+            if (trans.tdi_length-3)%10 != 0:
+                print("Warn: unexpected TDI length")
+
+            low_mystery_bit = trans.tdi_value & 0x01
+            has_next_word = (trans.tdi_value >> 1) & 1
+
+            if has_next_word == 0:
+                print("Note: TDI doesn't contain byte stream")
+            else:
+                rx_bytes = []
+                for offset in range(2,trans.tdi_length-9,10): 
+                    word = trans.tdi_value >> offset
+                    rx_byte_ena     = word & 1
+                    rx_byte_value   = (word >> 1) & 0xff
+                    has_next_word   = (word >> 9) & 1
+    
+                    if rx_byte_ena == 1:
+                        rx_bytes.append(rx_byte_value)
+                        print("Note: JTAG UART RX: 0x%02x (%c)" % (rx_byte_value, chr(rx_byte_value)))
+
+                    if has_next_word != 1:
+                        print("Note: has_next_word != 1 (pos: %d)" % (offset+9))
+
+        elif self.vir_chain.value == 1:
             print("Note: JTAG UART Config VDR shift")
 
             if trans.tdi_length != self.vdr_chains[1].length:
@@ -301,7 +329,9 @@ class JtagUart(SLDNode):
                 self.r_fifo_bits = r_fifo_bits
                 self.w_fifo_bits = w_fifo_bits
                 self.mystery_bit = mystery_bit
-            pass
+
+            else:
+                super().shift_vdr(trans)
 
         else:
             super().shift_vdr(trans)
