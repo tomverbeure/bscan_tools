@@ -216,3 +216,68 @@ set payload [list 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 
 bytestream_send $claimed_bytestream $payload
 ```
 
+# JTAG UART design:
+
+Core block: alt_jtag_atlantic:
+
+Write FIFO: from chip to JTAG host
+Read FIFO: from JTAG host to chip
+
+```
+//synthesis translate_on
+//synthesis read_comments_as_HDL on
+//  alt_jtag_atlantic jtag_uart_jtag_uart_w16_r8_alt_jtag_atlantic
+//    (
+//      .clk (clk),
+//      .r_dat (r_dat),
+//      .r_ena (r_ena),
+//      .r_val (r_val),
+//      .rst_n (rst_n),
+//      .t_dat (t_dat),
+//      .t_dav (t_dav),
+//      .t_ena (t_ena),
+//      .t_pause (t_pause)
+//    );
+//
+//  defparam jtag_uart_jtag_uart_w16_r8_alt_jtag_atlantic.INSTANCE_ID = 0,
+//           jtag_uart_jtag_uart_w16_r8_alt_jtag_atlantic.LOG2_RXFIFO_DEPTH = 4,
+//           jtag_uart_jtag_uart_w16_r8_alt_jtag_atlantic.LOG2_TXFIFO_DEPTH = 3,
+//           jtag_uart_jtag_uart_w16_r8_alt_jtag_atlantic.SLD_AUTO_INSTANCE_INDEX = "YES";
+//
+//  always @(posedge clk or negedge rst_n)
+//    begin
+//      if (rst_n == 0)
+//          dataavailable <= 0;
+//      else 
+//        dataavailable <= ~fifo_EF;
+//    end
+//
+//
+//synthesis read_comments_as_HDL off
+```
+
+`clk` above is the system clock, not JTAG TCK.
+
+
+# Reverse engineering procedure:
+
+* Synthesize a design
+* JTAG UART core logic is encyrpted (`alt_jtag_atlantic`)
+    * Not available in RTL viewer
+* We can see how the RTL is connected it thought. (See above.) 
+* We can also probe the signals with Signaltap.
+* We can't directly see which FF are on the TCK.
+    * RTL viewer blocks at the encrypted block level
+    * Open ChipPlanner
+    * Find a FF that's part of the TCK clock domain
+    * Go to source node of this FF
+    * Then click on "Go to Destination Node" 
+    * Shows all the FFs on the TCK clock domain!
+        * JTAG UART
+        * SLDHub
+        * Signaltap (if you have one)
+        * ...
+
+
+
+

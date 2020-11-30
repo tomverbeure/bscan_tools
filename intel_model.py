@@ -108,7 +108,7 @@ class SLDNode:
         pass
 
     def shift_vdr(self, trans):
-        print("Error: Unimplemented VDR shift! (VIR value: 0x%x)" % (self.vir_chain.value))
+        print("Error: Unimplemented VDR shift! (%s - VIR value: 0x%x)" % (self.name(), self.vir_chain.value))
         pass
 
     def factory(mfg_id, node_id, rev, inst_id, sld_model):
